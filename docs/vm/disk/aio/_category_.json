@@ -1,0 +1,8 @@
+{
+  "label": "aio",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "虚拟机磁盘的异步IO模式相关操作"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "label": "other",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "其他存储相关操作"
+  }
+}

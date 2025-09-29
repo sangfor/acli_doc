@@ -1,0 +1,8 @@
+{
+  "label": "ecc_data",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "操作概述: 查看ecc报错内容"
+  }
+}

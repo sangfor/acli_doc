@@ -1,0 +1,8 @@
+{
+  "label": "brick",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "brick相关操作"
+  }
+}

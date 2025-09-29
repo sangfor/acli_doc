@@ -1,0 +1,8 @@
+{
+  "label": "alert",
+  "position": 10,
+  "link": {
+    "type": "generated-index",
+    "description": "告警相关操作"
+  }
+}

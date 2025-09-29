@@ -1,0 +1,8 @@
+{
+  "label": "hardware",
+  "position": 90,
+  "link": {
+    "type": "generated-index",
+    "description": "硬件相关操作"
+  }
+}

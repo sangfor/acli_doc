@@ -1,0 +1,8 @@
+{
+  "label": "usage",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "操作概述: 查看内存使用情况"
+  }
+}

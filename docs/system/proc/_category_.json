@@ -1,0 +1,8 @@
+{
+  "label": "proc",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "系统proc空间相关操作"
+  }
+}

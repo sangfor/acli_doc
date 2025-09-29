@@ -1,0 +1,8 @@
+{
+  "label": "asv",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "asv服务相关操作"
+  }
+}

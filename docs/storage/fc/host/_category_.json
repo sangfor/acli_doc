@@ -1,0 +1,8 @@
+{
+  "label": "host",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "展示fc相关设备信息"
+  }
+}

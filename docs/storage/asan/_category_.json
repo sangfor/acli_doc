@@ -1,0 +1,8 @@
+{
+  "label": "asan",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "asan存储相关操作"
+  }
+}

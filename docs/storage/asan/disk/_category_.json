@@ -1,0 +1,8 @@
+{
+  "label": "disk",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "磁盘相关操作"
+  }
+}

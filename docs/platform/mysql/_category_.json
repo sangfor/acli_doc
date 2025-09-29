@@ -1,0 +1,8 @@
+{
+  "label": "mysql",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "平台mysql相关命令"
+  }
+}

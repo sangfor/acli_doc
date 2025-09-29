@@ -1,0 +1,8 @@
+{
+  "label": "command",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "获取命令信息的操作"
+  }
+}

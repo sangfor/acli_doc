@@ -1,0 +1,8 @@
+{
+  "label": "exporter",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "exporter服务相关操作"
+  }
+}

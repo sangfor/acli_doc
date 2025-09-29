@@ -1,0 +1,8 @@
+{
+  "label": "task",
+  "position": 20,
+  "link": {
+    "type": "generated-index",
+    "description": "任务相关操作"
+  }
+}

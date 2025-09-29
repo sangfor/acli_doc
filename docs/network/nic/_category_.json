@@ -1,0 +1,8 @@
+{
+  "label": "nic",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "网卡相关操作"
+  }
+}

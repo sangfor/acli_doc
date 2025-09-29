@@ -1,0 +1,8 @@
+{
+  "label": "ce_count",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "操作概述: 获取内存的ce_count数据"
+  }
+}

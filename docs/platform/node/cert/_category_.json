@@ -1,0 +1,8 @@
+{
+  "label": "cert",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "证书相关操作"
+  }
+}

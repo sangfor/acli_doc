@@ -1,0 +1,8 @@
+{
+  "label": "hosts",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "系统hosts相关操作"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "label": "path",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "虚拟机路径相关命令"
+  }
+}

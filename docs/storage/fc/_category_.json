@@ -1,0 +1,8 @@
+{
+  "label": "fc",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "fc存储列表相关操作"
+  }
+}

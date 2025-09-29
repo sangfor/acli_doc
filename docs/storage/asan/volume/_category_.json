@@ -1,0 +1,8 @@
+{
+  "label": "volume",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "卷相关操作"
+  }
+}

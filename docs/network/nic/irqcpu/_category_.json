@@ -1,0 +1,8 @@
+{
+  "label": "irqcpu",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "操作概述: cpu中断核相关信息"
+  }
+}

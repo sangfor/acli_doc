@@ -1,0 +1,8 @@
+{
+  "label": "system",
+  "position": 50,
+  "link": {
+    "type": "generated-index",
+    "description": "操作系统相关操作"
+  }
+}

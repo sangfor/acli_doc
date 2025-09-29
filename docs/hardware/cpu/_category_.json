@@ -1,0 +1,8 @@
+{
+  "label": "cpu",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "硬件CPU相关命令"
+  }
+}

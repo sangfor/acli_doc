@@ -1,0 +1,8 @@
+{
+  "label": "status",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "虚拟机状态相关命令"
+  }
+}

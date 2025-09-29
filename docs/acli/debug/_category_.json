@@ -1,0 +1,8 @@
+{
+  "label": "debug",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "深信服HCI调试日志相关命令"
+  }
+}

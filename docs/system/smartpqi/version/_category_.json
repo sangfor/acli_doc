@@ -1,0 +1,8 @@
+{
+  "label": "version",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "系统smartpqi版本相关命令"
+  }
+}

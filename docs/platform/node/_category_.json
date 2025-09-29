@@ -1,0 +1,8 @@
+{
+  "label": "node",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "主机节点相关操作"
+  }
+}

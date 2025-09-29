@@ -1,0 +1,8 @@
+{
+  "label": "lock",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "虚拟机运行时生成的锁文件的相关操作"
+  }
+}

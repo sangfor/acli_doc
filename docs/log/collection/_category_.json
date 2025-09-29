@@ -1,0 +1,8 @@
+{
+  "label": "collection",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "日志收集相关命令"
+  }
+}

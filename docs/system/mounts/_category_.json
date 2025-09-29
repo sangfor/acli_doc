@@ -1,0 +1,8 @@
+{
+  "label": "mounts",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "系统挂载相关命令"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "label": "cpu",
+  "position": 1,
+  "link": {
+    "type": "doc",
+    "id": "system/cpu/category"
+  }
+}

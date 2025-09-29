@@ -1,0 +1,8 @@
+{
+  "label": "acli",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "acli工具相关命令"
+  }
+}

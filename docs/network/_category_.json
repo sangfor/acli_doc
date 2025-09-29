@@ -1,0 +1,8 @@
+{
+  "label": "network",
+  "position": 70,
+  "link": {
+    "type": "generated-index",
+    "description": "网络相关操作"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "label": "mysql-managerd",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "mysql-managerd服务相关操作"
+  }
+}

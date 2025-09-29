@@ -1,0 +1,8 @@
+{
+  "label": "cgroup",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "系统cgroup相关操作"
+  }
+}

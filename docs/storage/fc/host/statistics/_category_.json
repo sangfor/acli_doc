@@ -1,0 +1,8 @@
+{
+  "label": "statistics",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "FC HBA 卡统计信息的相关命令"
+  }
+}
