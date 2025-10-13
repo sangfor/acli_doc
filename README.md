@@ -1,15 +1,15 @@
-<div style="text-align:center">
+<div align="center">
     <h1>acli_doc</h1>
     <h2>aCLI排障服务命令说明文档，一站式排查解决HCI典型故障</h2>
 </div>
 
 <br>
-<div style="text-align:center">
+<div align="center">
 简体中文 | <a href="README-en.md" target="_blank">English</a>
 </div>
 <br>
 
-<div style="text-align:center">
+<div align="center">
 <a href="http://acli.sangfor.com.cn:6888/" target="_blank"><img src="./static/img/quickstart-zh.png" alt="快速入门"></a>
 </div>
 
