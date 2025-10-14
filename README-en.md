@@ -1,15 +1,15 @@
-<div style="text-align:center">
+<div align="center">
     <h1>acli_doc</h1>
     <h2>aCLI Troubleshooting Service Command Description Document, one-stop troubleshooting and resolution of typical HCI faults</h2>
 </div>
 
 <br>
-<div style="text-align:center">
+<div align="center">
 <a href="README.md" target="_blank">简体中文</a> | English
 </div>
 <br>
 
-<div style="text-align:center">
+<div align="center">
 <a href="http://acli.sangfor.com.cn:6888/" target="_blank"><img src="./static/img/quickstart-en.png" alt="quick start"></a>
 </div>
 
