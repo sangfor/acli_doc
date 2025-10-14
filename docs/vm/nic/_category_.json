@@ -1,0 +1,8 @@
+{
+  "label": "nic",
+  "position": 1,
+  "link": {
+    "type": "doc",
+    "id": "vm/nic/category"
+  }
+}
