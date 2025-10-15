@@ -16,5 +16,5 @@ acli vm nic queuecount get --id 1836960663822:net0
  
 结果示例:
 ```bash
-nicNumQueues: 1
+numQueues: 1
 ```
