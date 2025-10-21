@@ -1,0 +1,8 @@
+{
+  "label": "vxlan",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "集群VXLAN相关操作"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "label": "queue",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "网口队列相关操作"
+  }
+}
