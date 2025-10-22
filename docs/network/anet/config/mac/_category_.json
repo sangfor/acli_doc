@@ -1,0 +1,8 @@
+{
+  "label": "mac",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "网络数据面mac表配置相关操作"
+  }
+}

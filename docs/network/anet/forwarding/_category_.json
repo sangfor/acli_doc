@@ -1,0 +1,8 @@
+{
+  "label": "forwarding",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "网络数据面转发核相关操作"
+  }
+}
