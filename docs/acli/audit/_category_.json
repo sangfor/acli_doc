@@ -1,8 +1,0 @@
-{
-  "label": "audit",
-  "position": 1,
-  "link": {
-    "type": "generated-index",
-    "description": "深信服HCI审计日志相关命令"
-  }
-}
