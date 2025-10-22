@@ -1,0 +1,8 @@
+{
+  "label": "lldp",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "网口lldp相关操作"
+  }
+}
