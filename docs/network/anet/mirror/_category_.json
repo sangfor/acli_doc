@@ -1,0 +1,8 @@
+{
+  "label": "mirror",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "流量镜像相关操作"
+  }
+}
