@@ -1,0 +1,8 @@
+{
+  "label": "vrouter",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "虚拟路由器相关操作"
+  }
+}

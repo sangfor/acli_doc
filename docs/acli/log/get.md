@@ -17,7 +17,7 @@ sidebar_position: 10
 使用示例:
 ```bash
 # 查询debug级别的日志信息
-acli log debug get -l debug
+acli acli log get -l debug
 ```
 
 结果示例:
