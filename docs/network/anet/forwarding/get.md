@@ -19,4 +19,5 @@ acli network anet forwarding get
 ```bash
 forwardCores: 2
 highPerformance: true
+supthcoreExclusive: true
 ```
