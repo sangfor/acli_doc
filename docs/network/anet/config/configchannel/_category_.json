@@ -1,0 +1,8 @@
+{
+  "label": "configchannel",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "网络配置通道检测模块相关操作"
+  }
+}
