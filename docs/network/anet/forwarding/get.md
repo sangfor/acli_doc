@@ -20,4 +20,5 @@ acli network anet forwarding get
 forwardCores: 2
 highPerformance: true
 supthcoreExclusive: true
+vmQueueBatchSize: 16
 ```
