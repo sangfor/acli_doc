@@ -13,6 +13,7 @@ sidebar_position: 10
 -H|--host=string      指定主机，比如host-005056b234ca
 -s|--status=integer   指定状态，枚举值，1（进行中），100（完成），-1（失败），-2（排队中）
 -l|--limit=integer    指定展示记录的数目，（默认值为50），比如1，2等
+-u|--upid=string      异步任务upid，示例：UPID:host-005056b2906f:0000AFC2:398B:6909A843:编辑网口:1:admin@vtp:
 ```
 
 使用示例:
