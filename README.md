@@ -57,6 +57,8 @@ npm run start        # 启动本地开发服务器，带有热重载功能
 # npm run serve      # 在本地启动服务器预览构建后的网站
 ```
 
+> 如果是在容器中部署，请在所有npm动作前加上 NODE_OPTIONS='--localstorage-file=/tmp/localstorage'
+
 ## 3. 在线访问
 
 目前官方唯一网站 [acli](http://acli.sangfor.com.cn:6888/)（如无法打开，请检查 DNS/代理，或稍后重试；服务器可能因网络波动暂时不可达。）

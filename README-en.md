@@ -60,6 +60,8 @@ npm run start         # Starts the local development server with hot reload func
 # npm run serve       # Start the server locally to preview the built website
 ```
 
+> If deployed in a container, add NODE_OPTIONS='--localstorage-file=/tmp/localstorage' before all npm actions.
+
 ## 3. Online access
 
 Currently, the only official website [acli_doc](http://acli.sangfor.com.cn:6888/) (such as unable to open, please check

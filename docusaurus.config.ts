@@ -10,7 +10,7 @@ const config: Config = {
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://your-docusaurus-site.example.com",
+  url: "http://acli.sangfor.com.cn:6888/",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
@@ -36,18 +36,22 @@ const config: Config = {
       "@docusaurus/preset-classic",
       {
         docs: {
+          path: 'docs',
+          routeBasePath: '/',
           sidebarPath: "./sidebars.ts",
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
-            "http://mq.code.sangfor.org/37649/acli_doc/blob/develop/0.0.0",
+            "https://github.com/sangfor/acli_doc/blob/main",
           // 启用版本控制，包括当前版本
           lastVersion: "current",
           versions: {
-            current: { label: "开发中 🚧", path: "next" },
+            current: {
+              label: "开发中 🚧",
+              path: "/"
+            },
             // "1.0.1": { label: "1.0.1" },
           },
         },
+        blog: false,
         theme: {
           customCss: "./src/css/custom.css",
         },
