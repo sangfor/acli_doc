@@ -2,7 +2,7 @@
   "label": "config",
   "position": 1,
   "link": {
-    "type": "generated-index",
+    "type": "doc",
     "id": "network/anet/config/category"
   }
 }
