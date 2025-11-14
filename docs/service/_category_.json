@@ -1,6 +1,6 @@
 {
   "label": "service",
-  "position": 40,
+  "position": 60,
   "link": {
     "type": "generated-index",
     "description": "系统服务相关操作"
