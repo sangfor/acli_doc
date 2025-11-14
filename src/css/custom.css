@@ -28,3 +28,33 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+.download-btn {
+  display: inline-block;
+  padding: 0 24px;
+  /* 手动设置文字到顶部的距离 */
+  padding-top: 26px;
+  padding-bottom: 12px;
+  line-height: 1;
+  height: auto;
+  /* 其他样式保持不变 */
+  background-color: #28a745;
+  color: white !important;
+  text-decoration: none !important;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: normal;
+}
+
+.download-btn:hover {
+  background-color: #218838 !important;
+  color: white !important;
+  /* 防止 hover 时文字变透明或继承主题色 */
+  text-decoration: none !important;
+}
+
+.link-spacer {
+  display: inline-block;
+  width: 30px;
+}
