@@ -1,0 +1,8 @@
+{
+  "label": "vn-cluster-service-api",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "vn-cluster-service-api服务相关操作"
+  }
+}
