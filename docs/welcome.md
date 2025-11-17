@@ -53,14 +53,14 @@ support/host-005056b237a6(acli) ~ # acli --help
 请根据您的 HCI 版本架构选择对应的安装器进行安装，通常情况下，使用Intel、AMD等品牌处理器的系统请选择 x86/64 版本下载，使用海光、飞腾、鲲鹏、兆芯等品牌处理器的请选择 arm/aarch64 版本下载。
 
 <a
-  href="<http://acli.sangfor.com.cn:1110/api/public/download/4jotgyfk/latest?architecture=x86_64&api_key=QRlZXabZ8sOrFKtgs1VIfkHJZYQ3QNrcETXgsJaiX9Svz1pjFj>"
+  href="http://acli.sangfor.com.cn:1110/api/public/download/4jotgyfk/latest?architecture=x86_64&api_key=QRlZXabZ8sOrFKtgs1VIfkHJZYQ3QNrcETXgsJaiX9Svz1pjFj"
   className="download-btn"
 >
   下载 x86/64 版本
 </a>
 <a className="link-spacer"></a>
 <a
-  href="<http://acli.sangfor.com.cn:1110/api/public/download/4jotgyfk/latest?architecture=aarch64&api_key=QRlZXabZ8sOrFKtgs1VIfkHJZYQ3QNrcETXgsJaiX9Svz1pjFj>"
+  href="http://acli.sangfor.com.cn:1110/api/public/download/4jotgyfk/latest?architecture=aarch64&api_key=QRlZXabZ8sOrFKtgs1VIfkHJZYQ3QNrcETXgsJaiX9Svz1pjFj"
   className="download-btn"
 >
   下载 arm/aarch64 版本
