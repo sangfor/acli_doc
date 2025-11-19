@@ -7,12 +7,12 @@ sidebar_position: 10
 
 命令参数:  
 ```bash
-无
+-c|--cache=string 是否从缓存中查询，示例：0(实时查询)，1(从缓存中查询)
 ```
 
 使用示例:
 ```bash
-acli network anet config configchannel serviceinfo list
+acli network anet config configchannel serviceinfo list --cache 0
 ```
 
 结果示例:
