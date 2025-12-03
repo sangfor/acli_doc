@@ -61,14 +61,17 @@ const config: Config = {
 
   plugins: [
     [
-      require.resolve('@easyops-cn/docusaurus-search-local'),
-      {
-        hashed: true,
-        language: ['en', 'zh'],
-        indexDocs: true,
-        indexBlog: false, // 关闭Blog的索引
-        indexPages: false, // 关闭Pages的索引
-      },
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      ({
+        hashed: true, // 生成带哈希的文件名
+        language: ["zh", "en"], // 支持的语言
+        indexDocs: true, // 是否索引文档
+        indexPages: true, // 是否索引独立页面
+        indexBlog: false, // 是否索引博客
+        docsRouteBasePath: "/", // 文档的路由基础路径
+        highlightSearchTermsOnTargetPage: true, // 在目标页面高亮搜索词
+        explicitSearchResultPath: true, // 显示明确的搜索结果路径
+      }),
     ],
   ],
 
