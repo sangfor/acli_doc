@@ -56,8 +56,9 @@ npm run start         # Starts the local development server with hot reload func
 # Visit http://localhost:3000 to see live results
 
 # Local Deployment
-# npm run build       # Build the static website of the production version
-# npm run serve       # Start the server locally to preview the built website
+npm run generate    # Generate the latest command list document
+npm run build       # Build the static website of the production version
+npm run serve       # Start the server locally to preview the built website
 ```
 
 > If deployed in a container, add NODE_OPTIONS='--localstorage-file=/tmp/localstorage' before all npm actions.

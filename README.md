@@ -53,8 +53,9 @@ npm run start        # 启动本地开发服务器，带有热重载功能
 # 访问 http://localhost:3000 查看实时效果
 
 # 本地部署
-# npm run build      # 构建生产版本的静态网站
-# npm run serve      # 在本地启动服务器预览构建后的网站
+npm run generate   # 生成最新的命令列表文档
+npm run build      # 构建生产版本的静态网站
+npm run serve      # 在本地启动服务器预览构建后的网站
 ```
 
 > 如果是在容器中部署，请在所有npm动作前加上 NODE_OPTIONS='--localstorage-file=/tmp/localstorage'
