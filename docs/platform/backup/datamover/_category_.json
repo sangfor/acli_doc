@@ -1,0 +1,8 @@
+{
+    "label": "datamover",
+    "position": 1,
+    "link": {
+        "type": "generated-index",
+        "description": "datamover相关命令"
+    }
+}
