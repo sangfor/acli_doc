@@ -1,0 +1,8 @@
+{
+    "label": "config",
+    "position": 1,
+    "link": {
+        "type": "generated-index",
+        "description": "datamover配置文件相关命令"
+    }
+}
