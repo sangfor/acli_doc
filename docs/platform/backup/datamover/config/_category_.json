@@ -1,0 +1,8 @@
+{
+  "label": "config",
+  "position": 1,
+  "link": {
+    "type": "doc",
+    "id": "platform/backup/datamover/config/category"
+  }
+}
