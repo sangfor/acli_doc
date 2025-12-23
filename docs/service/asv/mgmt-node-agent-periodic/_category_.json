@@ -1,0 +1,8 @@
+{
+  "label": "mgmt-node-agent-periodic",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "mgmt-node-agent-periodic服务相关命令"
+  }
+}
