@@ -1,0 +1,8 @@
+{
+  "label": "clean",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "虚拟机控制台的访问权限的回收命令"
+  }
+}
