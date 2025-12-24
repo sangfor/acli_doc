@@ -1,0 +1,8 @@
+{
+  "label": "all",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "所有虚拟机控制台的相关命令"
+  }
+}
