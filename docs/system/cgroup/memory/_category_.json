@@ -1,0 +1,8 @@
+{
+  "label": "memory",
+  "position": 1,
+  "link": {
+    "type": "doc",
+    "id": "system/cgroup/memory/category"
+  }
+}
