@@ -1,0 +1,8 @@
+{
+    "label": "cbtinfo",
+    "position": 1,
+    "link": {
+        "type": "generated-index",
+        "description": "CBT文件信息相关命令"
+    }
+}
