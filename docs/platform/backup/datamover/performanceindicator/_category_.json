@@ -1,0 +1,8 @@
+{
+    "label": "performanceindicator",
+    "position": 1,
+    "link": {
+        "type": "generated-index",
+        "description": "datamover性能指标相关命令"
+    }
+}

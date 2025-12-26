@@ -1,0 +1,8 @@
+{
+    "label": "performancereport",
+    "position": 1,
+    "link": {
+        "type": "generated-index",
+        "description": "datamover性能瓶颈探测报告相关命令"
+    }
+}
