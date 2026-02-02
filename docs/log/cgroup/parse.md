@@ -2,7 +2,7 @@
 sidebar_position: 10
 ---
 
-# get
+# parse
 操作概述: 解析cgroup黑盒日志
 
 命令参数:

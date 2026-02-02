@@ -7,7 +7,7 @@ sidebar_position: 10
 
 命令参数:
 ```bash
--n|--name=string 文件名
+-n|--name=string 必要参数，文件名
 ```
 
 使用示例:

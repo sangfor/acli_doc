@@ -5,9 +5,9 @@ sidebar_position: 10
 # get
 操作概述: 展示网口lldp
 
-命令参数:  
+命令参数:
 ```bash
--n|--nic-name 网口名称，示例：eth1
+-n|--nic-name 必要参数，网口名称，示例：eth1
 ```
 
 使用示例:

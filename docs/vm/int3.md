@@ -7,7 +7,7 @@ sidebar_position: 10
 
 命令参数:
 ```bash
--v|--vm-id=integer    指定虚拟机id，示例：1072335336316
+-v|--vm-id=string  虚拟机id，示例：4872898137715
 ```
 
 使用示例:

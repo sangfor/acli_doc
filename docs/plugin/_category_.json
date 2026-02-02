@@ -1,0 +1,8 @@
+{
+  "label": "plugin",
+  "position": 16,
+  "link": {
+    "type": "generated-index",
+    "description": "插件管理相关操作"
+  }
+}

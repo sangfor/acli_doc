@@ -7,8 +7,8 @@ sidebar_position: 10
 
 命令参数:
 ```bash
--H|--host=string 主机名
--p|--port=integer 端口号
+-H|--host=string 必要参数，目标主机的地址，示例：127.0.0.1
+-p|--port=integer 必要参数，目标主机的端口号，示例：10000
 ```
 
 使用示例:

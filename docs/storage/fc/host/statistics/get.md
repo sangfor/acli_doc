@@ -12,7 +12,7 @@ sidebar_position: 10
 
 使用示例:
 ```bash
-acli storage fc host statistics get
+acli storage fc host statistics get -h host1
 ```
 
 结果示例:
