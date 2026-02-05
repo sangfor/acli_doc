@@ -1,18 +1,23 @@
 ---
-sidebar_position: 10
+sidebar_position: 1
 ---
 
 # list
-操作概述: 展示所有的acli命令
 
-命令参数:
+### 操作概述
+
+展示所有的acli命令
+
+### 命令参数
+
 ```bash
--c|--command-filter=string     仅显示名称中包含指定字符串的命令
--d|--description-filter=string 仅显示描述中包含指定字符串的命令  
--n|--namespace-filter=string   仅显示命名空间中包含指定字符串的命令
+-c|--command-filter=string        仅显示名称中包含指定字符串的命令，示例：list
+-d|--description-filter=string    仅显示描述中包含指定字符串的命令，示例：acli命令
+-n|--namespace-filter=string      仅显示命名空间中包含指定字符串的命令，示例：command
 ```
 
-使用示例:
+### 使用示例
+
 ```bash
 # 查询所有命令信息
 acli command list
@@ -21,7 +26,8 @@ acli command list
 acli command list -n host
 ```
 
-结果示例:
+### 结果示例
+
 ```bash
 命名空间                                      命令         描述
 --------------------------------------------  -----------  ------------------------------------------

@@ -1,21 +1,25 @@
 ---
-sidebar_position: 10
+sidebar_position: 1
 ---
 
 # mpstat
-操作概述: 调用系统mpstat命令
 
-命令参数:
-```bash
-无
-```
+### 操作概述
 
-使用示例:
+mpstat命令
+
+### 命令参数
+
+无参数
+
+### 使用示例
+
 ```bash
 acli system mpstat
 ```
 
-结果示例:
+### 结果示例
+
 ```bash
 Linux 4.18.0-6.11.1 (host-005056893b01)         08/04/2025      _x86_64_       (8 CPU)
 

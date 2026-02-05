@@ -1,0 +1,8 @@
+{
+  "label": "vtpperlproxy",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "vtpperlproxy服务相关操作"
+  }
+}

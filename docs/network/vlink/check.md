@@ -1,23 +1,29 @@
 ---
-sidebar_position: 10
+sidebar_position: 1
 ---
 
 # check
-操作概述: 检查虚拟机vlink状态
 
-命令参数:
+### 操作概述
+
+检查vlink配置状态
+
+### 命令参数
+
 ```bash
--s|--service=string 检查的类型，枚举值：vm(虚拟机)，cluster(当前集群所有虚拟机)， host(单主机上所有虚拟机)， nk(北向kafka)， sk(南向kafka)， vt(平台)， mp(管理面)， ccp(中央控制器)， redis(redis缓存)， lcp(本地控制器)， dp(数据面)
--v|--vm-id=string 虚拟机id，例如：7332207472995
--h|--hostname=string 主机id，例如：host-005056b2ec8d
+-s|--service=string     必要参数，检查的类型，枚举值：vm(虚拟机)，cluster(当前集群所有虚拟机)， host(单主机上所有虚拟机)， nk(北向kafka)， sk(南向kafka)， vt(平台)， mp(管理面)， ccp(中央控制器)， redis(redis缓存)， lcp(本地控制器)， dp(数据面)
+-v|--vm-id=string       虚拟机id，示例：4872898137715
+-h|--hostname=string    主机id，示例：host-005056893c9d
 ```
 
-使用示例:
+### 使用示例
+
 ```bash
 acli network vlink check --service vm --vm-id 1517895970957
 ```
 
-结果示例:
+### 结果示例
+
 ```bash
 === 服务查询结果 ===
 Service     VMPort                                Location           Peer

@@ -1,21 +1,25 @@
 ---
-sidebar_position: 10
+sidebar_position: 1
 ---
 
 # dmidecode
-操作概述: 调用系统dmidecode命令
 
-命令参数:
-```bash
-无
-```
+### 操作概述
 
-使用示例:
+dmidecode命令
+
+### 命令参数
+
+无参数
+
+### 使用示例
+
 ```bash
 acli system dmidecode
 ```
 
-结果示例:
+### 结果示例
+
 ```bash
 # dmidecode 3.4
 Getting SMBIOS data from sysfs.

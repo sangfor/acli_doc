@@ -1,21 +1,27 @@
 ---
-sidebar_position: 10
+sidebar_position: 1
 ---
 
 # get
-操作概述: 显示指定cgroup的所有参数信息
 
-命令参数:
+### 操作概述
+
+显示指定cgroup的所有参数信息
+
+### 命令参数
+
 ```bash
--g|--group=string  需要显示的cgroup控制器及路径，示例：memory:/monopoly
+-g|--group=string    必要参数，需要显示的cgroup控制器及路径，示例：memory:/monopoly
 ```
 
-使用示例:
+### 使用示例
+
 ```bash
 acli system cgroup get -g cpuset:/
 ```
 
-结果示例:
+### 结果示例
+
 ```bash
 /:
 cpuset.preferred_cpus: 

@@ -1,21 +1,27 @@
 ---
-sidebar_position: 10
+sidebar_position: 1
 ---
 
 # iostat
-操作概述: 查看brick的iostat
 
-命令参数:
+### 操作概述
+
+查看brick的iostat
+
+### 命令参数
+
 ```bash
--c|--count=integer    查看iostat的次数，示例：2
+-c|--count=integer    必要参数，查看iostat的次数，示例：2
 ```
 
-使用示例:
+### 使用示例
+
 ```bash
 acli storage asan brick iostat -c 2
 ```
 
-结果示例:
+### 结果示例
+
 ```bash
 s_show_default: 1 s_show_mds_lba: 0 s_show_logstore: 0
 Process: 2025-08-04 17:54:23            r/s         w/s       rKB/s       wKB/s    rrq_sz    wrq_sz    rqu-sz    wqu-sz   r_await   w_await     r_max     w_max

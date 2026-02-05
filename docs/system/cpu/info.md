@@ -1,21 +1,25 @@
 ---
-sidebar_position: 10
+sidebar_position: 1
 ---
 
 # info
-操作概述: 查询cpu相关信息
 
-命令参数:
-```bash
-无
-```
+### 操作概述
 
-使用示例:
+系统CPU信息
+
+### 命令参数
+
+无参数
+
+### 使用示例
+
 ```bash
 acli system cpu info
 ```
 
-结果示例:
+### 结果示例
+
 ```bash
 processor       : 0
 vendor_id       : GenuineIntel

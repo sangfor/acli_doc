@@ -1,21 +1,25 @@
 ---
-sidebar_position: 10
+sidebar_position: 1
 ---
 
 # du
-操作概述: 调用系统du命令
 
-命令参数:
-```bash
-无
-```
+### 操作概述
 
-使用示例:
+du命令
+
+### 命令参数
+
+无参数
+
+### 使用示例
+
 ```bash
 acli system du
 ```
 
-结果示例:
+### 结果示例
+
 ```bash
 # acli system du /sf/data/
 6144    /sf/data/local/mock/mc/mc0

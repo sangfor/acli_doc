@@ -1,22 +1,28 @@
 ---
-sidebar_position: 10
+sidebar_position: 1
 ---
 
 # list
-操作概述: 查看mac表容量
 
-命令参数:
+### 操作概述
+
+查看流量镜像列表
+
+### 命令参数
+
 ```bash
--s|--start=integer         可选参数，列表分页的起始索引，配合--limit一起使用，示例：--start 0 --limit 10，返回从0开始的10个
--l|--limit=integer         可选参数，指定展示记录的数目（默认值为50），示例：1，2等
+-s|--start=integer    列表分页的起始索引，配合--limit一起使用，示例：--start 0 --limit 10，返回从0开始的10个
+-l|--limit=integer    指定展示记录的数目（默认值为50），示例：1，2等
 ```
 
-使用示例:
+### 使用示例
+
 ```bash
 acli network anet mirror list --start 0 --limit 1
 ```
 
-结果示例:
+### 结果示例
+
 ```bash
 total: 1
 flow_mirrors:

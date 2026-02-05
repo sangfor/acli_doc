@@ -1,21 +1,25 @@
 ---
-sidebar_position: 10
+sidebar_position: 1
 ---
 
 # pidstat
-操作概述: 调用系统pidstat命令
 
-命令参数:
-```bash
-无
-```
+### 操作概述
 
-使用示例:
+pidstat命令
+
+### 命令参数
+
+无参数
+
+### 使用示例
+
 ```bash
 acli system pidstat
 ```
 
-结果示例:
+### 结果示例
+
 ```bash
 Linux 4.18.0-6.10.0_R2 (host-005056893c9d)      08/27/2025      _x86_64_        (8 CPU)
 

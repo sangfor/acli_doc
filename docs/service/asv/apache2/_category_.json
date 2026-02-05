@@ -1,0 +1,8 @@
+{
+  "label": "apache2",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "apache2服务相关操作"
+  }
+}

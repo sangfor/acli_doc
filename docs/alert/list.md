@@ -1,21 +1,25 @@
 ---
-sidebar_position: 10
+sidebar_position: 1
 ---
 
 # list
-操作概述: 从日志中搜索所有告警日志
 
-命令参数:
-```bash
-无
-```
+### 操作概述
 
-使用示例:
+展示当天去重的告警
+
+### 命令参数
+
+无参数
+
+### 使用示例
+
 ```bash
 acli alert list
 ```
 
-结果示例:
+### 结果示例
+
 ```bash
 alert_type: sn_key_state_error
 process: 100

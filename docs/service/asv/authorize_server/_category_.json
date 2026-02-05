@@ -1,0 +1,8 @@
+{
+  "label": "authorize_server",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "authorize_server相关操作"
+  }
+}

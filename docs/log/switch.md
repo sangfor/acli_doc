@@ -1,21 +1,25 @@
 ---
-sidebar_position: 10
+sidebar_position: 1
 ---
 
 # switch
-操作概述: 触发日志轮转
 
-命令参数:
-```bash
-无
-```
+### 操作概述
 
-使用示例:
+日志轮转命令
+
+### 命令参数
+
+无参数
+
+### 使用示例
+
 ```bash
 acli log switch
 ```
 
-结果示例:
+### 结果示例
+
 ```bash
 命令执行成功！
 ```

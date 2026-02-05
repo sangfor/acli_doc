@@ -1,21 +1,27 @@
 ---
-sidebar_position: 10
+sidebar_position: 1
 ---
 
 # get
-操作概述: 根据虚拟机id获得虚拟机配置
 
-命令参数:
+### 操作概述
+
+获取虚拟机配置信息
+
+### 命令参数
+
 ```bash
--v|--vm-id=string  虚拟机的ID，示例：1072335336316
+-v|--vm-id=string    必要参数，虚拟机的id，必须是纯数字组合，示例：4872898137715
 ```
 
-使用示例:
+### 使用示例
+
 ```bash
 acli vm config get -v 1072335336316
 ```
 
-结果示例:
+### 结果示例
+
 ```bash
 abnormal_recovery: 1
 balloon_memory: 0

@@ -1,21 +1,25 @@
 ---
-sidebar_position: 10
+sidebar_position: 1
 ---
 
 # get
-操作概述: 获取内存的ce_count数据
 
-命令参数:
-```bash
-无
-```
+### 操作概述
 
-使用示例:
+获取内存的ce_count数据
+
+### 命令参数
+
+无参数
+
+### 使用示例
+
 ```bash
 acli system memory ce_count get
 ```
 
-结果示例:
+### 结果示例
+
 ```bash
 /sys/devices/system/edac/mc/mc0/dimm0/dimm_ce_count:1000
 /sys/devices/system/edac/mc/mc0/dimm1/dimm_ce_count:1000

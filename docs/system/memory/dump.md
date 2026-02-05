@@ -1,21 +1,25 @@
 ---
-sidebar_position: 10
+sidebar_position: 1
 ---
 
 # dump
-操作概述: 查看内存占用情况
 
-命令参数:
-```bash
-无
-```
+### 操作概述
 
-使用示例:
+sfd_mem_calc.sh命令
+
+### 命令参数
+
+无参数
+
+### 使用示例
+
 ```bash
 acli system memory dump
 ```
 
-结果示例:
+### 结果示例
+
 ```bash
 *MemAvailable:  23992 MB
 *SwapTotal:     32767 MB

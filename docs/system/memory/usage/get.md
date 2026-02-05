@@ -1,21 +1,25 @@
 ---
-sidebar_position: 10
+sidebar_position: 1
 ---
 
 # get
-操作概述: 查看内存使用情况
 
-命令参数:
-```bash
-无
-```
+### 操作概述
 
-使用示例:
+sfd_ps_mem.py命令
+
+### 命令参数
+
+无参数
+
+### 使用示例
+
 ```bash
 acli system memory usage get
 ```
 
-结果示例:
+### 结果示例
+
 ```bash
 Private  +   Shared  =  RAM used        Program                                 Memcg
 

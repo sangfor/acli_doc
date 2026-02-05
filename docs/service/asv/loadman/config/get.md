@@ -1,21 +1,25 @@
 ---
-sidebar_position: 10
+sidebar_position: 1
 ---
- 
+
 # get
-操作概述: 获取loadman服务配置
- 
-命令参数: 
-```bash
-无
-```
- 
-使用示例:
+
+### 操作概述
+
+获取loadman过载保护配置
+
+### 命令参数
+
+无参数
+
+### 使用示例
+
 ```bash
 acli service asv loadman config get
 ```
- 
-结果示例:
+
+### 结果示例
+
 ```bash
 cpu_threshold: 90
 enabled: 1

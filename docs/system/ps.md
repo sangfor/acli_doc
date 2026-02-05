@@ -1,21 +1,25 @@
 ---
-sidebar_position: 10
+sidebar_position: 1
 ---
 
 # ps
-操作概述: 调用系统ps命令
 
-命令参数:
-```bash
-无
-```
+### 操作概述
 
-使用示例:
+ps命令
+
+### 命令参数
+
+无参数
+
+### 使用示例
+
 ```bash
 acli system ps
 ```
 
-结果示例:
+### 结果示例
+
 ```bash
 # acli system ps | grep mysql
  15741 ?        00:10:59 mysql-managerd

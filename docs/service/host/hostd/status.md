@@ -1,21 +1,25 @@
 ---
-sidebar_position: 10
+sidebar_position: 1
 ---
 
 # status
-操作概述: 查询hostd服务状态
 
-命令参数:
-```bash
-无
-```
+### 操作概述
 
-使用示例:
+查看hostd服务状态
+
+### 命令参数
+
+无参数
+
+### 使用示例
+
 ```bash
 acli service host hostd status
 ```
 
-结果示例:
+### 结果示例
+
 ```bash
 ● hostd.service - [sfHCI] hostd
      Loaded: loaded (/etc/systemd/system/hostd.service; enabled; preset: disabled)

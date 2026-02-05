@@ -1,21 +1,27 @@
 ---
-sidebar_position: 10
+sidebar_position: 1
 ---
 
 # get
-操作概述: 展示虚拟机io_uring当前状态，目前只支持显示虚拟机io_uring的CPU使用率
 
-命令参数:
+### 操作概述
+
+CPU使用情况(%表示,如输出100即为占用100%CPU资源,即一个逻辑核)
+
+### 命令参数
+
 ```bash
--v|--vm-id=string  虚拟机的ID，例如：2210623695047
+-v|--vm-id=string    必要参数，虚拟机id，示例：1234567890123
 ```
 
-使用示例:
+### 使用示例
+
 ```bash
 acli vm disk io_uring get -v 2749923911666
 ```
 
-结果示例:
+### 结果示例
+
 ```bash
 # %表示,如输出100%即为占用一个逻辑核
 CPU Usage: 20.8%

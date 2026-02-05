@@ -1,21 +1,25 @@
 ---
-sidebar_position: 10
+sidebar_position: 1
 ---
 
 # list
-操作概述: 查看聚合口列表
 
-命令参数:  
-```bash
-无
-```
+### 操作概述
 
-使用示例:
+查看聚合口列表
+
+### 命令参数
+
+无参数
+
+### 使用示例
+
 ```bash
 acli network bond list
 ```
 
-结果示例:
+### 结果示例
+
 ```bash
 channel1
    addresses:

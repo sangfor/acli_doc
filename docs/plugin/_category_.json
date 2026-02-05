@@ -1,0 +1,8 @@
+{
+  "label": "plugin",
+  "position": 120,
+  "link": {
+    "type": "generated-index",
+    "description": "acli插件相关命令"
+  }
+}

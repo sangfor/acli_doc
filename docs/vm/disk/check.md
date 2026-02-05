@@ -1,22 +1,28 @@
 ---
-sidebar_position: 10
+sidebar_position: 1
 ---
 
 # check
-操作概述: 展示虚拟机磁盘镜像状态
 
-命令参数:
+### 操作概述
+
+使用qcow2-dump工具检查磁盘镜像是否损坏
+
+### 命令参数
+
 ```bash
--v|--vm-id=string  虚拟机的ID，示例：2210623695047
--d|--disk=string   虚拟机的磁盘名称，示例：vm-disk-1.qcow2
+-v|--vm-id=string    必要参数，虚拟机id，示例：3535177259949
+-d|--disk=string     必要参数，虚拟机disk名称，示例：vm-disk-1.qcow2
 ```
 
-使用示例:
+### 使用示例
+
 ```bash
 acli vm disk check -v 2749923911666 -d vm-disk-1.qcow2
 ```
 
-结果示例:
+### 结果示例
+
 ```bash
 File: vm-disk-1.qcow2
 --------------------------------------------------------------------------

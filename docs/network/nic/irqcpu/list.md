@@ -1,21 +1,25 @@
 ---
-sidebar_position: 10
+sidebar_position: 1
 ---
 
 # list
-操作概述: 查看cpu中断核相关信息
 
-命令参数:
-```bash
-无
-```
+### 操作概述
 
-使用示例:
+展示网口中断核信息列表
+
+### 命令参数
+
+无参数
+
+### 使用示例
+
 ```bash
 acli network nic irqcpu list
 ```
 
-结果示例:
+### 结果示例
+
 ```bash
 eth0
    irqs: 59, 60, 61, 62, 63, 64, 65, 66, 67

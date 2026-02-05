@@ -1,22 +1,28 @@
 ---
-sidebar_position: 10
+sidebar_position: 1
 ---
 
 # get
-操作概述: 获取指定厂商的指定ib网卡设备的信息
 
-命令参数:
+### 操作概述
+
+获取指定厂商的指定ib网卡设备的信息
+
+### 命令参数
+
 ```bash
--v|--vendor=string        必要参数，厂商id，示例：0x15ad
--i|--ib-dev=string        必要参数，ib网卡设备名称，示例：hinic0      
+-v|--vendor=string    必要参数，厂商id，示例：0x15ad
+-i|--ib-dev=string    必要参数，ib网卡设备名称，示例：hinic0
 ```
 
-使用示例:
+### 使用示例
+
 ```bash
 acli network nic rdma get --vendor 0x15ad --ib-dev hinic0
 ```
 
-结果示例:
+### 结果示例
+
 ```bash
 ***************** Current Info *******************
 [Current   ] Cfg template index :  2

@@ -1,21 +1,25 @@
 ---
-sidebar_position: 10
+sidebar_position: 1
 ---
 
 # list
-操作概述: 查看cpu微码文件
 
-命令参数:
-```bash
-无
-```
+### 操作概述
 
-使用示例:
+查看cpu微码文件
+
+### 命令参数
+
+无参数
+
+### 使用示例
+
 ```bash
 acli hardware cpu microcode file list
 ```
 
-结果示例:
+### 结果示例
+
 ```bash
 -rw-r--r-- 1 root root    3072 Sep 13 17:56 0f-06-02
 -rw-r--r-- 1 root root    6144 Sep 13 17:56 0f-06-04

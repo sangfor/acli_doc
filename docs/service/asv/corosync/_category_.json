@@ -1,0 +1,8 @@
+{
+    "label": "corosync",
+    "position": 1,
+    "link": {
+        "type": "generated-index",
+        "description": "corosync相关操作"
+    }
+}

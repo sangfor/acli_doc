@@ -1,21 +1,25 @@
 ---
-sidebar_position: 10
+sidebar_position: 1
 ---
 
 # list
-操作概述: 列出cgroup下cpu空间内的所有文件
 
-命令参数:
-```bash
-无
-```
+### 操作概述
 
-使用示例:
+列出/mnt/cgroup/cpu下所有文件
+
+### 命令参数
+
+无参数
+
+### 使用示例
+
 ```bash
 acli system cgroup cpu list
 ```
 
-结果示例:
+### 结果示例
+
 ```bash
 asan
 cgroup.clone_children

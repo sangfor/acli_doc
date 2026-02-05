@@ -1,21 +1,27 @@
 ---
-sidebar_position: 10
+sidebar_position: 1
 ---
 
 # get
-操作概述: 展示网口lldp
 
-命令参数:  
+### 操作概述
+
+查看网口lldp
+
+### 命令参数
+
 ```bash
--n|--nic-name 网口名称，示例：eth1
+-n|--nic-name=string    必要参数，网口名称，示例：eth1
 ```
 
-使用示例:
+### 使用示例
+
 ```bash
 acli network nic lldp get --nic-name eth2
 ```
 
-结果示例:
+### 结果示例
+
 ```bash
 hasMultiNeighbors: 0
 ifaceName: eth2

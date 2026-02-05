@@ -1,22 +1,26 @@
 ---
-sidebar_position: 10
+sidebar_position: 1
 ---
 
 # get
-操作概述: 查看/var/ECC_data文件内容
 
-命令参数:
-```bash
-无
-```
+### 操作概述
 
-使用示例:
+获取系统内存ECC数据
+
+### 命令参数
+
+无参数
+
+### 使用示例
+
 ```bash
 # 查看/var/ECC_data文件内容
 acli system memory ecc_data get
 ```
 
-结果示例:
+### 结果示例
+
 ```bash
 {
     "ECC_UE": {

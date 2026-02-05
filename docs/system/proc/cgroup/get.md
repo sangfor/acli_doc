@@ -1,21 +1,27 @@
 ---
-sidebar_position: 10
+sidebar_position: 1
 ---
 
 # get
-操作概述: 获取指定进程的cgroup信息
 
-命令参数:
+### 操作概述
+
+获取指定进程的cgroup信息
+
+### 命令参数
+
 ```bash
--p|--pid=integer    进程号，示例：122063
+-p|--pid=integer    必要参数，进程号，示例：122063
 ```
 
-使用示例:
+### 使用示例
+
 ```bash
 acli system proc cgroup get -p 1
 ```
 
-结果示例:
+### 结果示例
+
 ```bash
 14:misc:/
 13:freezer:/init.scope

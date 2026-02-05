@@ -1,21 +1,25 @@
 ---
-sidebar_position: 10
+sidebar_position: 1
 ---
 
 # mysql-manager-cli
-操作概述: 平台mysql-manager-cli命令
 
-命令参数:
-```bash
-无
-```
+### 操作概述
 
-使用示例:
+mysql管理工具
+
+### 命令参数
+
+无参数
+
+### 使用示例
+
 ```bash
 acli platform mysql-manager-cli --help
 ```
 
-结果示例:
+### 结果示例
+
 ```bash
 NAME:
    mysql-manager-cli - Tools of mysql-manager

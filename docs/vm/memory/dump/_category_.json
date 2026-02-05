@@ -1,0 +1,8 @@
+{
+  "label": "dump",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "内存dump相关操作"
+  }
+}

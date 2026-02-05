@@ -1,26 +1,32 @@
 ---
-sidebar_position: 10
+sidebar_position: 1
 ---
 
 # iostat
-操作概述: 获取卷iostat趋势信息
 
-命令参数:
+### 操作概述
+
+获取虚拟存储卷iostat信息
+
+### 命令参数
+
 ```bash
--v|--volume-id=string        存储卷id，示例：a4ef106e_vs_vol_rep2
--t|--time-frame=string       获取所需的时间长度，枚举值：hour, day, week, custom
--S|--storage=integer         如果需要更新存储趋势则置为1，默认为1。枚举值：0, 1
--h|--hitrate=integer         如果需要更新命中率趋势则置为1，默认为1。枚举值：0, 1
--s|--start=string            (可选)自定义开始时间，配合--time-frame为 custom 使用。格式：'2025-12-12 12:12:12'
--e|--end=string              (可选)自定义结束时间，配合--time-frame为 custom 使用。格式：'2025-12-12 14:12:12'
+-v|--volume-id=string     必要参数，存储卷id，示例：a4ef106e_vs_vol_rep2
+-t|--time-frame=string    必要参数，获取所需的时间长度，枚举值：hour, day, week, custom
+-S|--storage=integer      如果需要更新存储趋势则置为1，默认为1。枚举值：0, 1
+-h|--hitrate=integer      如果需要更新命中率趋势则置为1，默认为1。枚举值：0, 1
+-s|--start=string         自定义开始时间，配合--time-frame为 custom 使用。格式：'2025-12-12 12:12:12'
+-e|--end=string           自定义结束时间，配合--time-frame为 custom 使用。格式：'2025-12-12 02:12:12'
 ```
 
-使用示例:
+### 使用示例
+
 ```bash
 acli storage asan volume iostat -v a4ef106e_vs_vol_rep2 -t custom -S 1 -h 1 -s '2025-12-12 12:12:12' -e '2025-12-12 14:12:12'
 ```
 
-结果示例:
+### 结果示例
+
 ```bash
 host_hitrate_sheet:
   series:

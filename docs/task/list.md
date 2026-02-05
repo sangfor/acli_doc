@@ -1,21 +1,25 @@
 ---
-sidebar_position: 10
+sidebar_position: 1
 ---
 
 # list
-操作概述: 从操作日志中列出所有操作日志
 
-命令参数:
-```bash
-无
-```
+### 操作概述
 
-使用示例:
+展示当天的操作任务
+
+### 命令参数
+
+无参数
+
+### 使用示例
+
 ```bash
 acli task list
 ```
 
-结果示例:
+### 结果示例
+
 ```bash
 alert_type: 备份报表数据
 process: Failed

@@ -1,21 +1,25 @@
 ---
-sidebar_position: 10
+sidebar_position: 1
 ---
 
 # multipath
-操作概述: 调用系统multipath命令
 
-命令参数:
-```bash
-无
-```
+### 操作概述
 
-使用示例:
+multipath命令
+
+### 命令参数
+
+无参数
+
+### 使用示例
+
 ```bash
 acli system multipath
 ```
 
-结果示例:
+### 结果示例
+
 ```bash
 24813.628263 | 36000c299e2665d0b78d74dfa49f53b97: addmap [0 268435456 multipath 0 0 1 1 round-robin 0 1 1 8:0 1]
 24813.629599 | libdevmapper: ioctl/libdm-iface.c(1705): device-mapper: reload ioctl on 36000c299e2665d0b78d74dfa49f53b97 failed: Device or resource busy

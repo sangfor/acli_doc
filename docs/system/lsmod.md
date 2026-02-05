@@ -1,21 +1,25 @@
 ---
-sidebar_position: 10
+sidebar_position: 1
 ---
 
 # lsmod
-操作概述: 执行lsmod工具进行系统检查
 
-命令参数:
-```bash
-无
-```
+### 操作概述
 
-使用示例:
+lsmod命令
+
+### 命令参数
+
+无参数
+
+### 使用示例
+
 ```bash
 acli system lsmod
 ```
 
-结果示例:
+### 结果示例
+
 ```bash
 Module                  Size  Used by
 nfnetlink_log          20480  0

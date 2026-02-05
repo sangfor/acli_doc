@@ -1,21 +1,25 @@
 ---
-sidebar_position: 10
+sidebar_position: 1
 ---
 
 # vs_update_nfs
-操作概述: vs_update_nfs.sh 命令
 
-命令参数:
-```bash
-无
-```
+### 操作概述
 
-使用示例:
+vs_update_nfs.sh命令
+
+### 命令参数
+
+无参数
+
+### 使用示例
+
 ```bash
 acli storage asan vs_update_nfs
 ```
 
-结果示例:
+### 结果示例
+
 ```bash
 # acli storage asan vs_update_nfs -h
 ====打热升级开始标记====

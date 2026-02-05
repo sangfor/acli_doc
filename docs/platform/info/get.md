@@ -1,21 +1,25 @@
 ---
-sidebar_position: 10
+sidebar_position: 1
 ---
 
 # get
-操作概述: 获得HCI版本、补丁、架构和集群信息
 
-命令参数:
-```bash
-无
-```
+### 操作概述
 
-使用示例:
+获得HCI版本、补丁、架构和集群信息
+
+### 命令参数
+
+无参数
+
+### 使用示例
+
 ```bash
 acli platform info get
 ```
 
-结果示例:
+### 结果示例
+
 ```bash
 [cluster]
 ip=10.131.197.5

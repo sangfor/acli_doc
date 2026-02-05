@@ -1,24 +1,29 @@
 ---
-sidebar_position: 10
+sidebar_position: 1
 ---
 
 # get
-操作概述: 查看虚拟路由器信息
 
-命令参数:  
+### 操作概述
+
+查看虚拟路由器信息
+
+### 命令参数
+
 ```bash
--i|--id=string                      必要参数，路由器id，例如：3e1be084-e194-417e-a30d-652c3b415143
--n|--name=string                    路由器名称，例如：vpc_router
-
+-i|--id=string      路由器id，例如：3e1be084-e194-417e-a30d-652c3b415143
+-n|--name=string    路由器名称，例如：vpc_router
 ```
 
-使用示例:
+### 使用示例
+
 ```bash
 acli network anet vrouter get --id 2df9fc9e-c067-4d25-b6d6-5c27a10ecff2
 acli network anet vrouter get --name 边界路由器1
 ```
 
-结果示例:
+### 结果示例
+
 ```bash
 evrouters:
     vr_type: evr
