@@ -1,21 +1,27 @@
 ---
-sidebar_position: 10
+sidebar_position: 1
 ---
 
 # get
-操作概述: 查看聚合口信息
 
-命令参数:  
+### 操作概述
+
+查看聚合口信息
+
+### 命令参数
+
 ```bash
--b|--bond-name=string  必要参数，聚合口名称，例如：channel1
+-b|--bond-name=string    必要参数，聚合口名称，例如：channel1
 ```
 
-使用示例:
+### 使用示例
+
 ```bash
 acli network bond get --bond-name channel1
 ```
 
-结果示例:
+### 结果示例
+
 ```bash
 channel1
    addresses:

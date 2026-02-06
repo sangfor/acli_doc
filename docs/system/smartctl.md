@@ -1,21 +1,25 @@
 ---
-sidebar_position: 10
+sidebar_position: 1
 ---
 
 # smartctl
-操作概述: 调用系统smartctl命令
 
-命令参数:
-```bash
-无
-```
+### 操作概述
 
-使用示例:
+smartctl命令
+
+### 命令参数
+
+无参数
+
+### 使用示例
+
 ```bash
 acli system smartctl
 ```
 
-结果示例:
+### 结果示例
+
 ```bash
 # acli system smartctl -h
 smartctl 6.6 2017-11-05 r4594 [x86_64-linux-4.18.0-6.11.1] (local build)

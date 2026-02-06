@@ -1,21 +1,27 @@
 ---
-sidebar_position: 10
+sidebar_position: 1
 ---
 
 # get
-操作概述: 查看对应pid的栈信息
 
-命令参数:
+### 操作概述
+
+获取进程的栈信息
+
+### 命令参数
+
 ```bash
--p|--pid=integer    查看pid对应的栈信息，示例：105667
+-p|--pid=integer    必要参数，进程号，示例：122063
 ```
 
-使用示例:
+### 使用示例
+
 ```bash
 acli system proc stack get -p 105667
 ```
 
-结果示例:
+### 结果示例
+
 ```bash
 [<0>] hrtimer_nanosleep+0xbe/0x1c0
 [<0>] __x64_sys_nanosleep+0x6d/0x80

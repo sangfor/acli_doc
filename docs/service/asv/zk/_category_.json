@@ -1,0 +1,8 @@
+{
+  "label": "zk",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "zk服务相关操作"
+  }
+}

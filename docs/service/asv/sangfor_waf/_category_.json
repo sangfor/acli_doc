@@ -1,0 +1,8 @@
+{
+  "label": "sangfor_waf",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "sangfor_waf服务相关操作"
+  }
+}

@@ -1,21 +1,27 @@
 ---
-sidebar_position: 10
+sidebar_position: 1
 ---
 
 # get
-操作概述: 获得arp探测的间隔时间
 
-命令参数:
+### 操作概述
+
+获得聚合口arp活性探测频率
+
+### 命令参数
+
 ```bash
--b|--bond-name=string  聚合口名称，示例：sf_vs_bond0
+-b|--bond-name=string    必要参数，聚合口名称，示例：sf_vs_bond0
 ```
 
-使用示例:
+### 使用示例
+
 ```bash
 acli network bond arp_interval get -b bond0
 ```
 
-结果示例:
+### 结果示例
+
 ```bash
 2000
 ```

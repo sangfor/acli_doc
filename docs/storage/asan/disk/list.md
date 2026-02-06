@@ -1,21 +1,25 @@
 ---
-sidebar_position: 10
+sidebar_position: 1
 ---
 
 # list
-操作概述: 获取所有硬盘信息
 
-命令参数:
-```bash
-无
-```
+### 操作概述
 
-使用示例:
+展示虚拟存储卷的磁盘信息列表
+
+### 命令参数
+
+无参数
+
+### 使用示例
+
 ```bash
 acli storage asan disk list
 ```
 
-结果示例:
+### 结果示例
+
 ```bash
 total: 4
    disk_number:

@@ -1,27 +1,33 @@
 ---
-sidebar_position: 10
+sidebar_position: 1
 ---
 
 # list
-操作概述: 获取存储分组列表
 
-命令参数:
+### 操作概述
+
+展示除虚拟存储以外的其他存储信息列表
+
+### 命令参数
+
 ```bash
--v|--vsnfs=integer         (可选)如果设置为1，展示 VS NFS 存储，默认：1。枚举值：0, 1
--L|--lt256g-not-display    (可选)如果设置为1，不显示小于256G的硬盘，默认：1。枚举值：0, 1
--q|--query=string          (可选)存储名称的模式，用于过滤存储。（模糊匹配，不区分大小写）
--s|--start=integer         (可选)存储列表分页的起始索引，配合--limit一起使用。示例：--start 0 --limit 10，返回从0开始的10个
--l|--limit=integer         (可选)最大的存储返回数量，配合--start一起使用，默认从--start开始取剩下所有存储。示例：--start 0 --limit 10，返回从0开始的10个
--t|--lv-type=string        (可选)逻辑卷类型，枚举值：local, iscsi, fc, nfs, s3。默认不填，显示所有类型。
+-v|--vsnfs=integer                 如果设置为1，展示 VS NFS 存储，默认：1。枚举值：0, 1
+-L|--lt256g-not-display=integer    如果设置为1，不显示小于256G的硬盘，默认：1。枚举值：0, 1
+-q|--query=string                  存储名称的模式，用于过滤存储。（模糊匹配，不区分大小写）
+-s|--start=integer                 存储列表分页的起始索引，配合--limit一起使用。示例：--start 0 --limit 10，返回从0开始的10个
+-l|--limit=integer                 最大的存储返回数量，配合--start一起使用，默认从--start开始取剩下所有存储。示例：--start 0 --limit 10，返回从0开始的10个
+-t|--lv-type=string                逻辑卷类型，枚举值：local, iscsi, fc, nfs, s3。默认不填，显示所有类型。
 ```
 
-使用示例:
+### 使用示例
+
 ```bash
 # 筛选存储，仅返回前10个类型为本地存储的存储信息
 acli storage other list -v 1 -L 1 -s 0 -l 10 -t local
 ```
 
-结果示例:
+### 结果示例
+
 ```bash
 s3:
 iscsi:

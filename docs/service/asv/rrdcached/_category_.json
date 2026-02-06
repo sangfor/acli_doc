@@ -1,0 +1,8 @@
+{
+    "label": "rrdcached",
+    "position": 1,
+    "link": {
+        "type": "generated-index",
+        "description": "rrdcached相关操作"
+    }
+}

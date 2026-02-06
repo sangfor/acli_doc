@@ -1,21 +1,27 @@
 ---
-sidebar_position: 10
+sidebar_position: 1
 ---
 
 # get
-操作概述: 查看节点信息
 
-命令参数:
+### 操作概述
+
+查看节点信息
+
+### 命令参数
+
 ```bash
--n|--node-name=string 节点名称
+-n|--node-name=string    必要参数，主机名称，一般默认是主机ip
 ```
 
-使用示例:
+### 使用示例
+
 ```bash
 acli platform node get --node-name 10.131.201.84
 ```
 
-结果示例:
+### 结果示例
+
 ```bash
 10.131.201.84
    ip: 10.131.201.84

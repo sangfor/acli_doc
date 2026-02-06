@@ -1,21 +1,25 @@
 ---
-sidebar_position: 10
+sidebar_position: 1
 ---
 
 # info
-操作概述: 查看主机内存的使用信息
 
-命令参数:
-```bash
-无
-```
+### 操作概述
 
-使用示例:
+查看系统内存详细信息
+
+### 命令参数
+
+无参数
+
+### 使用示例
+
 ```bash
 acli system memory info
 ```
 
-结果示例:
+### 结果示例
+
 ```bash
 MemTotal:       40679596 kB
 MemFree:        20305748 kB

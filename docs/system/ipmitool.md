@@ -1,21 +1,25 @@
 ---
-sidebar_position: 10
+sidebar_position: 1
 ---
 
 # ipmitool
-操作概述: 调用系统ipmitool命令
 
-命令参数:
-```bash
-无
-```
+### 操作概述
 
-使用示例:
+ipmitool命令
+
+### 命令参数
+
+无参数
+
+### 使用示例
+
 ```bash
 acli system ipmitool
 ```
 
-结果示例:
+### 结果示例
+
 ```bash
 ipmitool version 1.8.17
 

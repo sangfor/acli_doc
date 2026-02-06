@@ -1,27 +1,34 @@
 ---
-sidebar_position: 10
+sidebar_position: 1
 ---
 
 # get
-操作概述: 从操作日志中搜索指定关键字的操作日志
 
-命令参数:
+### 操作概述
+
+查询操作任务信息
+
+### 命令参数
+
 ```bash
--k|--key-word=string  搜索行为、主机、对象和描述
--c|--code=string      错误码，比如0x01002BB5
--t|--time=string      指定时间，格式：'YYYY-MM-DD HH:MM:SS'、'YYYY-MM-DD HH'
--H|--host=string      指定主机，比如host-005056b234ca
--s|--status=integer   指定状态，枚举值，1（进行中），100（完成），-1（失败），-2（排队中）
--l|--limit=integer    指定展示记录的数目，（默认值为50），比如1，2等
--u|--upid=string      异步任务upid，示例：UPID:host-005056b2906f:0000AFC2:398B:6909A843:编辑网口:1:admin@vtp:
+-k|--keyword=string    搜索行为、主机、对象和描述，示例：登录
+-c|--code=string       错误码，单独使用--code参数时，默认从30天内的任务查找错误码，示例：0x01002BB5
+-v|--vm-id=string      虚拟机id，示例：1223240430216
+-t|--time=string       指定时间，格式：'YYYY-MM-DD HH:MM:SS'、'YYYY-MM-DD HH'
+-H|--host=string       指定主机，示例：host-005056b234ca
+-s|--status=string     指定状态，枚举值：progress（进行中），completed（完成），failed（失败），queued（排队中）
+-u|--upid=string       异步任务upid，示例：UPID:host-005056b2906f:0000AFC2:398B:6909A843:编辑网口:1:admin@vtp:
+-l|--limit=integer     指定展示记录的数目，（默认值为50），示例：1，2
 ```
 
-使用示例:
+### 使用示例
+
 ```bash
 acli task get -H 'host-005056893c9d'
 ```
 
-结果示例:
+### 结果示例
+
 ```bash
 alert_type: 备份报表数据
 process: Failed

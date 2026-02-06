@@ -246,22 +246,28 @@ import DocCardList from '@theme/DocCardList';
         if content is None:
             # 使用默认模板
             content = f"""---
-sidebar_position: 10
+sidebar_position: 1
 ---
   
 # {command}
-操作概述: {desc_text}
+
+### 操作概述
+
+{desc_text}
   
-命令参数:
+### 命令参数
+
 ```bash
 ```
   
-使用示例:
+### 使用示例
+
 ```bash
 {full_command}
 ```
   
-结果示例:
+### 结果示例
+
 ```bash
 
 ```

@@ -1,21 +1,27 @@
 ---
-sidebar_position: 10
+sidebar_position: 1
 ---
 
 # get
-操作概述: 查看当前网口环形缓冲区参数
 
-命令参数:
+### 操作概述
+
+查看当前网口环形缓冲区参数
+
+### 命令参数
+
 ```bash
--n|--nic-name=string        必要参数，网口名称，例如：eth1, channel1
+-n|--nic-name=string    必要参数，网口名称，例如：eth1, channel1
 ```
 
-使用示例:
+### 使用示例
+
 ```bash
 acli network nic ring get --nic-name eth4
 ```
 
-结果示例:
+### 结果示例
+
 ```bash
 eth4
    ring_buffer:

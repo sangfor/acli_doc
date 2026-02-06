@@ -1,0 +1,8 @@
+{
+  "label": "mounts",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "mounts相关操作"
+  }
+}

@@ -1,21 +1,25 @@
 ---
-sidebar_position: 10
+sidebar_position: 1
 ---
 
 # rm
-操作概述: 调用系统rm命令
 
-命令参数:
-```bash
-无
-```
+### 操作概述
 
-使用示例:
+rm命令
+
+### 命令参数
+
+无参数
+
+### 使用示例
+
 ```bash
 acli system rm
 ```
 
-结果示例:
+### 结果示例
+
 ```bash
 请使用绝对路径，仅能删除如下目录下的文件：
 /sf/cfg/

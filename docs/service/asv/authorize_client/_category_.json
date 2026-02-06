@@ -1,0 +1,8 @@
+{
+  "label": "authorize_client",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "authorize_client相关操作"
+  }
+}

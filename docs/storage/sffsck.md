@@ -1,21 +1,25 @@
 ---
-sidebar_position: 10
+sidebar_position: 1
 ---
 
 # sffsck
-操作概述: 调用系统sffsck命令
 
-命令参数:
-```bash
-无
-```
+### 操作概述
 
-使用示例:
+sffsck命令
+
+### 命令参数
+
+无参数
+
+### 使用示例
+
 ```bash
 acli storage sffsck
 ```
 
-结果示例:
+### 结果示例
+
 ```bash
 # acli system sffsck -C /dev/sdd
 this will take a long time

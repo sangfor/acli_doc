@@ -1,27 +1,33 @@
 ---
-sidebar_position: 10
+sidebar_position: 1
 ---
 
 # get
-操作概述: 从日志中搜索指定关键字的告警日志
 
-命令参数:
+### 操作概述
+
+查询告警信息
+
+### 命令参数
+
 ```bash
--k|--keyword=string       搜索告警对象、事件和描述
--e|--event=string         指定事件，比如免key序列号异常
--o|--object-name=string   指定告警对象，比如主机ip地址
--T|--object-type=string   指定告警对象类型，枚举值：host(主机),storage_obj(存储),vm(虚拟机),vnet(虚拟网络),sn(序列号),others(其他)
--t|--time=string          指定时间，格式：'YYYY-MM-DD HH:MM:SS'、'YYYY-MM-DD HH'
--L|--level=integer        指定级别，1（紧急），0（普通）
--l|--limit=integer        指定展示记录的数目（默认值为50），比如1，2等
+-k|--keyword=string        搜索告警对象、事件和描述，示例：虚拟机异常挂起
+-e|--event=string          指定事件，示例：免key序列号异常
+-o|--object-name=string    指定告警对象，示例：10.134.244.34
+-T|--object-type=string    指定告警对象类型，枚举值：host(主机),storage_obj(存储),vm(虚拟机),vnet(虚拟网络),sn(序列号),others(其他)
+-t|--time=string           指定时间，格式：'YYYY-MM-DD HH:MM:SS'、'YYYY-MM-DD HH'
+-L|--level=integer         指定级别，枚举值：1（紧急），0（普通）
+-l|--limit=integer         指定展示记录的数目（默认值为50），示例：1，2等
 ```
 
-使用示例:
+### 使用示例
+
 ```bash
 acli alert get -o '10.131.135.63'
 ```
 
-结果示例:
+### 结果示例
+
 ```bash
 alert_type: vs_mongo_host_state
 process: 100

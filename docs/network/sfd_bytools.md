@@ -1,21 +1,25 @@
 ---
-sidebar_position: 10
+sidebar_position: 1
 ---
 
 # sfd_bytools
-操作概述: 数据面sfd_byTools.sh脚本
 
-命令参数:
-```bash
-无
-```
+### 操作概述
 
-使用示例:
+数据面sfd_byTools.sh脚本
+
+### 命令参数
+
+无参数
+
+### 使用示例
+
 ```bash
 acli network sfd_bytools
 ```
 
-结果示例:
+### 结果示例
+
 ```bash
 usage: /sf/sdn/bin/sfd_byTools.sh option
 --dvs [dvsname],                                     show dvswitches

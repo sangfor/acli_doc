@@ -1,21 +1,25 @@
 ---
-sidebar_position: 10
+sidebar_position: 1
 ---
 
 # top
-操作概述: 调用系统top命令
 
-命令参数:
-```bash
-无
-```
+### 操作概述
 
-使用示例:
+查看所有进程的概况
+
+### 命令参数
+
+无参数
+
+### 使用示例
+
 ```bash
 acli system top
 ```
 
-结果示例:
+### 结果示例
+
 ```bash
 top - 22:04:32 up 14:37,  1 user,  load average: 3.18, 4.31, 4.80
 Tasks: 874 total,   1 running, 758 sleeping,   0 stopped,   0 zombie

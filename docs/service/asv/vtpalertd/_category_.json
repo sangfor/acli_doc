@@ -1,0 +1,8 @@
+{
+  "label": "vtpalertd",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "vtpalertd服务相关操作"
+  }
+}

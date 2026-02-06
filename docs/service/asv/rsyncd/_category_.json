@@ -1,0 +1,8 @@
+{
+  "label": "rsyncd",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "rsyncd服务相关操作"
+  }
+}

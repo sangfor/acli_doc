@@ -1,0 +1,8 @@
+{
+    "label": "pmxcfs",
+    "position": 1,
+    "link": {
+        "type": "generated-index",
+        "description": "pmxcfs相关操作"
+    }
+}

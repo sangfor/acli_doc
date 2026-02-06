@@ -1,21 +1,25 @@
 ---
-sidebar_position: 10
+sidebar_position: 1
 ---
 
 # ethtool
-操作概述: 调用系统ethtool命令
 
-命令参数:
-```bash
-无
-```
+### 操作概述
 
-使用示例:
+ethtool命令
+
+### 命令参数
+
+无参数
+
+### 使用示例
+
 ```bash
 acli system ethtool
 ```
 
-结果示例:
+### 结果示例
+
 ```bash
 # acli system ethtool eth0
 Settings for eth0:

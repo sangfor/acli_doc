@@ -1,21 +1,25 @@
 ---
-sidebar_position: 10
+sidebar_position: 1
 ---
 
 # list
-操作概述: 查看主机列表
 
-命令参数:
-```bash
-无
-```
+### 操作概述
 
-使用示例:
+查看节点列表
+
+### 命令参数
+
+无参数
+
+### 使用示例
+
 ```bash
 acli platform node list
 ```
 
-结果示例:
+### 结果示例
+
 ```bash
 10.131.201.84
    ip: 10.131.201.84

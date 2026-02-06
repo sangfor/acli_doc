@@ -1,21 +1,25 @@
 ---
-sidebar_position: 10
+sidebar_position: 1
 ---
 
 # vs_vginfo
-操作概述: vs_vginfo命令
 
-命令参数:
-```bash
-无
-```
+### 操作概述
 
-使用示例:
+vs_vginfo.sh命令
+
+### 命令参数
+
+无参数
+
+### 使用示例
+
 ```bash
 acli storage asan vs_vginfo
 ```
 
-结果示例:
+### 结果示例
+
 ```bash
 PV            VG
 /dev/sdd1    XobyDI-5XK3-h2H0-aI2S-w1zE-PNJP-fqJ86s

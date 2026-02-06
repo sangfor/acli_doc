@@ -1,21 +1,25 @@
 ---
-sidebar_position: 10
+sidebar_position: 1
 ---
 
 # kill
-操作概述: kill命令用于发送信号到进程，通常用于终止进程。
 
-命令参数:
-```bash
-无
-```
+### 操作概述
 
-使用示例:
+kill命令
+
+### 命令参数
+
+无参数
+
+### 使用示例
+
 ```bash
 acli system kill
 ```
 
-结果示例:
+### 结果示例
+
 ```bash
 /bin/sh: 1: kill: Usage: kill [-s sigspec | -signum | -sigspec] [pid | job]... or
 kill -l [exitstatus]

@@ -1,0 +1,8 @@
+{
+  "label": "vtplogd",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "vtplogd服务相关操作"
+  }
+}
