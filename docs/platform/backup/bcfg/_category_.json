@@ -1,0 +1,8 @@
+{
+    "label": "bcfg",
+    "position": 1,
+    "link": {
+        "type": "generated-index",
+        "description": "备份点配置文件相关命令"
+    }
+}
