@@ -1,0 +1,8 @@
+{
+  "label": "snapshot",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "快照相关命令"
+  }
+}

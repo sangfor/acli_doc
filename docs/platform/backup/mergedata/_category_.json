@@ -1,0 +1,8 @@
+{
+    "label": "mergedata",
+    "position": 1,
+    "link": {
+        "type": "generated-index",
+        "description": "数据整理任务相关命令"
+    }
+}
