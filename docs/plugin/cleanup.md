@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ### 操作概述
 
-
+对指定插件进行清理目录和kill相关进程
 
 ### 命令参数
 
@@ -17,11 +17,12 @@ sidebar_position: 1
 ### 使用示例
 
 ```bash
-TODO: 添加使用示例
+acli plugin cleanup -n vm_start
 ```
 
 ### 结果示例
 
 ```bash
-TODO: 添加结果示例
+acli plugin cleanup -n vm_start
+清理成功
 ```
