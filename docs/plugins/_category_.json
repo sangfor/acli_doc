@@ -1,0 +1,8 @@
+{
+  "label": "插件列表",
+  "position": 140,
+  "link": {
+    "type": "generated-index",
+    "description": "aCLI插件使用说明"
+  }
+}

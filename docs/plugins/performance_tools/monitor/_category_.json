@@ -1,0 +1,8 @@
+{
+  "label": "monitor",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "性能工具插件监控相关命令，日志存放路径/sf/data/local/performance_tools/performance_data/"
+  }
+}
