@@ -1,0 +1,8 @@
+{
+  "label": "isolate",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "性能工具隔离核心相关命令"
+  }
+}

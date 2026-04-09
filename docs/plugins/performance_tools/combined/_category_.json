@@ -1,0 +1,8 @@
+{
+  "label": "combined",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "组合命令，包含性能工具和日志收集插件相关命令"
+  }
+}
