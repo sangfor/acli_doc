@@ -1,0 +1,8 @@
+{
+  "label": "residual",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "磁盘残留相关操作"
+  }
+}
