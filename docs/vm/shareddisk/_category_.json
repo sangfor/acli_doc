@@ -1,0 +1,8 @@
+{
+  "label": "shareddisk",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "共享盘相关操作"
+  }
+}
