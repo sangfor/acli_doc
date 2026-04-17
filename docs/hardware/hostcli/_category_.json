@@ -1,0 +1,8 @@
+{
+  "label": "hostcli",
+  "position": 10,
+  "link": {
+    "type": "generated-index",
+    "description": "主机硬件管理命令"
+  }
+}
