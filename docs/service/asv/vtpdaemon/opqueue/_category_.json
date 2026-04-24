@@ -1,0 +1,8 @@
+{
+  "label": "opqueue",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "操作队列相关命令"
+  }
+}
