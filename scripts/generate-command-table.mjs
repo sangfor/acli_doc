@@ -7,8 +7,10 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const ROOT_DIR = path.resolve(__dirname, '..');
 const DOCS_DIR = path.join(ROOT_DIR, 'docs');
+const I18N_EN_DOCS_DIR = path.join(ROOT_DIR, 'i18n/en/docusaurus-plugin-content-docs/current');
 const CSV_PATH = path.join(DOCS_DIR, 'commandList.csv');
 const COMMAND_LIST_MD_PATH = path.join(DOCS_DIR, 'commandList.md');
+const COMMAND_LIST_MD_EN_PATH = path.join(I18N_EN_DOCS_DIR, 'commandList.md');
 const MARKDOWN_EXTENSIONS = new Set(['.md', '.mdx']);
 
 async function main() {
@@ -25,8 +27,24 @@ async function main() {
             continue;
         }
 
+        // 中文文档汇总（优先中文，始终从源文档提取）
         const content = await fs.readFile(file, 'utf8');
-        const summary = extractSummary(content);
+        const summaryZh = extractSummary(content);
+
+        // 英文文档汇总（从英文翻译文档提取摘要，用于英文列表）
+        let summaryEn = summaryZh;
+        const enFile = path.join(I18N_EN_DOCS_DIR, path.relative(DOCS_DIR, file));
+        let summary = summaryZh;
+        try {
+            const enContent = await fs.readFile(enFile, 'utf8');
+            const s = extractSummary(enContent);
+            if (s) {
+                summary = s;
+                summaryEn = s;
+            }
+        } catch (e) {
+            // 英文文档不存在
+        }
 
         if (!summary) {
             continue;
@@ -35,6 +53,8 @@ async function main() {
         rows.push({
             command,
             summary,
+            summaryZh,
+            summaryEn,
             source: path.relative(ROOT_DIR, file)
         });
     }
@@ -46,11 +66,13 @@ async function main() {
     rows.sort((a, b) => a.command.localeCompare(b.command, 'zh-Hans-CN'));
 
     await fs.writeFile(CSV_PATH, buildCsv(rows), 'utf8');
-    await updateCommandListMarkdown(buildMarkdownTable(rows));
+    await updateCommandListMarkdown(buildMarkdownTable(rows), COMMAND_LIST_MD_PATH, 'zh');
+    await updateCommandListMarkdown(buildMarkdownTableEn(rows), COMMAND_LIST_MD_EN_PATH, 'en');
 
     console.log(`已收集 ${rows.length} 条命令，生成文件：`);
     console.log(`- CSV: ${path.relative(ROOT_DIR, CSV_PATH)}`);
     console.log(`- Markdown: ${path.relative(ROOT_DIR, COMMAND_LIST_MD_PATH)}`);
+    console.log(`- EN Markdown: ${path.relative(ROOT_DIR, COMMAND_LIST_MD_EN_PATH)}`);
 }
 
 async function collectMarkdownFiles(dir) {
@@ -58,7 +80,6 @@ async function collectMarkdownFiles(dir) {
     const files = [];
 
     for (const entry of entries) {
-        // 忽略隐藏目录与构建产物
         if (entry.name.startsWith('.')) {
             continue;
         }
@@ -76,19 +97,20 @@ async function collectMarkdownFiles(dir) {
 }
 
 function extractSummary(content) {
-    const summaryRegexes = [
-        /操作概述[:：]\s*(.+)/,
-        /命令概述[:：]\s*(.+)/,
-        /命令描述[:：]\s*(.+)/
+    // 去除行尾空格，避免"空行"实际上是空格的情况（如 docs/plugin/info.md）
+    const normalized = content.replace(/[ \t]+$/gm, '');
+    const singleLineRegexes = [
+        /### 操作概述\s*\n+([^\n]+)/,
+        /### 命令概述\s*\n+([^\n]+)/,
+        /### 命令描述\s*\n+([^\n]+)/,
+        /### Overview\s*\n+([^\n]+)/,
+        /### Command Overview\s*\n+([^\n]+)/,
+        /### Description\s*\n+([^\n]+)/,
     ];
-
-    for (const regex of summaryRegexes) {
-        const match = content.match(regex);
-        if (match) {
-            return match[1].trim();
-        }
+    for (const regex of singleLineRegexes) {
+        const match = normalized.match(regex);
+        if (match) return match[1].trim();
     }
-
     return '';
 }
 
@@ -130,11 +152,23 @@ function csvEscape(value) {
     return `"${safe}"`;
 }
 
+// 中文 Markdown 表格（使用中文摘要）
 function buildMarkdownTable(rows) {
     const header = '| acli命令 | 命令操作概述 |';
     const divider = '| :---: | :---: |';
-    const body = rows.map(({ command, summary }) => {
-        return `| ${markdownEscape(command)} | ${markdownEscape(summary)} |`;
+    const body = rows.map(({ command, summaryZh }) => {
+        return `| ${markdownEscape(command)} | ${markdownEscape(summaryZh)} |`;
+    });
+
+    return [header, divider, ...body].join('\n');
+}
+
+// 英文 Markdown 表格（使用英文摘要）
+function buildMarkdownTableEn(rows) {
+    const header = '| acli Command | Command Overview |';
+    const divider = '| :---: | :---: |';
+    const body = rows.map(({ command, summaryEn }) => {
+        return `| ${markdownEscape(command)} | ${markdownEscape(summaryEn)} |`;
     });
 
     return [header, divider, ...body].join('\n');
@@ -144,33 +178,57 @@ function markdownEscape(value) {
     return value.replace(/\|/g, '\\|');
 }
 
-async function updateCommandListMarkdown(tableContent) {
+async function updateCommandListMarkdown(tableContent, filePath, locale) {
     const now = new Date().toISOString().slice(0, 10);
-    const template = [
-        `**\`更新时间: ${now}\`**`,
-        ':::info 以下是最新的命令列表',
-        ':::',
-        '',
-        tableContent,
-        ''
-    ].join('\n');
+
+    const templates = {
+        zh: [
+            `**\`更新时间: ${now}\`**`,
+            ':::info 以下是最新的命令列表',
+            ':::',
+            '',
+            tableContent,
+            ''
+        ],
+        en: [
+            `**\`Updated: ${now}\`**`,
+            ':::info Below is the latest command list',
+            ':::',
+            '',
+            tableContent,
+            ''
+        ]
+    };
+
+    const template = templates[locale].join('\n');
 
     let frontMatter = '';
-    try {
-        const current = await fs.readFile(COMMAND_LIST_MD_PATH, 'utf8');
-        const fmMatch = current.match(/^---[\s\S]*?---/);
-
-        if (fmMatch) {
-            frontMatter = fmMatch[0].trim() + '\n\n';
-        }
-    } catch (error) {
-        if (error.code !== 'ENOENT') {
-            throw error;
+    // 英文版本使用独立的 frontmatter
+    if (locale === 'en') {
+        frontMatter = [
+            '---',
+            'sidebar_position: 2',
+            'sidebar_label: Command List',
+            'title: aCLI Command List',
+            '---',
+            ''
+        ].join('\n') + '\n';
+    } else {
+        try {
+            const current = await fs.readFile(filePath, 'utf8');
+            const fmMatch = current.match(/^---[\s\S]*?---/);
+            if (fmMatch) {
+                frontMatter = fmMatch[0].trim() + '\n\n';
+            }
+        } catch (error) {
+            if (error.code !== 'ENOENT') {
+                throw error;
+            }
         }
     }
 
     const nextContent = `${frontMatter}${template}`.trimEnd() + '\n';
-    await fs.writeFile(COMMAND_LIST_MD_PATH, nextContent, 'utf8');
+    await fs.writeFile(filePath, nextContent, 'utf8');
 }
 
 main().catch((error) => {
