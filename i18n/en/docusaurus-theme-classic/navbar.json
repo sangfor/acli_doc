@@ -1,0 +1,18 @@
+{
+  "title": {
+    "message": "aCLI",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "aCLI Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.命令说明文档": {
+    "message": "Command Reference",
+    "description": "Navbar item with label 命令说明文档"
+  },
+  "item.label.深信服技术支持": {
+    "message": "Sangfor Support",
+    "description": "Navbar item with label 深信服技术支持"
+  }
+}
