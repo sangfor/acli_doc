@@ -18,22 +18,18 @@ sidebar_position: 1
 -c|--context=integer      指定上下文行数，示例：2，3
 -E|--extend=flag          针对--keyword参数使用扩展的正则表达式
 -p|--path=string          指定搜索的绝对路径，只能指定/sf/log目录和/sf/data/local下的文件或者目录，不指定默认搜索/sf/log目录下的内容。
-仅支持路径指定的目录名或者文件名使用通配符*，路径需要使用引号包裹，示例：'/sf/log/today/' '/sf/log/today/sfvt*'
+                          仅支持路径指定的目录名或者文件名使用通配符*，路径需要使用引号包裹，示例：'/sf/log/today/' '/sf/log/today/sfvt*'
 -g|--gzip=flag            针对 --path 参数，支持搜索 .gz 文件的内容。
-但如果 --path 是一个目录，则仅能搜索该目录下的子文件，无法搜索更深层次的文件。
-
-说明：
-不支持跨主机检索，如需检索其他主机请ssh到对应主机
-不指定时间默认检索目录是/sf/log，建议指定日期提高检索效率
-
-示例1：指定时间，可自动解压白盒日志，快速查看本主机在6号，错误码为0x010019FA的日志
-acli log get -t '2025-06-06' -k 0x010019FA
-
-示例2：指定报错，快速查看本主机包含：‘备份报表数据失败’字段的sfvt_vtpdaemon.log日志
-acli log get -k '备份报表数据失败' -f sfvt_vtpdaemon.log
-
-示例3：指定调用链，快速查看本主机/sf/data/local下request_id为：‘82ab4228259a3f227b763dd0cc6b53df’的日志
-acli log get -i 82ab4228259a3f227b763dd0cc6b53df -p /sf/data/local
+                          但如果 --path 是一个目录，则仅能搜索该目录下的子文件，无法搜索更深层次的文件。
+                          说明：
+                          不支持跨主机检索，如需检索其他主机请ssh到对应主机
+                          不指定时间默认检索目录是/sf/log，建议指定日期提高检索效率
+                          示例1：指定时间，可自动解压白盒日志，快速查看本主机在6号，错误码为0x010019FA的日志
+                          acli log get -t '2025-06-06' -k 0x010019FA
+                          示例2：指定报错，快速查看本主机包含：‘备份报表数据失败’字段的sfvt_vtpdaemon.log日志
+                          acli log get -k '备份报表数据失败' -f sfvt_vtpdaemon.log
+                          示例3：指定调用链，快速查看本主机/sf/data/local下request_id为：‘82ab4228259a3f227b763dd0cc6b53df’的日志
+                          acli log get -i 82ab4228259a3f227b763dd0cc6b53df -p /sf/data/local
 ```
 
 ### 使用示例

@@ -1,0 +1,8 @@
+{
+  "label": "command",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Operations for obtaining command information"
+  }
+}

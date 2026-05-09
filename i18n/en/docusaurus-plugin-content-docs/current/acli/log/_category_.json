@@ -1,0 +1,9 @@
+{
+  "label": "log",
+  "position": 1,
+  "link": {
+    "type": "doc",
+    "id": "acli/log/category",
+    "description": ""
+  }
+}

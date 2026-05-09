@@ -1,0 +1,9 @@
+{
+  "label": "cgroup",
+  "position": 1,
+  "link": {
+    "type": "doc",
+    "id": "log/cgroup/category",
+    "description": ""
+  }
+}
