@@ -1,0 +1,8 @@
+{
+  "label": "pending",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "虚拟机挂起配置相关操作"
+  }
+}
