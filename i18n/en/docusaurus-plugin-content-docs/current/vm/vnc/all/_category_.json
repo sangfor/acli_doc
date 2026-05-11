@@ -1,0 +1,8 @@
+{
+  "label": "all",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Commands related to all VM consoles"
+  }
+}

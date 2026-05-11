@@ -4,21 +4,20 @@ sidebar_position: 1
 
 # progress
 
-### 操作概述
+### Overview
 
-查询dump虚拟机内存任务的进度
+Query the progress of the guest memory dump task
 
-### 命令参数
+### Command Parameters
 
-无参数
-
-### 使用示例
+No parameters
+### Usage Example
 
 ```bash
 acli vm memory dump progress
 ```
 
-### 结果示例
+### Output Example
 
 ```bash
 acli vm memory dump progress

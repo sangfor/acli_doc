@@ -1,0 +1,8 @@
+{
+  "label": "clean",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Command for revoking VM console access permissions"
+  }
+}

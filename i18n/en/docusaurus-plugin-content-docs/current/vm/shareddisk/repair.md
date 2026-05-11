@@ -4,25 +4,24 @@ sidebar_position: 1
 
 # repair
 
-### 操作概述
+### Overview
 
-修复共享盘扩容异常
+Fix shared disk expansion abnormality
 
-### 命令参数
-
+### Command Parameters
 ```bash
--n|--name=string    必要参数，指定共享盘的名称，示例：my-shared-disk
+-n|--name=string            Required parameter, Specify the name of the shared disk, Example: my-shared-disk
 
 ```
 
-### 使用示例
+### Usage Example
 
 ```bash
 acli vm shareddisk repair --name my-shared-disk
 acli vm shareddisk repair -n my-shared-disk
 ```
 
-### 结果示例
+### Output Example
 
 ```bash
 Start recover shared disk, diskID=, diskName=111

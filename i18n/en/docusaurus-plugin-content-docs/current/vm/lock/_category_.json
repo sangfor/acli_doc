@@ -1,0 +1,8 @@
+{
+  "label": "lock",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Operations Related to Lock Files Generated During Virtual Machine Runtime"
+  }
+}
