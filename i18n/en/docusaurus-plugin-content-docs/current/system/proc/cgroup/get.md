@@ -4,23 +4,22 @@ sidebar_position: 1
 
 # get
 
-### 操作概述
+### Overview
 
-获取指定进程的cgroup信息
+Get the cgroup information for the specified process
 
-### 命令参数
-
+### Command Parameters
 ```bash
--p|--pid=integer    必要参数，进程号，示例：122063
+-p|--pid=integer            Required parameter, Process ID, example: 122063
 ```
 
-### 使用示例
+### Usage Example
 
 ```bash
 acli system proc cgroup get -p 1
 ```
 
-### 结果示例
+### Output Example
 
 ```bash
 14:misc:/

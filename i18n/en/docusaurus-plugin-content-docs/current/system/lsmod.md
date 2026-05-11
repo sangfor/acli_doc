@@ -4,21 +4,20 @@ sidebar_position: 1
 
 # lsmod
 
-### 操作概述
+### Overview
 
-lsmod命令，用于查看内核模块
+View kernel modules using the lsmod command
 
-### 命令参数
+### Command Parameters
 
-无参数
-
-### 使用示例
+No parameters
+### Usage Example
 
 ```bash
 acli system lsmod
 ```
 
-### 结果示例
+### Output Example
 
 ```bash
 Module                  Size  Used by

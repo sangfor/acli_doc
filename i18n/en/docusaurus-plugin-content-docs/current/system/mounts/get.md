@@ -4,21 +4,20 @@ sidebar_position: 1
 
 # get
 
-### 操作概述
+### Overview
 
-查看系统mounts信息
+View system mounts information
 
-### 命令参数
+### Command Parameters
 
-无参数
-
-### 使用示例
+No parameters
+### Usage Example
 
 ```bash
 acli system mounts get
 ```
 
-### 结果示例
+### Output Example
 
 ```bash
 acli system mounts get

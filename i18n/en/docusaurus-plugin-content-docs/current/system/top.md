@@ -4,21 +4,20 @@ sidebar_position: 1
 
 # top
 
-### 操作概述
+### Overview
 
-top命令，用于查看进程实时信息
+top command, used to view real-time process information
 
-### 命令参数
+### Command Parameters
 
-无参数
-
-### 使用示例
+No parameters
+### Usage Example
 
 ```bash
 acli system top
 ```
 
-### 结果示例
+### Output Example
 
 ```bash
 top - 22:04:32 up 14:37,  1 user,  load average: 3.18, 4.31, 4.80

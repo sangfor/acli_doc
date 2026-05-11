@@ -4,21 +4,20 @@ sidebar_position: 1
 
 # dump
 
-### 操作概述
+### Overview
 
-系统内存占用情况
+System memory usage
 
-### 命令参数
+### Command Parameters
 
-无参数
-
-### 使用示例
+No parameters
+### Usage Example
 
 ```bash
 acli system memory dump
 ```
 
-### 结果示例
+### Output Example
 
 ```bash
 *MemAvailable:  23992 MB

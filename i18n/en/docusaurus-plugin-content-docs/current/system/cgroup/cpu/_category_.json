@@ -1,0 +1,9 @@
+{
+  "label": "cpu",
+  "position": 1,
+  "link": {
+    "type": "doc",
+    "id": "system/cgroup/cpu/category",
+    "description": ""
+  }
+}

@@ -4,24 +4,23 @@ sidebar_position: 1
 
 # ls
 
-### 操作概述
+### Overview
 
-ls命令，限制查看特定目录下的文件
+Restrict access to files in the specified directory
 
-### 命令参数
+### Command Parameters
 
-无参数
-
-### 使用示例
+No parameters
+### Usage Example
 
 ```bash
 acli system ls
 ```
 
-### 结果示例
+### Output Example
 
 ```bash
-请指定绝对路径参数，仅能查看如下目录下的文件：
+Specify the absolute path parameter to view only files in the following directory:
 /sf/cfg/
 /sf/vs/vscfg/
 /sf/data/

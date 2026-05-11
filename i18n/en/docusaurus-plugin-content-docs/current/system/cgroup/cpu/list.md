@@ -4,21 +4,20 @@ sidebar_position: 1
 
 # list
 
-### 操作概述
+### Overview
 
-列出所有cgroup目录下和cpu相关的文件
+List all files in /cgroup/cpu
 
-### 命令参数
+### Command Parameters
 
-无参数
-
-### 使用示例
+No parameters
+### Usage Example
 
 ```bash
 acli system cgroup cpu list
 ```
 
-### 结果示例
+### Output Example
 
 ```bash
 asan
