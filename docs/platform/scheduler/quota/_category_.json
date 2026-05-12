@@ -1,0 +1,8 @@
+{
+    "label": "quota",
+    "position": 1,
+    "link": {
+        "type": "generated-index",
+        "description": "调度器配额相关操作"
+    }
+}

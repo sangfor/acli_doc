@@ -1,0 +1,8 @@
+{
+    "label": "scheduler",
+    "position": 1,
+    "link": {
+        "type": "generated-index",
+        "description": "调度器相关命令"
+    }
+}
