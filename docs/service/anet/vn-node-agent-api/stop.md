@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ### 操作概述
 
-关闭vn-manager-service-api服务
+停止vn-node-agent-api服务
 
 ### 命令参数
 

@@ -15,11 +15,12 @@ sidebar_position: 1
 ### 使用示例
 
 ```bash
-TODO: 添加使用示例
+acli service asv rsyncd start
 ```
 
 ### 结果示例
-
 ```bash
-TODO: 添加结果示例
+acli service asv rsyncd start
+
+ Physical cores < 16: 8checking before start: getcmdpid return 0, get pids: 4126756 4126757:checking before start: getcmdpid2 return 0, get pids: 4126757:[is_supervisor_running] supervisor exits.:Already runing: rsyncd 4126757 ... (warning).
 ```

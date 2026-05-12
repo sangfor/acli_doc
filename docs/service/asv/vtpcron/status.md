@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ### 操作概述
 
-获取vtpcron服务状态
+查看vtpcron服务状态
 
 ### 命令参数
 
@@ -15,11 +15,12 @@ sidebar_position: 1
 ### 使用示例
 
 ```bash
-TODO: 添加使用示例
+acli service asv vtpcron status
 ```
 
 ### 结果示例
-
 ```bash
-TODO: 添加结果示例
+acli service asv vtpcron status
+
+vtpcron is started and running: 4130041 4130085 4130093
 ```

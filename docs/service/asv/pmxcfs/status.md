@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ### 操作概述
 
-获取pmxcfs服务状态
+查看pmxcfs服务状态
 
 ### 命令参数
 
@@ -15,11 +15,12 @@ sidebar_position: 1
 ### 使用示例
 
 ```bash
-TODO: 添加使用示例
+acli service asv pmxcfs status
 ```
 
 ### 结果示例
-
 ```bash
-TODO: 添加结果示例
+acli service asv pmxcfs status
+
+pmxcfs is started and running: 4124167
 ```

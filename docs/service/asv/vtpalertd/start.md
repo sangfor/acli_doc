@@ -15,11 +15,12 @@ sidebar_position: 1
 ### 使用示例
 
 ```bash
-TODO: 添加使用示例
+acli service asv vtpalertd start
 ```
 
 ### 结果示例
-
 ```bash
-TODO: 添加结果示例
+acli service asv vtpalertd start
+
+ Physical cores < 16: 8checking before start: getcmdpid return 0, get pids: 4128681 4128698:checking before start: getcmdpid2 return 0, get pids: 4128698 4128681:Already runing: vtpalertd 4128698 ... (warning).
 ```

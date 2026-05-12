@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ### 操作概述
 
-获取vtpdaemon服务状态
+查看vtpdaemon服务状态
 
 ### 命令参数
 
@@ -15,11 +15,12 @@ sidebar_position: 1
 ### 使用示例
 
 ```bash
-TODO: 添加使用示例
+acli service asv vtpdaemon status
 ```
 
 ### 结果示例
-
 ```bash
-TODO: 添加结果示例
+acli service asv vtpdaemon status
+
+vtpdaemon is started and running: 4130670 4130715 4130720 4131165 4132427 4133450 4133945
 ```

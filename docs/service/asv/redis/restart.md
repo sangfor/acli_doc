@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ### 操作概述
 
-重启asv-redis服务
+重启redis服务
 
 ### 命令参数
 
@@ -15,11 +15,13 @@ sidebar_position: 1
 ### 使用示例
 
 ```bash
-TODO: 添加使用示例
+acli service asv redis restart
 ```
 
 ### 结果示例
-
 ```bash
-TODO: 添加结果示例
+acli service asv redis restart
+
+Stoping redis-server: :checking stop status: getcmdpid return 1, get pids: :  OK!.
+ Physical cores < 16: 8checking before start: getcmdpid return 1, get pids: :Start (supervisor --lock-file '/var/run/supervisor/redis-server.suplock' --flag-file '*' --flag 011 -w '/sf/bin/redis-server /etc/redis/6379.conf') OK! 4125164.
 ```

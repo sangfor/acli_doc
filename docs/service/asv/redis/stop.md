@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ### 操作概述
 
-停止asv-redis服务
+停止redis服务
 
 ### 命令参数
 
@@ -15,11 +15,12 @@ sidebar_position: 1
 ### 使用示例
 
 ```bash
-TODO: 添加使用示例
+acli service asv redis stop
 ```
 
 ### 结果示例
-
 ```bash
-TODO: 添加结果示例
+acli service asv redis stop
+
+Stoping redis-server: :checking stop status: getcmdpid return 1, get pids: :  OK!.
 ```

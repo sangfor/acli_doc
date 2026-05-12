@@ -1,0 +1,9 @@
+{
+  "label": "redis",
+  "position": 1,
+  "link": {
+    "type": "doc",
+    "id": "service/asv/redis/category",
+    "description": ""
+  }
+}

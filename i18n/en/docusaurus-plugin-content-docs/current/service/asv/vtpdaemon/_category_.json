@@ -1,0 +1,8 @@
+{
+  "label": "vtpdaemon",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "VTP Daemon Service Operations"
+  }
+}

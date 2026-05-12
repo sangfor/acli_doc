@@ -15,11 +15,14 @@ sidebar_position: 1
 ### 使用示例
 
 ```bash
-TODO: 添加使用示例
+acli service asv rrdcached restart
 ```
 
 ### 结果示例
-
 ```bash
-TODO: 添加结果示例
+acli service asv rrdcached restart
+
+    Already stoped: rrdcached
+ Physical cores < 16: 8checking before start: getcmdpid return 1, get pids: :Prerun (pidof rrdcached >/dev/null || rm -f /var/run/rrdcached.pid ; /sf/bin/pre_rrdcached_start.sh) return: 1 ... (warning).
+Start (/usr/bin/rrdcached -l unix:/var/run/vtp-datareport-rrdcached.sock -F -b /sf/data/datareport_database/rrd -B -z 540 -w 600 -V LOG_INFO -p /var/run/rrdcached.pid) OK! 4125899.
 ```

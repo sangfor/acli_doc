@@ -15,11 +15,13 @@ sidebar_position: 1
 ### 使用示例
 
 ```bash
-TODO: 添加使用示例
+acli service asv authorize_client restart
 ```
 
 ### 结果示例
-
 ```bash
-TODO: 添加结果示例
+acli service asv authorize_client restart
+
+Already stoped: authorize_client
+ Physical cores < 16: 8checking before start: getcmdpid return 1, get pids: :Start (supervisor --lock-file '/var/run/supervisor/authorize_client.suplock' --flag-file '*' --flag 011 -w '/sf/authorize/bin/authorize_client --config /sf/etc/authorize_client/authorize_client_config.json') OK!.
 ```

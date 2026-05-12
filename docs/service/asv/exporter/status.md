@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ### 操作概述
 
-查看exporter服务的状态
+查看exporter服务状态
 
 ### 命令参数
 

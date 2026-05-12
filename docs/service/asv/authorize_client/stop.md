@@ -15,11 +15,12 @@ sidebar_position: 1
 ### 使用示例
 
 ```bash
-TODO: 添加使用示例
+acli service asv authorize_client stop
 ```
 
 ### 结果示例
-
 ```bash
-TODO: 添加结果示例
+acli service asv authorize_client stop
+
+Stoping authorize_client: :checking stop status: getcmdpid return 1, get pids: :  OK!.
 ```

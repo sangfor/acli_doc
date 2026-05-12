@@ -15,11 +15,13 @@ sidebar_position: 1
 ### 使用示例
 
 ```bash
-TODO: 添加使用示例
+acli service asv zk start
 ```
 
 ### 结果示例
-
 ```bash
-TODO: 添加结果示例
+acli service asv zk start
+
+错误：执行失败：ZooKeeper JMX enabled by default
+Using config: /sf/cfg/zookeeper/zoo.cfg
 ```

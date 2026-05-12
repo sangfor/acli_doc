@@ -1,0 +1,8 @@
+{
+  "label": "maintenance",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "loadman Service Maintenance Operations"
+  }
+}

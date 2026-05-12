@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ### 操作概述
 
-关闭exporter服务
+停止exporter服务
 
 ### 命令参数
 
