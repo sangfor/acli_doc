@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ### 操作概述
 
-修改备份任务配置文件backup.json的内容
+设置备份任务配置文件backup.json的内容
 
 ### 命令参数
 
@@ -41,7 +41,7 @@ sidebar_position: 1
   --max-backup-io-queue-max-concurrency=integer 单主机备份IO队列并发数的最大值限制，示例：32
   --cdp-io-queue-max-concurrency=integer        单主机CDP备份IO队列的最大并发数，示例：16
   --healthcheck-host-limited-task=integer       单主机健康检查的并发任务数限制，示例：4
-  --storage-task-limit-min=integer              无代理���份存储任务并发数的最小值限制，示例：2
+  --storage-task-limit-min=integer              无代理备份存储任务并发数的最小值限制，示例：2
   --storage-task-limit-max=integer              无代理备份存储任务并发数的最大值限制，示例：16
   --backup-speed-limit-host-min=integer         无代理备份主机速率的最小值限制，示例：10485760
   --backup-speed-limit-host-max=integer         无代理备份主机速率的最大值限制，示例：524288000
@@ -68,7 +68,7 @@ sidebar_position: 1
 ### 使用示例
 
 ```bash
-acli platform backup datamover config set --read-co-num 4 --is-separate 0
+acli platform backup config set --limited-task 5 --auto-speed 1
 ```
 
 ### 结果示例

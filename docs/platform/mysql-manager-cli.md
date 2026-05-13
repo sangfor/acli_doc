@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ### 操作概述
 
-mysql管理工具
+平台mysql-manager-cli工具
 
 ### 命令参数
 

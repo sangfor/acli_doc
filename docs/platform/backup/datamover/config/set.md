@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ### 操作概述
 
-修改datamover配置文件内容
+设置datamover配置文件内容
 
 ### 命令参数
 

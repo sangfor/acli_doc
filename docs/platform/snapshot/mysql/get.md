@@ -11,9 +11,9 @@ sidebar_position: 1
 ### 命令参数
 
 ```bash
--v|--vm-id=string      必要参数，指定要查询的快照所属的虚拟机，示例：5050155340046
--s|--snap-id=string    必要参数，指定要查询的快照的id，示例：865dcfe8-c5ab-49a2-a602-c5cffb3d18c0
--f|--filter=string      可选参数，指定是否过滤residual_status、lifespan、tpm_files字段，枚举值为："0"（不过滤）、"1"（过滤），若不传，则默认过滤。取值为"1"时，过滤。取值为"0"时，不过滤。示例：0
+-v|--vm-id=string      必要参数，指定要查询的快照所属的虚拟机，示例：92815248362
+-s|--snap-id=string    必要参数，指定要查询的快照的id，示例：b81c6fb3-bd1c-4148-93d4-c1301412c55c
+-f|--filter=string     用于指定是否过滤residual_status、lifespan、tpm_files字段，不传则默认过滤，示例：1
 ```
 
 ### 使用示例

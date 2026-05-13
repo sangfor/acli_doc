@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ### 操作概述
 
-查看mysql服务的配置
+获取MySQL配置
 
 ### 命令参数
 

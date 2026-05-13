@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ### 操作概述
 
-查询备份任务配置backup.json文件内容
+查询备份相关配置
 
 ### 命令参数
 

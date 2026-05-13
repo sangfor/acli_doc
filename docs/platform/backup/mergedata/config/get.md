@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ### 操作概述
 
-查询数据整理任务配置文件merge_data.json的内容
+查询数据合并任务配置文件merge_data.json内容
 
 ### 命令参数
 

@@ -1,0 +1,8 @@
+{
+  "label": "platform",
+  "position": 110,
+  "link": {
+    "type": "generated-index",
+    "description": "Platform-related Operations"
+  }
+}
