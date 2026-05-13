@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ### 操作概述
 
-获取Apache2服务运行状态
+查看apache2服务状态
 
 ### 命令参数
 
@@ -15,11 +15,12 @@ sidebar_position: 1
 ### 使用示例
 
 ```bash
-TODO: 添加使用示例
+acli service asv apache2 status
 ```
 
 ### 结果示例
-
 ```bash
-TODO: 添加结果示例
+acli service asv apache2 status
+
+Apache2 is running (pid 4179626).
 ```

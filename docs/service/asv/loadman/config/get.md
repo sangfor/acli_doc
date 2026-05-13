@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ### 操作概述
 
-获取loadman过载保护配置
+获取loadman服务配置
 
 ### 命令参数
 

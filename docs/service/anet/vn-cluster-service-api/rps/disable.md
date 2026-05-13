@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ### 操作概述
 
-启用主机负载均衡RPS
+禁用主机负载均衡RPS
 
 ### 命令参数
 

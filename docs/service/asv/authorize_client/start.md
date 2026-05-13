@@ -15,11 +15,12 @@ sidebar_position: 1
 ### 使用示例
 
 ```bash
-TODO: 添加使用示例
+acli service asv authorize_client start
 ```
 
 ### 结果示例
-
 ```bash
-TODO: 添加结果示例
+acli service asv authorize_client start
+
+Physical cores < 16: 8checking before start: getcmdpid return 0, get pids: 4105396 4105399:checking before start: getcmdpid2 return 0, get pids: 4105399:[is_supervisor_running] supervisor exits.:Already runing: authorize_client ... (warning).
 ```

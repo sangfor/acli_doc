@@ -15,11 +15,15 @@ sidebar_position: 1
 ### 使用示例
 
 ```bash
-TODO: 添加使用示例
+acli service asv mysql restart
 ```
 
 ### 结果示例
-
 ```bash
-TODO: 添加结果示例
+acli service asv mysql restart
+
+Shutting down MySQL (Percona Server)..............
+Starting MySQL (Percona Cluster).....
+{"data": null, "success": 1}
+{"data": null, "success": 1}
 ```

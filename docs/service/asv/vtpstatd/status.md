@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ### 操作概述
 
-获取vtpstatd服务状态
+查看vtpstatd服务状态
 
 ### 命令参数
 

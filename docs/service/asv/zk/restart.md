@@ -15,11 +15,14 @@ sidebar_position: 1
 ### 使用示例
 
 ```bash
-TODO: 添加使用示例
+acli service asv zk restart
 ```
 
 ### 结果示例
-
 ```bash
-TODO: 添加结果示例
+acli service asv zk restart
+
+Stopping zookeeper ... STOPPED
+Starting zookeeper ... STARTED
+null
 ```

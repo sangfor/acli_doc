@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ### 操作概述
 
-启动主控节点的mysql服务
+启动mysql-managerd服务
 
 ### 命令参数
 

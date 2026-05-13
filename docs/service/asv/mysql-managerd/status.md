@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ### 操作概述
 
-查看主控节点mysql服务的状态
+查看mysql-managerd服务状态
 
 ### 命令参数
 

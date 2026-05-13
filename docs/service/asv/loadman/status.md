@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ### 操作概述
 
-获取loadman服务运行状态
+查询loadman服务状态
 
 ### 命令参数
 

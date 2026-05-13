@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ### 操作概述
 
-停止Apache2服务
+停止apache2服务
 
 ### 命令参数
 
@@ -15,11 +15,12 @@ sidebar_position: 1
 ### 使用示例
 
 ```bash
-TODO: 添加使用示例
+acli service asv apache2 stop
 ```
 
 ### 结果示例
-
 ```bash
-TODO: 添加结果示例
+acli service asv apache2 stop
+
+Stopping web server: apache2 ... waiting ..........
 ```

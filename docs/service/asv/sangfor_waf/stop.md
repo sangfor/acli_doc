@@ -15,11 +15,12 @@ sidebar_position: 1
 ### 使用示例
 
 ```bash
-TODO: 添加使用示例
+acli service asv sangfor_waf stop
 ```
 
 ### 结果示例
-
 ```bash
-TODO: 添加结果示例
+acli service asv sangfor_waf stop
+
+Stoping sangfor_waf: :checking stop status: getcmdpid return 1, get pids: :  OK!.
 ```

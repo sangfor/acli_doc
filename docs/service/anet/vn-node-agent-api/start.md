@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ### 操作概述
 
-启动vn-manager-service-api服务
+启动vn-node-agent-api服务
 
 ### 命令参数
 
