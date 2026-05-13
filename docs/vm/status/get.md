@@ -23,8 +23,15 @@ acli vm status get -v 1072335336316
 ### 结果示例
 
 ```bash
-power: 1
-status: 0
-updated_at: 07:16:21
-vmid: 1072335336316
+clockSkew: 0
+errorState: NoError 
+lastRunHostID:
+operatorName: 
+powerState: Off 
+runningHosts: 
+startedAt:
+taskState: Idle 
+terminatedAt: 
+vmID: 2594568509217 
+vmStatus: Stopped
 ```
