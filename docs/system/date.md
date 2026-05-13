@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ### 操作概述
 
-date命令
+date命令，获取当前系统时间
 
 ### 命令参数
 

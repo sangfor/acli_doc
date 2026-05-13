@@ -4,21 +4,20 @@ sidebar_position: 1
 
 # sensors
 
-### 操作概述
+### Overview
 
-sensors命令，用于查看传感器收集的信息
+sensors command, used to view information collected by sensors
 
-### 命令参数
+### Command Parameters
 
-无参数
-
-### 使用示例
+No parameters
+### Usage Example
 
 ```bash
 acli system sensors
 ```
 
-### 结果示例
+### Output Example
 
 ```bash
 coretemp-isa-0000

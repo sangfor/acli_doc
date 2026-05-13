@@ -4,21 +4,20 @@ sidebar_position: 1
 
 # pidstat
 
-### 操作概述
+### Overview
 
-pidstat命令，用于查看系统进程资源
+pidstat command, used to view system process resources
 
-### 命令参数
+### Command Parameters
 
-无参数
-
-### 使用示例
+No parameters
+### Usage Example
 
 ```bash
 acli system pidstat
 ```
 
-### 结果示例
+### Output Example
 
 ```bash
 Linux 4.18.0-6.10.0_R2 (host-005056893c9d)      08/27/2025      _x86_64_        (8 CPU)
