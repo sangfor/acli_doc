@@ -1,0 +1,8 @@
+{
+  "label": "disk",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Disk-related Operations"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "label": "host",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Display FC-related device information"
+  }
+}
