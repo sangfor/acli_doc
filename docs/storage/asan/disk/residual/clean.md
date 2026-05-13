@@ -11,7 +11,7 @@ sidebar_position: 1
 ### 命令参数
 
 ```bash
--p|--path=string                   必要参数，块设备路径，示例：/dev/sdc
+-p|--path=string    必要参数，块设备路径，示例：/dev/sdc
 ```
 
 ### 使用示例
