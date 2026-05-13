@@ -1,0 +1,8 @@
+{
+  "label": "aio",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Virtual Machine Disk Asynchronous I/O Operations"
+  }
+}

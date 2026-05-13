@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ### 操作概述
 
-int3虚拟机内存
+int3的方式dump虚拟机内存
 
 ### 命令参数
 

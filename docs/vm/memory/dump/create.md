@@ -19,11 +19,13 @@ sidebar_position: 1
 ### 使用示例
 
 ```bash
-TODO: 添加使用示例
+acli vm memory dump create -v 1055878891514 -p /sf/data/local
 ```
 
 ### 结果示例
 
 ```bash
-TODO: 添加结果示例
+acli vm memory dump create -v 1055878891514 -p /sf/data/local
+您确定要执行这个操作? (y[es]/n[o]): y
+dump虚拟机内存成功!
 ```

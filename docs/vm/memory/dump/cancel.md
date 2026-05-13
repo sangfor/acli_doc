@@ -15,11 +15,12 @@ sidebar_position: 1
 ### 使用示例
 
 ```bash
-TODO: 添加使用示例
+acli vm memory dump cancel
 ```
 
 ### 结果示例
 
 ```bash
-TODO: 添加结果示例
+acli vm memory dump cancel
+取消dump虚拟机内存任务成功！
 ```

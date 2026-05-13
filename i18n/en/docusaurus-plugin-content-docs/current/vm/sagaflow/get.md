@@ -4,20 +4,19 @@ sidebar_position: 1
 
 # get
 
-### 操作概述
+### Overview
 
-查询sagaflow信息
+Query sagaflow information
 
-### 命令参数
-
+### Command Parameters
 ```bash
--g|--gid=string      指定sagaflow的GID，示例：7832ac58-41ea-4f2f-8423-0255a927998e
--t|--trace=string    通过trace_id搜索sagaflow，示例：9afef2c16aaeb46047b51d09843e8cce
--c|--children        输出所有的子sagaflow
+-g|--gid=string             Specify the GID of sagaflow, example: 7832ac58-41ea-4f2f-8423-0255a927998e
+-t|--trace=string           Search sagaflow by trace_id, for example: 9afef2c16aaeb46047b51d09843e8cce
+-c|--children=flag          Output all sub-sagaflows
 
 ```
 
-### 使用示例
+### Usage Example
 
 ```bash
 acli vm sagaflow get -g 7832ac58-41ea-4f2f-8423-0255a927998e -c
@@ -26,7 +25,7 @@ acli vm sagaflow get -t 9afef2c16aaeb46047b51d09843e8cce -c
 acli vm sagaflow get -t 9afef2c16aaeb46047b51d09843e8cce
 ```
 
-### 结果示例
+### Output Example
 
 ```bash
 
