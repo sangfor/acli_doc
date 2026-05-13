@@ -1,0 +1,71 @@
+---
+sidebar_position: 1
+---
+
+# list
+
+### Overview
+
+View node interface list
+
+### Command Parameters
+
+No parameters
+
+### Usage Example
+
+```bash
+acli network nic list
+```
+
+### Output Example
+
+```bash
+eth2.200
+   addresses:
+      ip:
+      netmask:
+      aliasRole:
+   roles:
+   enabled: true
+   iface_mode:
+   link_status: 0
+   driver:
+   name: eth2.200
+   gateway:
+   mac:
+   link:
+      supportedModes: 9, 2, 0
+      autoNegotiation: true
+      mode: 0
+   members:
+   custom_name:
+   mtu: 1500
+   type: Vlan
+   id: eth2.200
+   description:
+
+channel1
+   addresses:
+      ip:
+      netmask:
+      aliasRole:
+   roles:
+   enabled: true
+   iface_mode: kernel
+   link_status: 0
+   driver:
+   name: channel1
+   gateway:
+   mac: fe:fb:fe:25:39:b5
+   link:
+      supportedModes: 9, 2, 0
+      autoNegotiation: true
+      mode: 0
+   members: eth3, eth4
+   custom_name:
+   mtu: 1500
+   type: Bond
+   id: channel1
+   description:
+```

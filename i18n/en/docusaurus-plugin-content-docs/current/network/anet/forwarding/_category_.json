@@ -1,0 +1,8 @@
+{
+  "label": "forwarding",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Data plane forwarding core operations"
+  }
+}

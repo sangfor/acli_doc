@@ -1,0 +1,8 @@
+{
+  "label": "nat",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Operations related to NAT table configuration on the network data plane"
+  }
+}

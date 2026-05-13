@@ -1,0 +1,8 @@
+{
+  "label": "network",
+  "position": 90,
+  "link": {
+    "type": "generated-index",
+    "description": "Network operations"
+  }
+}

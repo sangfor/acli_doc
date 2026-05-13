@@ -1,0 +1,8 @@
+{
+  "label": "irqcpu",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Operation Overview: CPU Interrupt Core Information"
+  }
+}
