@@ -11,23 +11,23 @@ sidebar_position: 1
 ### 命令参数
 
 ```bash
--v|--vm-id=string    必要参数，虚拟机id，示例：2848367193475
+-v|--vm-id=string    必要参数，虚拟机id，示例：1268314679221
 ```
 
 ### 使用示例
 
 ```bash
-acli vm lock list -v 1072335336316
+acli vm lock list -v 1268314679221
 ```
 
 ### 结果示例
 
 ```bash
-# 获得下列目录下以vm-id开头的文件和目录
-# "/var/lock/flag_dir/"
-# "/cfs/vm_tmp_status/flag_dir/"
-# "/cfs/priv/lock/"
-1072335336316_vm
-1072335336316_p
-1072335336316_lock_file
+[0]:
+  filePath: /cfs/vm_tmp_status/flag_dir/2987661685263.saga.lock
+  lockKey: 2987661685263.saga.lock
+  lockPath:
+  runID:
+  sagaStatus:
+  vmid: 1268314679221
 ```
