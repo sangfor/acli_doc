@@ -1,0 +1,8 @@
+{
+  "label": "branch",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Sagaflow branch related commands"
+  }
+}
