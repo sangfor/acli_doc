@@ -1,0 +1,8 @@
+{
+  "label": "rollback",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Sagaflow workflow rollback related commands"
+  }
+}

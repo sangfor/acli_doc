@@ -1030,5 +1030,29 @@
   "sidebar.tutorialSidebar.category.monitor.link.generated-index.description": {
     "message": "性能工具插件监控相关命令，日志存放路径/sf/data/local/performance_tools/performance_data/",
     "description": "The generated-index page description for category monitor in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.branch": {
+    "message": "branch",
+    "description": "The label for category branch in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.branch.link.generated-index.description": {
+    "message": "Sagaflow branch related commands",
+    "description": "The generated-index page description for category branch in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.rollback": {
+    "message": "rollback",
+    "description": "The label for category rollback in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.rollback.link.generated-index.description": {
+    "message": "Sagaflow rollback related commands",
+    "description": "The generated-index page description for category rollback in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.workflow": {
+    "message": "workflow",
+    "description": "The label for category workflow in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.workflow.link.generated-index.description": {
+    "message": "Sagaflow workflow related commands",
+    "description": "The generated-index page description for category workflow in sidebar tutorialSidebar"
   }
 }
