@@ -8,7 +8,7 @@
     "description": "The label for category acli in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.acli.link.generated-index.description": {
-    "message": "acli工具相关命令",
+    "message": "acli Tool Commands",
     "description": "The generated-index page description for category acli in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.command": {
@@ -16,7 +16,7 @@
     "description": "The label for category command in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.command.link.generated-index.description": {
-    "message": "获取命令信息的操作",
+    "message": "Operations for obtaining command information",
     "description": "The generated-index page description for category command in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.log": {
@@ -28,7 +28,7 @@
     "description": "The label for category alert in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.alert.link.generated-index.description": {
-    "message": "告警相关操作",
+    "message": "Alarm Operations",
     "description": "The generated-index page description for category alert in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.task": {
@@ -36,11 +36,11 @@
     "description": "The label for category task in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.task.link.generated-index.description": {
-    "message": "任务相关操作",
+    "message": "Task-related Operations",
     "description": "The generated-index page description for category task in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.log.link.generated-index.description": {
-    "message": "深信服HCI日志相关acli命令",
+    "message": "Sangfor HCI Log-Related acli Commands",
     "description": "The generated-index page description for category log in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.cgroup": {
@@ -52,7 +52,7 @@
     "description": "The label for category service in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.service.link.generated-index.description": {
-    "message": "系统服务相关操作",
+    "message": "System Service Operations",
     "description": "The generated-index page description for category service in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.anet": {
@@ -60,7 +60,7 @@
     "description": "The label for category anet in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.anet.link.generated-index.description": {
-    "message": "虚拟网络相关操作",
+    "message": "Operations related to virtual networks",
     "description": "The generated-index page description for category anet in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.vn-cluster-service-api": {
@@ -68,7 +68,7 @@
     "description": "The label for category vn-cluster-service-api in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.vn-cluster-service-api.link.generated-index.description": {
-    "message": "vn-cluster-service-api服务相关操作",
+    "message": "vn-cluster-service-api Service Operations",
     "description": "The generated-index page description for category vn-cluster-service-api in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.rps": {
@@ -76,7 +76,7 @@
     "description": "The label for category rps in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.rps.link.generated-index.description": {
-    "message": "负载均衡RPS相关命令",
+    "message": "RPS commands",
     "description": "The generated-index page description for category rps in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.vn-manager-service-api": {
@@ -84,7 +84,7 @@
     "description": "The label for category vn-manager-service-api in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.vn-manager-service-api.link.generated-index.description": {
-    "message": "vn-manager-service-api服务相关操作",
+    "message": "vn-manager-service-api Service Operations",
     "description": "The generated-index page description for category vn-manager-service-api in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.vn-node-agent-api": {
@@ -92,7 +92,7 @@
     "description": "The label for category vn-node-agent-api in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.vn-node-agent-api.link.generated-index.description": {
-    "message": "vn-node-agent-api服务相关操作",
+    "message": "Operations Related to vn-node-agent-api Service",
     "description": "The generated-index page description for category vn-node-agent-api in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.asv": {
@@ -100,7 +100,7 @@
     "description": "The label for category asv in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.asv.link.generated-index.description": {
-    "message": "asv服务相关操作",
+    "message": "ASV Service Operations",
     "description": "The generated-index page description for category asv in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.apache2": {
@@ -108,7 +108,7 @@
     "description": "The label for category apache2 in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.apache2.link.generated-index.description": {
-    "message": "apache2服务相关操作",
+    "message": "Apache2 Service Operations",
     "description": "The generated-index page description for category apache2 in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.authorize_client": {
@@ -116,7 +116,7 @@
     "description": "The label for category authorize_client in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.authorize_client.link.generated-index.description": {
-    "message": "authorize_client相关操作",
+    "message": "authorize_client Related Operations",
     "description": "The generated-index page description for category authorize_client in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.authorize_server": {
@@ -124,7 +124,7 @@
     "description": "The label for category authorize_server in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.authorize_server.link.generated-index.description": {
-    "message": "authorize_server相关操作",
+    "message": "authorize_server Related Operations",
     "description": "The generated-index page description for category authorize_server in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.corosync": {
@@ -132,7 +132,7 @@
     "description": "The label for category corosync in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.corosync.link.generated-index.description": {
-    "message": "corosync相关操作",
+    "message": "Corosync Operations",
     "description": "The generated-index page description for category corosync in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.exporter": {
@@ -140,7 +140,7 @@
     "description": "The label for category exporter in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.exporter.link.generated-index.description": {
-    "message": "exporter服务相关操作",
+    "message": "Exporter Service Operations",
     "description": "The generated-index page description for category exporter in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.loadman": {
@@ -148,7 +148,7 @@
     "description": "The label for category loadman in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.loadman.link.generated-index.description": {
-    "message": "loadman服务相关操作",
+    "message": "loadman Service Operations",
     "description": "The generated-index page description for category loadman in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.config": {
@@ -160,7 +160,7 @@
     "description": "The label for category maintenance in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.maintenance.link.generated-index.description": {
-    "message": "loadman服务维护相关操作",
+    "message": "loadman Service Maintenance Operations",
     "description": "The generated-index page description for category maintenance in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.mgmt-node-agent-api": {
@@ -168,7 +168,7 @@
     "description": "The label for category mgmt-node-agent-api in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.mgmt-node-agent-api.link.generated-index.description": {
-    "message": "mgmt-node-agent-api服务相关命令",
+    "message": "mgmt-node-agent-api service related commands",
     "description": "The generated-index page description for category mgmt-node-agent-api in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.mgmt-node-agent-periodic": {
@@ -176,7 +176,7 @@
     "description": "The label for category mgmt-node-agent-periodic in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.mgmt-node-agent-periodic.link.generated-index.description": {
-    "message": "mgmt-node-agent-periodic服务相关命令",
+    "message": "mgmt-node-agent-api service related commands",
     "description": "The generated-index page description for category mgmt-node-agent-periodic in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.mysql": {
@@ -188,7 +188,7 @@
     "description": "The label for category mysql-managerd in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.mysql-managerd.link.generated-index.description": {
-    "message": "mysql-managerd服务相关操作",
+    "message": "mysql-managerd Service Operations",
     "description": "The generated-index page description for category mysql-managerd in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.perl-services": {
@@ -196,7 +196,7 @@
     "description": "The label for category perl-services in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.perl-services.link.generated-index.description": {
-    "message": "perl-services相关操作",
+    "message": "Perl-Services Related Operations",
     "description": "The generated-index page description for category perl-services in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.pmxcfs": {
@@ -204,7 +204,7 @@
     "description": "The label for category pmxcfs in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.pmxcfs.link.generated-index.description": {
-    "message": "pmxcfs相关操作",
+    "message": "pmxcfs Related Operations",
     "description": "The generated-index page description for category pmxcfs in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.redis": {
@@ -216,7 +216,7 @@
     "description": "The label for category rrdcached in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.rrdcached.link.generated-index.description": {
-    "message": "rrdcached相关操作",
+    "message": "rrdcached-related operations",
     "description": "The generated-index page description for category rrdcached in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.rsyncd": {
@@ -224,7 +224,7 @@
     "description": "The label for category rsyncd in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.rsyncd.link.generated-index.description": {
-    "message": "rsyncd服务相关操作",
+    "message": "rsyncd Service Operations",
     "description": "The generated-index page description for category rsyncd in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.sangfor_waf": {
@@ -232,7 +232,7 @@
     "description": "The label for category sangfor_waf in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.sangfor_waf.link.generated-index.description": {
-    "message": "sangfor_waf服务相关操作",
+    "message": "Sangfor WAF Service Operations",
     "description": "The generated-index page description for category sangfor_waf in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.vtpalertd": {
@@ -240,7 +240,7 @@
     "description": "The label for category vtpalertd in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.vtpalertd.link.generated-index.description": {
-    "message": "vtpalertd服务相关操作",
+    "message": "vtpalertd Service Operations",
     "description": "The generated-index page description for category vtpalertd in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.vtpcron": {
@@ -248,7 +248,7 @@
     "description": "The label for category vtpcron in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.vtpcron.link.generated-index.description": {
-    "message": "vtpcron服务相关操作",
+    "message": "vtpcron Service Operations",
     "description": "The generated-index page description for category vtpcron in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.vtpdaemon": {
@@ -256,7 +256,7 @@
     "description": "The label for category vtpdaemon in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.vtpdaemon.link.generated-index.description": {
-    "message": "vtpdaemon服务相关操作",
+    "message": "VTP Daemon Service Operations",
     "description": "The generated-index page description for category vtpdaemon in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.opqueue": {
@@ -264,7 +264,7 @@
     "description": "The label for category opqueue in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.opqueue.link.generated-index.description": {
-    "message": "操作队列相关命令",
+    "message": "Queue operation commands",
     "description": "The generated-index page description for category opqueue in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.vtplogd": {
@@ -272,7 +272,7 @@
     "description": "The label for category vtplogd in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.vtplogd.link.generated-index.description": {
-    "message": "vtplogd服务相关操作",
+    "message": "vtplogd Service Operations",
     "description": "The generated-index page description for category vtplogd in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.vtpperlproxy": {
@@ -280,7 +280,7 @@
     "description": "The label for category vtpperlproxy in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.vtpperlproxy.link.generated-index.description": {
-    "message": "vtpperlproxy服务相关操作",
+    "message": "vtpperlproxy Service Operations",
     "description": "The generated-index page description for category vtpperlproxy in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.vtpstatd": {
@@ -288,7 +288,7 @@
     "description": "The label for category vtpstatd in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.vtpstatd.link.generated-index.description": {
-    "message": "vtpstatd服务相关操作",
+    "message": "vtpstatd Service Operations",
     "description": "The generated-index page description for category vtpstatd in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.zk": {
@@ -296,7 +296,7 @@
     "description": "The label for category zk in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.zk.link.generated-index.description": {
-    "message": "zk服务相关操作",
+    "message": "ZooKeeper Service Operations",
     "description": "The generated-index page description for category zk in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.host": {
@@ -308,7 +308,7 @@
     "description": "The label for category hostd in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.hostd.link.generated-index.description": {
-    "message": "hostd服务相关操作",
+    "message": "hostd Service Operations",
     "description": "The generated-index page description for category hostd in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.lsud": {
@@ -316,7 +316,7 @@
     "description": "The label for category lsud in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.lsud.link.generated-index.description": {
-    "message": "lsud服务相关操作",
+    "message": "lsud Service Operations",
     "description": "The generated-index page description for category lsud in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.vm": {
@@ -324,7 +324,7 @@
     "description": "The label for category vm in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.vm.link.generated-index.description": {
-    "message": "虚拟机相关操作",
+    "message": "Virtual Machine Operations",
     "description": "The generated-index page description for category vm in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.disk": {
@@ -332,7 +332,7 @@
     "description": "The label for category disk in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.disk.link.generated-index.description": {
-    "message": "磁盘相关操作",
+    "message": "Disk-related Operations",
     "description": "The generated-index page description for category disk in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.aio": {
@@ -340,7 +340,7 @@
     "description": "The label for category aio in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.aio.link.generated-index.description": {
-    "message": "虚拟机磁盘的异步IO模式相关操作",
+    "message": "Virtual Machine Disk Asynchronous I/O Operations",
     "description": "The generated-index page description for category aio in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.io_uring": {
@@ -348,7 +348,7 @@
     "description": "The label for category io_uring in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.io_uring.link.generated-index.description": {
-    "message": "虚拟机磁盘io_uring相关操作",
+    "message": "Virtual Machine Disk io_uring Operations",
     "description": "The generated-index page description for category io_uring in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.path": {
@@ -356,7 +356,7 @@
     "description": "The label for category path in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.path.link.generated-index.description": {
-    "message": "虚拟机路径相关命令",
+    "message": "Virtual Machine Path Commands",
     "description": "The generated-index page description for category path in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.lock": {
@@ -364,7 +364,7 @@
     "description": "The label for category lock in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.lock.link.generated-index.description": {
-    "message": "虚拟机运行时生成的锁文件的相关操作",
+    "message": "Operations Related to Lock Files Generated During Virtual Machine Runtime",
     "description": "The generated-index page description for category lock in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.memory": {
@@ -376,7 +376,7 @@
     "description": "The label for category dump in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.dump.link.generated-index.description": {
-    "message": "内存dump相关操作",
+    "message": "Memory Dump Operations",
     "description": "The generated-index page description for category dump in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.nic": {
@@ -388,7 +388,7 @@
     "description": "The label for category queuecount in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.queuecount.link.generated-index.description": {
-    "message": "虚拟机网卡队列数相关操作",
+    "message": "Virtual Machine NIC Queue Operations",
     "description": "The generated-index page description for category queuecount in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.sagaflow": {
@@ -396,7 +396,7 @@
     "description": "The label for category sagaflow in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.sagaflow.link.generated-index.description": {
-    "message": "sagaflow流查询操作",
+    "message": "sagaflow Stream Query Operations",
     "description": "The generated-index page description for category sagaflow in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.status": {
@@ -404,7 +404,7 @@
     "description": "The label for category status in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.status.link.generated-index.description": {
-    "message": "虚拟机状态相关命令",
+    "message": "VM status commands",
     "description": "The generated-index page description for category status in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.vnc": {
@@ -412,7 +412,7 @@
     "description": "The label for category vnc in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.vnc.link.generated-index.description": {
-    "message": "虚拟机控制台的相关命令",
+    "message": "VM console commands",
     "description": "The generated-index page description for category vnc in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.all": {
@@ -420,7 +420,7 @@
     "description": "The label for category all in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.all.link.generated-index.description": {
-    "message": "所有虚拟机控制台的相关命令",
+    "message": "Commands related to all VM consoles",
     "description": "The generated-index page description for category all in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.clean": {
@@ -428,7 +428,7 @@
     "description": "The label for category clean in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.clean.link.generated-index.description": {
-    "message": "虚拟机控制台的访问权限的回收命令",
+    "message": "Command for revoking VM console access permissions",
     "description": "The generated-index page description for category clean in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.shareddisk": {
@@ -436,7 +436,7 @@
     "description": "The label for category shareddisk in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.shareddisk.link.generated-index.description": {
-    "message": "共享盘相关操作",
+    "message": "Shared Drive Operations",
     "description": "The generated-index page description for category shareddisk in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.system": {
@@ -444,11 +444,11 @@
     "description": "The label for category system in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.system.link.generated-index.description": {
-    "message": "操作系统相关操作",
+    "message": "Operating System Operations",
     "description": "The generated-index page description for category system in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.cgroup.link.generated-index.description": {
-    "message": "系统cgroup相关操作",
+    "message": "System cgroup operations",
     "description": "The generated-index page description for category cgroup in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.cpu": {
@@ -460,11 +460,11 @@
     "description": "The label for category hosts in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.hosts.link.generated-index.description": {
-    "message": "系统hosts相关操作",
+    "message": "System Hosts File Operations",
     "description": "The generated-index page description for category hosts in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.memory.link.generated-index.description": {
-    "message": "内存相关命令",
+    "message": "Memory-Related Commands",
     "description": "The generated-index page description for category memory in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.ce_count": {
@@ -472,7 +472,7 @@
     "description": "The label for category ce_count in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.ce_count.link.generated-index.description": {
-    "message": "操作概述: 获取内存的ce_count数据",
+    "message": "Operation Overview: Retrieve Memory ce_count Data",
     "description": "The generated-index page description for category ce_count in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.ecc_data": {
@@ -480,7 +480,7 @@
     "description": "The label for category ecc_data in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.ecc_data.link.generated-index.description": {
-    "message": "操作概述: 查看ecc报错内容",
+    "message": "Operation Overview: View ECC Error Details",
     "description": "The generated-index page description for category ecc_data in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.usage": {
@@ -488,7 +488,7 @@
     "description": "The label for category usage in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.usage.link.generated-index.description": {
-    "message": "操作概述: 查看内存使用情况",
+    "message": "Operation Overview: Viewing Memory Usage",
     "description": "The generated-index page description for category usage in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.mounts": {
@@ -496,7 +496,7 @@
     "description": "The label for category mounts in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.mounts.link.generated-index.description": {
-    "message": "mounts相关操作",
+    "message": "Mount-related Operations",
     "description": "The generated-index page description for category mounts in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.proc": {
@@ -504,7 +504,7 @@
     "description": "The label for category proc in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.proc.link.generated-index.description": {
-    "message": "系统proc空间相关操作",
+    "message": "System /proc Space Operations",
     "description": "The generated-index page description for category proc in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.stack": {
@@ -512,7 +512,7 @@
     "description": "The label for category stack in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.stack.link.generated-index.description": {
-    "message": "系统stack相关操作",
+    "message": "System Stack Operations",
     "description": "The generated-index page description for category stack in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.smartpqi": {
@@ -520,7 +520,7 @@
     "description": "The label for category smartpqi in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.smartpqi.link.generated-index.description": {
-    "message": "系统smartpqi相关命令",
+    "message": "SmartPQI System Commands",
     "description": "The generated-index page description for category smartpqi in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.version": {
@@ -528,7 +528,7 @@
     "description": "The label for category version in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.version.link.generated-index.description": {
-    "message": "系统smartpqi版本相关命令",
+    "message": "System SmartPQI Version-Related Commands",
     "description": "The generated-index page description for category version in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.network": {
@@ -536,7 +536,7 @@
     "description": "The label for category network in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.network.link.generated-index.description": {
-    "message": "网络相关操作",
+    "message": "Network operations",
     "description": "The generated-index page description for category network in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.configchannel": {
@@ -544,7 +544,7 @@
     "description": "The label for category configchannel in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.configchannel.link.generated-index.description": {
-    "message": "网络配置通道检测模块相关操作",
+    "message": "Operations related to network configuration channel detection module",
     "description": "The generated-index page description for category configchannel in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.serviceinfo": {
@@ -552,7 +552,7 @@
     "description": "The label for category serviceinfo in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.serviceinfo.link.generated-index.description": {
-    "message": "网络配置通道服务状态信息",
+    "message": "Network configuration channel service status information",
     "description": "The generated-index page description for category serviceinfo in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.mac": {
@@ -560,7 +560,7 @@
     "description": "The label for category mac in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.mac.link.generated-index.description": {
-    "message": "网络数据面mac表配置相关操作",
+    "message": "Operations related to the configuration of MAC tables on the network data plane",
     "description": "The generated-index page description for category mac in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.nat": {
@@ -568,7 +568,7 @@
     "description": "The label for category nat in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.nat.link.generated-index.description": {
-    "message": "网络数据面nat表配置相关操作",
+    "message": "Operations related to NAT table configuration on the network data plane",
     "description": "The generated-index page description for category nat in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.forwarding": {
@@ -576,7 +576,7 @@
     "description": "The label for category forwarding in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.forwarding.link.generated-index.description": {
-    "message": "网络数据面转发核相关操作",
+    "message": "Data plane forwarding core operations",
     "description": "The generated-index page description for category forwarding in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.mirror": {
@@ -584,7 +584,7 @@
     "description": "The label for category mirror in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.mirror.link.generated-index.description": {
-    "message": "流量镜像相关操作",
+    "message": "Traffic mirroring policy operations",
     "description": "The generated-index page description for category mirror in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.session": {
@@ -592,7 +592,7 @@
     "description": "The label for category session in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.session.link.generated-index.description": {
-    "message": "网络数据面session相关操作",
+    "message": "Network data plane session-related operations",
     "description": "The generated-index page description for category session in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.vrouter": {
@@ -600,7 +600,7 @@
     "description": "The label for category vrouter in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.vrouter.link.generated-index.description": {
-    "message": "虚拟路由器相关操作",
+    "message": "Virtual router operations",
     "description": "The generated-index page description for category vrouter in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.vrrp": {
@@ -608,7 +608,7 @@
     "description": "The label for category vrrp in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.vrrp.link.generated-index.description": {
-    "message": "网络数据面vrrp相关操作",
+    "message": "Operations related to VRRP on the network data plane",
     "description": "The generated-index page description for category vrrp in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.bond": {
@@ -616,7 +616,7 @@
     "description": "The label for category bond in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.bond.link.generated-index.description": {
-    "message": "聚合口相关操作",
+    "message": "Port Aggregation Operations",
     "description": "The generated-index page description for category bond in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.arp_interval": {
@@ -624,7 +624,7 @@
     "description": "The label for category arp_interval in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.arp_interval.link.generated-index.description": {
-    "message": "arp探测相关功能",
+    "message": "ARP Detection Related Functions",
     "description": "The generated-index page description for category arp_interval in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.mode": {
@@ -632,7 +632,7 @@
     "description": "The label for category mode in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.mode.link.generated-index.description": {
-    "message": "聚合口模式相关命令",
+    "message": "Link Aggregation Port Mode Commands",
     "description": "The generated-index page description for category mode in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.mgmt": {
@@ -640,11 +640,11 @@
     "description": "The label for category mgmt in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.mgmt.link.generated-index.description": {
-    "message": "管理口相关操作",
+    "message": "Management Port Operations",
     "description": "The generated-index page description for category mgmt in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.nic.link.generated-index.description": {
-    "message": "网卡相关操作",
+    "message": "Network Interface Operations",
     "description": "The generated-index page description for category nic in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.irqcpu": {
@@ -652,7 +652,7 @@
     "description": "The label for category irqcpu in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.irqcpu.link.generated-index.description": {
-    "message": "操作概述: cpu中断核相关信息",
+    "message": "Operation Overview: CPU Interrupt Core Information",
     "description": "The generated-index page description for category irqcpu in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.lldp": {
@@ -660,7 +660,7 @@
     "description": "The label for category lldp in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.lldp.link.generated-index.description": {
-    "message": "网口lldp相关操作",
+    "message": "Interface LLDP operations",
     "description": "The generated-index page description for category lldp in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.mtu": {
@@ -668,7 +668,7 @@
     "description": "The label for category mtu in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.mtu.link.generated-index.description": {
-    "message": "网口mtu相关操作",
+    "message": "Interface MTU operations",
     "description": "The generated-index page description for category mtu in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.queue": {
@@ -676,7 +676,7 @@
     "description": "The label for category queue in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.queue.link.generated-index.description": {
-    "message": "网口队列相关操作",
+    "message": "Interface queue operations",
     "description": "The generated-index page description for category queue in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.rdma": {
@@ -684,7 +684,7 @@
     "description": "The label for category rdma in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.rdma.link.generated-index.description": {
-    "message": "网卡rdma相关操作",
+    "message": "Network Card RDMA-Related Operations",
     "description": "The generated-index page description for category rdma in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.ring": {
@@ -692,7 +692,7 @@
     "description": "The label for category ring in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.ring.link.generated-index.description": {
-    "message": "网口环形缓冲区相关操作",
+    "message": "Interface ring buffer operations",
     "description": "The generated-index page description for category ring in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.port": {
@@ -700,7 +700,7 @@
     "description": "The label for category port in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.port.link.generated-index.description": {
-    "message": "端口port相关操作",
+    "message": "Port-related Operations",
     "description": "The generated-index page description for category port in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.vlink": {
@@ -708,7 +708,7 @@
     "description": "The label for category vlink in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.vlink.link.generated-index.description": {
-    "message": "虚拟机vlink相关操作",
+    "message": "Virtual Machine vlink Operations",
     "description": "The generated-index page description for category vlink in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.vxlan": {
@@ -716,7 +716,7 @@
     "description": "The label for category vxlan in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.vxlan.link.generated-index.description": {
-    "message": "集群VXLAN相关操作",
+    "message": "Cluster VXLAN Operations",
     "description": "The generated-index page description for category vxlan in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.storage": {
@@ -724,7 +724,7 @@
     "description": "The label for category storage in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.storage.link.generated-index.description": {
-    "message": "存储相关操作",
+    "message": "Storage-related operations",
     "description": "The generated-index page description for category storage in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.asan": {
@@ -732,7 +732,7 @@
     "description": "The label for category asan in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.asan.link.generated-index.description": {
-    "message": "asan存储相关操作",
+    "message": "ASAN Storage-Related Operations",
     "description": "The generated-index page description for category asan in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.brick": {
@@ -740,7 +740,7 @@
     "description": "The label for category brick in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.brick.link.generated-index.description": {
-    "message": "brick相关操作",
+    "message": "Brick-related Operations",
     "description": "The generated-index page description for category brick in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.residual": {
@@ -748,7 +748,7 @@
     "description": "The label for category residual in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.residual.link.generated-index.description": {
-    "message": "磁盘残留相关操作",
+    "message": "Disk Residual Operations",
     "description": "The generated-index page description for category residual in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.volume": {
@@ -756,7 +756,7 @@
     "description": "The label for category volume in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.volume.link.generated-index.description": {
-    "message": "卷相关操作",
+    "message": "Volume Operations",
     "description": "The generated-index page description for category volume in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.fc": {
@@ -764,11 +764,11 @@
     "description": "The label for category fc in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.fc.link.generated-index.description": {
-    "message": "fc存储列表相关操作",
+    "message": "FC Storage List Related Operations",
     "description": "The generated-index page description for category fc in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.host.link.generated-index.description": {
-    "message": "展示fc相关设备信息",
+    "message": "Display FC-related device information",
     "description": "The generated-index page description for category host in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.statistics": {
@@ -776,7 +776,7 @@
     "description": "The label for category statistics in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.statistics.link.generated-index.description": {
-    "message": "FC HBA 卡统计信息的相关命令",
+    "message": "FC HBA Card Statistics Commands",
     "description": "The generated-index page description for category statistics in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.other": {
@@ -784,7 +784,7 @@
     "description": "The label for category other in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.other.link.generated-index.description": {
-    "message": "其他存储相关操作",
+    "message": "Other Storage Operations",
     "description": "The generated-index page description for category other in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.platform": {
@@ -792,7 +792,7 @@
     "description": "The label for category platform in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.platform.link.generated-index.description": {
-    "message": "基础平台相关操作",
+    "message": "Platform-related Operations",
     "description": "The generated-index page description for category platform in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.backup": {
@@ -800,7 +800,7 @@
     "description": "The label for category backup in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.backup.link.generated-index.description": {
-    "message": "备份相关命令",
+    "message": "backup related commands",
     "description": "The generated-index page description for category backup in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.bcfg": {
@@ -808,7 +808,7 @@
     "description": "The label for category bcfg in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.bcfg.link.generated-index.description": {
-    "message": "备份点配置文件相关命令",
+    "message": "Backup point configuration file related commands",
     "description": "The generated-index page description for category bcfg in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.cbt": {
@@ -816,7 +816,7 @@
     "description": "The label for category cbt in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.cbt.link.generated-index.description": {
-    "message": "CBT相关命令",
+    "message": "Commands related to CBT",
     "description": "The generated-index page description for category cbt in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.file": {
@@ -828,7 +828,7 @@
     "description": "The label for category cbtinfo in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.cbtinfo.link.generated-index.description": {
-    "message": "CBT文件信息相关命令",
+    "message": "Commands related to CBT file information",
     "description": "The generated-index page description for category cbtinfo in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.datamover": {
@@ -836,7 +836,7 @@
     "description": "The label for category datamover in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.datamover.link.generated-index.description": {
-    "message": "datamover相关命令",
+    "message": "datamover related commands",
     "description": "The generated-index page description for category datamover in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.performancedetect": {
@@ -844,7 +844,7 @@
     "description": "The label for category performancedetect in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.performancedetect.link.generated-index.description": {
-    "message": "datamover性能瓶颈探测相关命令",
+    "message": "Commands related to datamover performance bottleneck detection",
     "description": "The generated-index page description for category performancedetect in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.performanceindicator": {
@@ -852,7 +852,7 @@
     "description": "The label for category performanceindicator in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.performanceindicator.link.generated-index.description": {
-    "message": "datamover性能指标相关命令",
+    "message": "Commands related to datamover performance indicators",
     "description": "The generated-index page description for category performanceindicator in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.performancereport": {
@@ -860,7 +860,7 @@
     "description": "The label for category performancereport in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.performancereport.link.generated-index.description": {
-    "message": "datamover性能瓶颈探测报告相关命令",
+    "message": "Commands related to datamover performance bottleneck detection report",
     "description": "The generated-index page description for category performancereport in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.mergedata": {
@@ -868,7 +868,7 @@
     "description": "The label for category mergedata in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.mergedata.link.generated-index.description": {
-    "message": "数据整理任务相关命令",
+    "message": "Data Organization Task Commands",
     "description": "The generated-index page description for category mergedata in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.region": {
@@ -876,7 +876,7 @@
     "description": "The label for category region in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.region.link.generated-index.description": {
-    "message": "区域快照相关命令",
+    "message": "Commands related to regional snapshots",
     "description": "The generated-index page description for category region in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.cfs": {
@@ -884,7 +884,7 @@
     "description": "The label for category cfs in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.cfs.link.generated-index.description": {
-    "message": "平台cfs相关命令",
+    "message": "Platform CFS Commands",
     "description": "The generated-index page description for category cfs in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.info": {
@@ -892,11 +892,11 @@
     "description": "The label for category info in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.info.link.generated-index.description": {
-    "message": "系统信息相关操作",
+    "message": "Platform information operations",
     "description": "The generated-index page description for category info in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.mysql.link.generated-index.description": {
-    "message": "平台mysql相关命令",
+    "message": "Platform MySQL Related Commands",
     "description": "The generated-index page description for category mysql in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.node": {
@@ -904,7 +904,7 @@
     "description": "The label for category node in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.node.link.generated-index.description": {
-    "message": "主机节点相关操作",
+    "message": "Host Node Operations",
     "description": "The generated-index page description for category node in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.cert": {
@@ -912,11 +912,11 @@
     "description": "The label for category cert in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.cert.link.generated-index.description": {
-    "message": "证书相关操作",
+    "message": "Certificate Operations",
     "description": "The generated-index page description for category cert in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.redis.link.generated-index.description": {
-    "message": "平台redis相关命令",
+    "message": "Platform Redis Commands",
     "description": "The generated-index page description for category redis in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.snapshot": {
@@ -924,7 +924,7 @@
     "description": "The label for category snapshot in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.snapshot.link.generated-index.description": {
-    "message": "快照相关命令",
+    "message": "Snapshot related commands",
     "description": "The generated-index page description for category snapshot in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.zookeeper": {
@@ -932,7 +932,7 @@
     "description": "The label for category zookeeper in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.zookeeper.link.generated-index.description": {
-    "message": "平台zookeeper相关命令",
+    "message": "Platform Zookeeper Commands",
     "description": "The generated-index page description for category zookeeper in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.plugin": {
@@ -948,11 +948,11 @@
     "description": "The label for category hardware in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.hardware.link.generated-index.description": {
-    "message": "硬件相关操作",
+    "message": "Hardware-related Operations",
     "description": "The generated-index page description for category hardware in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.cpu.link.generated-index.description": {
-    "message": "硬件CPU相关命令",
+    "message": "Hardware CPU Related Commands",
     "description": "The generated-index page description for category cpu in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.microcode": {
@@ -960,11 +960,11 @@
     "description": "The label for category microcode in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.microcode.link.generated-index.description": {
-    "message": "硬件CPU微码相关命令",
+    "message": "Hardware CPU Microcode Commands",
     "description": "The generated-index page description for category microcode in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.file.link.generated-index.description": {
-    "message": "硬件CPU微码文件相关命令",
+    "message": "CPU Microcode File Commands",
     "description": "The generated-index page description for category file in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.gpu": {
@@ -972,7 +972,7 @@
     "description": "The label for category gpu in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.gpu.link.generated-index.description": {
-    "message": "显卡相关操作",
+    "message": "Graphics Card Operations",
     "description": "The generated-index page description for category gpu in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.hostcli": {
@@ -980,15 +980,15 @@
     "description": "The label for category hostcli in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.hostcli.link.generated-index.description": {
-    "message": "主机硬件管理命令",
+    "message": "Host Hardware Management Commands",
     "description": "The generated-index page description for category hostcli in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.插件列表": {
-    "message": "插件列表",
+    "message": "Plugins",
     "description": "The label for category 插件列表 in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.插件列表.link.generated-index.description": {
-    "message": "aCLI插件使用说明",
+    "message": "aCLI Plugin Usage Guide",
     "description": "The generated-index page description for category 插件列表 in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.log_collect": {
@@ -996,7 +996,7 @@
     "description": "The label for category log_collect in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.log_collect.link.generated-index.description": {
-    "message": "日志收集插件相关命令",
+    "message": "Log collection plugin related commands",
     "description": "The generated-index page description for category log_collect in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.performance_tools": {
@@ -1004,7 +1004,7 @@
     "description": "The label for category performance_tools in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.performance_tools.link.generated-index.description": {
-    "message": "性能工具插件相关命令",
+    "message": "Performance tools plugin related commands",
     "description": "The generated-index page description for category performance_tools in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.combined": {
@@ -1012,7 +1012,7 @@
     "description": "The label for category combined in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.combined.link.generated-index.description": {
-    "message": "组合命令，包含性能工具和日志收集插件相关命令",
+    "message": "Combined commands, including performance tools and log collection plugin related commands",
     "description": "The generated-index page description for category combined in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.isolate": {
@@ -1020,7 +1020,7 @@
     "description": "The label for category isolate in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.isolate.link.generated-index.description": {
-    "message": "性能工具隔离核心相关命令",
+    "message": "Performance tools isolate core related commands",
     "description": "The generated-index page description for category isolate in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.monitor": {
@@ -1028,7 +1028,1091 @@
     "description": "The label for category monitor in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.monitor.link.generated-index.description": {
-    "message": "性能工具插件监控相关命令，日志存放路径/sf/data/local/performance_tools/performance_data/",
+    "message": "Performance tools plugin monitor related commands, log storage path /sf/data/local/performance_tools/performance_data/",
     "description": "The generated-index page description for category monitor in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.pending": {
+    "message": "pending",
+    "description": "The label for category pending in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.pending.link.generated-index.description": {
+    "message": "Virtual Machine Suspend Configuration Operations",
+    "description": "The generated-index page description for category pending in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.scheduler": {
+    "message": "scheduler",
+    "description": "The label for category scheduler in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.scheduler.link.generated-index.description": {
+    "message": "Scheduler commands",
+    "description": "The generated-index page description for category scheduler in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.quota": {
+    "message": "quota",
+    "description": "The label for category quota in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.quota.link.generated-index.description": {
+    "message": "Scheduler Quota Operations",
+    "description": "The generated-index page description for category quota in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.service.host": {
+    "message": "host",
+    "description": "The label for category service.host in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.service.host.hostd": {
+    "message": "hostd",
+    "description": "The label for category service.host.hostd in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.service.host.hostd.link.generated-index.description": {
+    "message": "hostd Service Operations",
+    "description": "The generated-index page description for category service.host.hostd in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.service.host.lsud": {
+    "message": "lsud",
+    "description": "The label for category service.host.lsud in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.service.host.lsud.link.generated-index.description": {
+    "message": "lsud Service Operations",
+    "description": "The generated-index page description for category service.host.lsud in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.service.asv": {
+    "message": "asv",
+    "description": "The label for category service.asv in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.service.asv.link.generated-index.description": {
+    "message": "ASV Service Operations",
+    "description": "The generated-index page description for category service.asv in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.service.asv.rsyncd": {
+    "message": "rsyncd",
+    "description": "The label for category service.asv.rsyncd in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.service.asv.rsyncd.link.generated-index.description": {
+    "message": "rsyncd Service Operations",
+    "description": "The generated-index page description for category service.asv.rsyncd in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.service.asv.redis": {
+    "message": "redis",
+    "description": "The label for category service.asv.redis in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.service.asv.vtpalertd": {
+    "message": "vtpalertd",
+    "description": "The label for category service.asv.vtpalertd in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.service.asv.vtpalertd.link.generated-index.description": {
+    "message": "vtpalertd Service Operations",
+    "description": "The generated-index page description for category service.asv.vtpalertd in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.service.asv.mysql-managerd": {
+    "message": "mysql-managerd",
+    "description": "The label for category service.asv.mysql-managerd in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.service.asv.mysql-managerd.link.generated-index.description": {
+    "message": "mysql-managerd Service Operations",
+    "description": "The generated-index page description for category service.asv.mysql-managerd in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.service.asv.vtpcron": {
+    "message": "vtpcron",
+    "description": "The label for category service.asv.vtpcron in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.service.asv.vtpcron.link.generated-index.description": {
+    "message": "vtpcron Service Operations",
+    "description": "The generated-index page description for category service.asv.vtpcron in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.service.asv.mgmt-node-agent-api": {
+    "message": "mgmt-node-agent-api",
+    "description": "The label for category service.asv.mgmt-node-agent-api in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.service.asv.mgmt-node-agent-api.link.generated-index.description": {
+    "message": "mgmt-node-agent-api service related commands",
+    "description": "The generated-index page description for category service.asv.mgmt-node-agent-api in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.service.asv.vtpdaemon": {
+    "message": "vtpdaemon",
+    "description": "The label for category service.asv.vtpdaemon in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.service.asv.vtpdaemon.link.generated-index.description": {
+    "message": "VTP Daemon Service Operations",
+    "description": "The generated-index page description for category service.asv.vtpdaemon in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.service.asv.vtpdaemon.opqueue": {
+    "message": "opqueue",
+    "description": "The label for category service.asv.vtpdaemon.opqueue in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.service.asv.vtpdaemon.opqueue.link.generated-index.description": {
+    "message": "Queue operation commands",
+    "description": "The generated-index page description for category service.asv.vtpdaemon.opqueue in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.service.asv.vtpdaemon.opqueue.config": {
+    "message": "config",
+    "description": "The label for category service.asv.vtpdaemon.opqueue.config in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.service.asv.zk": {
+    "message": "zk",
+    "description": "The label for category service.asv.zk in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.service.asv.zk.link.generated-index.description": {
+    "message": "ZooKeeper Service Operations",
+    "description": "The generated-index page description for category service.asv.zk in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.service.asv.loadman": {
+    "message": "loadman",
+    "description": "The label for category service.asv.loadman in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.service.asv.loadman.link.generated-index.description": {
+    "message": "loadman Service Operations",
+    "description": "The generated-index page description for category service.asv.loadman in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.service.asv.loadman.maintenance": {
+    "message": "maintenance",
+    "description": "The label for category service.asv.loadman.maintenance in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.service.asv.loadman.maintenance.link.generated-index.description": {
+    "message": "loadman Service Maintenance Operations",
+    "description": "The generated-index page description for category service.asv.loadman.maintenance in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.service.asv.loadman.config": {
+    "message": "config",
+    "description": "The label for category service.asv.loadman.config in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.service.asv.vtpperlproxy": {
+    "message": "vtpperlproxy",
+    "description": "The label for category service.asv.vtpperlproxy in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.service.asv.vtpperlproxy.link.generated-index.description": {
+    "message": "vtpperlproxy Service Operations",
+    "description": "The generated-index page description for category service.asv.vtpperlproxy in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.service.asv.mysql": {
+    "message": "mysql",
+    "description": "The label for category service.asv.mysql in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.service.asv.authorize_server": {
+    "message": "authorize_server",
+    "description": "The label for category service.asv.authorize_server in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.service.asv.authorize_server.link.generated-index.description": {
+    "message": "authorize_server Related Operations",
+    "description": "The generated-index page description for category service.asv.authorize_server in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.service.asv.rrdcached": {
+    "message": "rrdcached",
+    "description": "The label for category service.asv.rrdcached in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.service.asv.rrdcached.link.generated-index.description": {
+    "message": "rrdcached-related operations",
+    "description": "The generated-index page description for category service.asv.rrdcached in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.service.asv.vtplogd": {
+    "message": "vtplogd",
+    "description": "The label for category service.asv.vtplogd in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.service.asv.vtplogd.link.generated-index.description": {
+    "message": "vtplogd Service Operations",
+    "description": "The generated-index page description for category service.asv.vtplogd in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.service.asv.authorize_client": {
+    "message": "authorize_client",
+    "description": "The label for category service.asv.authorize_client in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.service.asv.authorize_client.link.generated-index.description": {
+    "message": "authorize_client Related Operations",
+    "description": "The generated-index page description for category service.asv.authorize_client in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.service.asv.vtpstatd": {
+    "message": "vtpstatd",
+    "description": "The label for category service.asv.vtpstatd in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.service.asv.vtpstatd.link.generated-index.description": {
+    "message": "vtpstatd Service Operations",
+    "description": "The generated-index page description for category service.asv.vtpstatd in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.service.asv.mgmt-node-agent-periodic": {
+    "message": "mgmt-node-agent-periodic",
+    "description": "The label for category service.asv.mgmt-node-agent-periodic in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.service.asv.mgmt-node-agent-periodic.link.generated-index.description": {
+    "message": "mgmt-node-agent-api service related commands",
+    "description": "The generated-index page description for category service.asv.mgmt-node-agent-periodic in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.service.asv.perl-services": {
+    "message": "perl-services",
+    "description": "The label for category service.asv.perl-services in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.service.asv.perl-services.link.generated-index.description": {
+    "message": "Perl-Services Related Operations",
+    "description": "The generated-index page description for category service.asv.perl-services in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.service.asv.pmxcfs": {
+    "message": "pmxcfs",
+    "description": "The label for category service.asv.pmxcfs in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.service.asv.pmxcfs.link.generated-index.description": {
+    "message": "pmxcfs Related Operations",
+    "description": "The generated-index page description for category service.asv.pmxcfs in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.service.asv.corosync": {
+    "message": "corosync",
+    "description": "The label for category service.asv.corosync in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.service.asv.corosync.link.generated-index.description": {
+    "message": "Corosync Operations",
+    "description": "The generated-index page description for category service.asv.corosync in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.service.asv.sangfor_waf": {
+    "message": "sangfor_waf",
+    "description": "The label for category service.asv.sangfor_waf in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.service.asv.sangfor_waf.link.generated-index.description": {
+    "message": "Sangfor WAF Service Operations",
+    "description": "The generated-index page description for category service.asv.sangfor_waf in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.service.asv.exporter": {
+    "message": "exporter",
+    "description": "The label for category service.asv.exporter in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.service.asv.exporter.link.generated-index.description": {
+    "message": "Exporter Service Operations",
+    "description": "The generated-index page description for category service.asv.exporter in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.service.asv.apache2": {
+    "message": "apache2",
+    "description": "The label for category service.asv.apache2 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.service.asv.apache2.link.generated-index.description": {
+    "message": "Apache2 Service Operations",
+    "description": "The generated-index page description for category service.asv.apache2 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.service.anet": {
+    "message": "anet",
+    "description": "The label for category service.anet in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.service.anet.link.generated-index.description": {
+    "message": "anet Service Operations",
+    "description": "The generated-index page description for category service.anet in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.service.anet.vn-cluster-service-api": {
+    "message": "vn-cluster-service-api",
+    "description": "The label for category service.anet.vn-cluster-service-api in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.service.anet.vn-cluster-service-api.link.generated-index.description": {
+    "message": "vn-cluster-service-api Service Operations",
+    "description": "The generated-index page description for category service.anet.vn-cluster-service-api in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.service.anet.vn-cluster-service-api.rps": {
+    "message": "rps",
+    "description": "The label for category service.anet.vn-cluster-service-api.rps in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.service.anet.vn-cluster-service-api.rps.link.generated-index.description": {
+    "message": "RPS commands",
+    "description": "The generated-index page description for category service.anet.vn-cluster-service-api.rps in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.service.anet.vn-manager-service-api": {
+    "message": "vn-manager-service-api",
+    "description": "The label for category service.anet.vn-manager-service-api in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.service.anet.vn-manager-service-api.link.generated-index.description": {
+    "message": "vn-manager-service-api Service Operations",
+    "description": "The generated-index page description for category service.anet.vn-manager-service-api in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.service.anet.vn-node-agent-api": {
+    "message": "vn-node-agent-api",
+    "description": "The label for category service.anet.vn-node-agent-api in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.service.anet.vn-node-agent-api.link.generated-index.description": {
+    "message": "Operations Related to vn-node-agent-api Service",
+    "description": "The generated-index page description for category service.anet.vn-node-agent-api in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.snapshot": {
+    "message": "snapshot",
+    "description": "The label for category platform.snapshot in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.snapshot.link.generated-index.description": {
+    "message": "Snapshot related commands",
+    "description": "The generated-index page description for category platform.snapshot in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.snapshot.mysql": {
+    "message": "mysql",
+    "description": "The label for category platform.snapshot.mysql in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.redis": {
+    "message": "redis",
+    "description": "The label for category platform.redis in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.redis.link.generated-index.description": {
+    "message": "Platform Redis Commands",
+    "description": "The generated-index page description for category platform.redis in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.backup": {
+    "message": "backup",
+    "description": "The label for category platform.backup in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.backup.link.generated-index.description": {
+    "message": "backup related commands",
+    "description": "The generated-index page description for category platform.backup in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.backup.mergedata": {
+    "message": "mergedata",
+    "description": "The label for category platform.backup.mergedata in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.backup.mergedata.link.generated-index.description": {
+    "message": "Data Organization Task Commands",
+    "description": "The generated-index page description for category platform.backup.mergedata in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.backup.mergedata.config": {
+    "message": "config",
+    "description": "The label for category platform.backup.mergedata.config in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.backup.region": {
+    "message": "region",
+    "description": "The label for category platform.backup.region in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.backup.region.link.generated-index.description": {
+    "message": "Commands related to regional snapshots",
+    "description": "The generated-index page description for category platform.backup.region in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.backup.region.config": {
+    "message": "config",
+    "description": "The label for category platform.backup.region.config in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.backup.datamover": {
+    "message": "datamover",
+    "description": "The label for category platform.backup.datamover in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.backup.datamover.link.generated-index.description": {
+    "message": "datamover related commands",
+    "description": "The generated-index page description for category platform.backup.datamover in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.backup.datamover.performancedetect": {
+    "message": "performancedetect",
+    "description": "The label for category platform.backup.datamover.performancedetect in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.backup.datamover.performancedetect.link.generated-index.description": {
+    "message": "Commands related to datamover performance bottleneck detection",
+    "description": "The generated-index page description for category platform.backup.datamover.performancedetect in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.backup.datamover.config": {
+    "message": "config",
+    "description": "The label for category platform.backup.datamover.config in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.backup.datamover.performanceindicator": {
+    "message": "performanceindicator",
+    "description": "The label for category platform.backup.datamover.performanceindicator in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.backup.datamover.performanceindicator.link.generated-index.description": {
+    "message": "Commands related to datamover performance indicators",
+    "description": "The generated-index page description for category platform.backup.datamover.performanceindicator in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.backup.datamover.performancereport": {
+    "message": "performancereport",
+    "description": "The label for category platform.backup.datamover.performancereport in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.backup.datamover.performancereport.link.generated-index.description": {
+    "message": "Commands related to datamover performance bottleneck detection report",
+    "description": "The generated-index page description for category platform.backup.datamover.performancereport in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.backup.config": {
+    "message": "config",
+    "description": "The label for category platform.backup.config in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.backup.bcfg": {
+    "message": "bcfg",
+    "description": "The label for category platform.backup.bcfg in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.backup.bcfg.link.generated-index.description": {
+    "message": "Backup point configuration file related commands",
+    "description": "The generated-index page description for category platform.backup.bcfg in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.backup.cbt": {
+    "message": "cbt",
+    "description": "The label for category platform.backup.cbt in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.backup.cbt.link.generated-index.description": {
+    "message": "Commands related to CBT",
+    "description": "The generated-index page description for category platform.backup.cbt in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.backup.cbt.file": {
+    "message": "file",
+    "description": "The label for category platform.backup.cbt.file in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.backup.cbt.file.cbtinfo": {
+    "message": "cbtinfo",
+    "description": "The label for category platform.backup.cbt.file.cbtinfo in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.backup.cbt.file.cbtinfo.link.generated-index.description": {
+    "message": "Commands related to CBT file information",
+    "description": "The generated-index page description for category platform.backup.cbt.file.cbtinfo in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.version": {
+    "message": "version",
+    "description": "The label for category platform.version in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.zookeeper": {
+    "message": "zookeeper",
+    "description": "The label for category platform.zookeeper in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.zookeeper.link.generated-index.description": {
+    "message": "Platform Zookeeper Commands",
+    "description": "The generated-index page description for category platform.zookeeper in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.mysql": {
+    "message": "mysql",
+    "description": "The label for category platform.mysql in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.mysql.link.generated-index.description": {
+    "message": "Platform MySQL Related Commands",
+    "description": "The generated-index page description for category platform.mysql in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.mysql.config": {
+    "message": "config",
+    "description": "The label for category platform.mysql.config in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.scheduler": {
+    "message": "scheduler",
+    "description": "The label for category platform.scheduler in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.scheduler.link.generated-index.description": {
+    "message": "Scheduler commands",
+    "description": "The generated-index page description for category platform.scheduler in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.scheduler.quota": {
+    "message": "quota",
+    "description": "The label for category platform.scheduler.quota in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.scheduler.quota.link.generated-index.description": {
+    "message": "Scheduler Quota Operations",
+    "description": "The generated-index page description for category platform.scheduler.quota in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.info": {
+    "message": "info",
+    "description": "The label for category platform.info in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.info.link.generated-index.description": {
+    "message": "Platform information operations",
+    "description": "The generated-index page description for category platform.info in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.cfs": {
+    "message": "cfs",
+    "description": "The label for category platform.cfs in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.cfs.link.generated-index.description": {
+    "message": "Platform CFS Commands",
+    "description": "The generated-index page description for category platform.cfs in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.node": {
+    "message": "node",
+    "description": "The label for category platform.node in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.node.link.generated-index.description": {
+    "message": "Host Node Operations",
+    "description": "The generated-index page description for category platform.node in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.node.cert": {
+    "message": "cert",
+    "description": "The label for category platform.node.cert in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.node.cert.link.generated-index.description": {
+    "message": "Certificate Operations",
+    "description": "The generated-index page description for category platform.node.cert in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.hardware.gpu": {
+    "message": "gpu",
+    "description": "The label for category hardware.gpu in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.hardware.gpu.link.generated-index.description": {
+    "message": "Graphics Card Operations",
+    "description": "The generated-index page description for category hardware.gpu in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.hardware.gpu.config": {
+    "message": "config",
+    "description": "The label for category hardware.gpu.config in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.hardware.cpu": {
+    "message": "cpu",
+    "description": "The label for category hardware.cpu in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.hardware.cpu.link.generated-index.description": {
+    "message": "Hardware CPU Related Commands",
+    "description": "The generated-index page description for category hardware.cpu in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.hardware.cpu.microcode": {
+    "message": "microcode",
+    "description": "The label for category hardware.cpu.microcode in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.hardware.cpu.microcode.link.generated-index.description": {
+    "message": "Hardware CPU Microcode Commands",
+    "description": "The generated-index page description for category hardware.cpu.microcode in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.hardware.cpu.microcode.file": {
+    "message": "file",
+    "description": "The label for category hardware.cpu.microcode.file in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.hardware.cpu.microcode.file.link.generated-index.description": {
+    "message": "CPU Microcode File Commands",
+    "description": "The generated-index page description for category hardware.cpu.microcode.file in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.hardware.hostcli": {
+    "message": "hostcli",
+    "description": "The label for category hardware.hostcli in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.hardware.hostcli.link.generated-index.description": {
+    "message": "Host Hardware Management Commands",
+    "description": "The generated-index page description for category hardware.hostcli in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.log.cgroup": {
+    "message": "cgroup",
+    "description": "The label for category log.cgroup in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.storage.other": {
+    "message": "other",
+    "description": "The label for category storage.other in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.storage.other.link.generated-index.description": {
+    "message": "Other Storage Operations",
+    "description": "The generated-index page description for category storage.other in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.storage.asan": {
+    "message": "asan",
+    "description": "The label for category storage.asan in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.storage.asan.link.generated-index.description": {
+    "message": "ASAN Storage-Related Operations",
+    "description": "The generated-index page description for category storage.asan in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.storage.asan.brick": {
+    "message": "brick",
+    "description": "The label for category storage.asan.brick in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.storage.asan.brick.link.generated-index.description": {
+    "message": "Brick-related Operations",
+    "description": "The generated-index page description for category storage.asan.brick in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.storage.asan.version": {
+    "message": "version",
+    "description": "The label for category storage.asan.version in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.storage.asan.volume": {
+    "message": "volume",
+    "description": "The label for category storage.asan.volume in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.storage.asan.volume.link.generated-index.description": {
+    "message": "Volume Operations",
+    "description": "The generated-index page description for category storage.asan.volume in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.storage.asan.disk": {
+    "message": "disk",
+    "description": "The label for category storage.asan.disk in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.storage.asan.disk.link.generated-index.description": {
+    "message": "Disk-related Operations",
+    "description": "The generated-index page description for category storage.asan.disk in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.storage.asan.disk.residual": {
+    "message": "residual",
+    "description": "The label for category storage.asan.disk.residual in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.storage.asan.disk.residual.link.generated-index.description": {
+    "message": "Disk Residual Operations",
+    "description": "The generated-index page description for category storage.asan.disk.residual in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.storage.fc": {
+    "message": "fc",
+    "description": "The label for category storage.fc in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.storage.fc.link.generated-index.description": {
+    "message": "FC Storage List Related Operations",
+    "description": "The generated-index page description for category storage.fc in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.storage.fc.host": {
+    "message": "host",
+    "description": "The label for category storage.fc.host in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.storage.fc.host.link.generated-index.description": {
+    "message": "Display FC-related device information",
+    "description": "The generated-index page description for category storage.fc.host in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.storage.fc.host.statistics": {
+    "message": "statistics",
+    "description": "The label for category storage.fc.host.statistics in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.storage.fc.host.statistics.link.generated-index.description": {
+    "message": "FC HBA Card Statistics Commands",
+    "description": "The generated-index page description for category storage.fc.host.statistics in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.plugins.performance_tools": {
+    "message": "performance_tools",
+    "description": "The label for category plugins.performance_tools in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.plugins.performance_tools.link.generated-index.description": {
+    "message": "Performance tools plugin related commands",
+    "description": "The generated-index page description for category plugins.performance_tools in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.plugins.performance_tools.combined": {
+    "message": "combined",
+    "description": "The label for category plugins.performance_tools.combined in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.plugins.performance_tools.combined.link.generated-index.description": {
+    "message": "Combined tool related commands",
+    "description": "The generated-index page description for category plugins.performance_tools.combined in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.plugins.performance_tools.isolate": {
+    "message": "isolate",
+    "description": "The label for category plugins.performance_tools.isolate in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.plugins.performance_tools.isolate.link.generated-index.description": {
+    "message": "CPU isolation related commands",
+    "description": "The generated-index page description for category plugins.performance_tools.isolate in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.plugins.performance_tools.monitor": {
+    "message": "monitor",
+    "description": "The label for category plugins.performance_tools.monitor in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.plugins.performance_tools.monitor.link.generated-index.description": {
+    "message": "Monitoring related commands",
+    "description": "The generated-index page description for category plugins.performance_tools.monitor in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.plugins.log_collect": {
+    "message": "log_collect",
+    "description": "The label for category plugins.log_collect in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.plugins.log_collect.link.generated-index.description": {
+    "message": "Log collection plugin related commands",
+    "description": "The generated-index page description for category plugins.log_collect in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.acli.log": {
+    "message": "log",
+    "description": "The label for category acli.log in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.acli.command": {
+    "message": "command",
+    "description": "The label for category acli.command in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.acli.command.link.generated-index.description": {
+    "message": "Operations for obtaining command information",
+    "description": "The generated-index page description for category acli.command in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.system.hosts": {
+    "message": "hosts",
+    "description": "The label for category system.hosts in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.system.hosts.link.generated-index.description": {
+    "message": "System Hosts File Operations",
+    "description": "The generated-index page description for category system.hosts in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.system.smartpqi": {
+    "message": "smartpqi",
+    "description": "The label for category system.smartpqi in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.system.smartpqi.link.generated-index.description": {
+    "message": "SmartPQI System Commands",
+    "description": "The generated-index page description for category system.smartpqi in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.system.smartpqi.version": {
+    "message": "version",
+    "description": "The label for category system.smartpqi.version in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.system.smartpqi.version.link.generated-index.description": {
+    "message": "System SmartPQI Version-Related Commands",
+    "description": "The generated-index page description for category system.smartpqi.version in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.system.memory": {
+    "message": "memory",
+    "description": "The label for category system.memory in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.system.memory.link.generated-index.description": {
+    "message": "Memory-Related Commands",
+    "description": "The generated-index page description for category system.memory in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.system.memory.ecc_data": {
+    "message": "ecc_data",
+    "description": "The label for category system.memory.ecc_data in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.system.memory.ecc_data.link.generated-index.description": {
+    "message": "Operation Overview: View ECC Error Details",
+    "description": "The generated-index page description for category system.memory.ecc_data in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.system.memory.usage": {
+    "message": "usage",
+    "description": "The label for category system.memory.usage in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.system.memory.usage.link.generated-index.description": {
+    "message": "Operation Overview: Viewing Memory Usage",
+    "description": "The generated-index page description for category system.memory.usage in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.system.memory.ce_count": {
+    "message": "ce_count",
+    "description": "The label for category system.memory.ce_count in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.system.memory.ce_count.link.generated-index.description": {
+    "message": "Operation Overview: Retrieve Memory ce_count Data",
+    "description": "The generated-index page description for category system.memory.ce_count in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.system.cpu": {
+    "message": "cpu",
+    "description": "The label for category system.cpu in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.system.mounts": {
+    "message": "mounts",
+    "description": "The label for category system.mounts in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.system.mounts.link.generated-index.description": {
+    "message": "Mount-related Operations",
+    "description": "The generated-index page description for category system.mounts in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.system.proc": {
+    "message": "proc",
+    "description": "The label for category system.proc in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.system.proc.link.generated-index.description": {
+    "message": "System /proc Space Operations",
+    "description": "The generated-index page description for category system.proc in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.system.proc.stack": {
+    "message": "stack",
+    "description": "The label for category system.proc.stack in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.system.proc.stack.link.generated-index.description": {
+    "message": "System Stack Operations",
+    "description": "The generated-index page description for category system.proc.stack in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.system.proc.cgroup": {
+    "message": "cgroup",
+    "description": "The label for category system.proc.cgroup in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.system.cgroup": {
+    "message": "cgroup",
+    "description": "The label for category system.cgroup in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.system.cgroup.link.generated-index.description": {
+    "message": "System cgroup operations",
+    "description": "The generated-index page description for category system.cgroup in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.system.cgroup.memory": {
+    "message": "memory",
+    "description": "The label for category system.cgroup.memory in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.system.cgroup.cpu": {
+    "message": "cpu",
+    "description": "The label for category system.cgroup.cpu in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.network.nic": {
+    "message": "nic",
+    "description": "The label for category network.nic in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.network.nic.link.generated-index.description": {
+    "message": "Network Interface Operations",
+    "description": "The generated-index page description for category network.nic in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.network.nic.queue": {
+    "message": "queue",
+    "description": "The label for category network.nic.queue in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.network.nic.queue.link.generated-index.description": {
+    "message": "Interface queue operations",
+    "description": "The generated-index page description for category network.nic.queue in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.network.nic.ring": {
+    "message": "ring",
+    "description": "The label for category network.nic.ring in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.network.nic.ring.link.generated-index.description": {
+    "message": "Interface ring buffer operations",
+    "description": "The generated-index page description for category network.nic.ring in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.network.nic.lldp": {
+    "message": "lldp",
+    "description": "The label for category network.nic.lldp in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.network.nic.lldp.link.generated-index.description": {
+    "message": "Interface LLDP operations",
+    "description": "The generated-index page description for category network.nic.lldp in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.network.nic.rdma": {
+    "message": "rdma",
+    "description": "The label for category network.nic.rdma in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.network.nic.rdma.link.generated-index.description": {
+    "message": "Network Card RDMA-Related Operations",
+    "description": "The generated-index page description for category network.nic.rdma in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.network.nic.mtu": {
+    "message": "mtu",
+    "description": "The label for category network.nic.mtu in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.network.nic.mtu.link.generated-index.description": {
+    "message": "Interface MTU operations",
+    "description": "The generated-index page description for category network.nic.mtu in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.network.nic.irqcpu": {
+    "message": "irqcpu",
+    "description": "The label for category network.nic.irqcpu in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.network.nic.irqcpu.link.generated-index.description": {
+    "message": "Operation Overview: CPU Interrupt Core Information",
+    "description": "The generated-index page description for category network.nic.irqcpu in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.network.vlink": {
+    "message": "vlink",
+    "description": "The label for category network.vlink in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.network.vlink.link.generated-index.description": {
+    "message": "Virtual Machine vlink Operations",
+    "description": "The generated-index page description for category network.vlink in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.network.mgmt": {
+    "message": "mgmt",
+    "description": "The label for category network.mgmt in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.network.mgmt.link.generated-index.description": {
+    "message": "Management Port Operations",
+    "description": "The generated-index page description for category network.mgmt in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.network.anet": {
+    "message": "anet",
+    "description": "The label for category network.anet in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.network.anet.link.generated-index.description": {
+    "message": "Operations related to virtual networks",
+    "description": "The generated-index page description for category network.anet in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.network.anet.session": {
+    "message": "session",
+    "description": "The label for category network.anet.session in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.network.anet.session.link.generated-index.description": {
+    "message": "Network data plane session-related operations",
+    "description": "The generated-index page description for category network.anet.session in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.network.anet.vrouter": {
+    "message": "vrouter",
+    "description": "The label for category network.anet.vrouter in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.network.anet.vrouter.link.generated-index.description": {
+    "message": "Virtual router operations",
+    "description": "The generated-index page description for category network.anet.vrouter in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.network.anet.vrouter.vrrp": {
+    "message": "vrrp",
+    "description": "The label for category network.anet.vrouter.vrrp in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.network.anet.vrouter.vrrp.link.generated-index.description": {
+    "message": "Operations related to VRRP on the network data plane",
+    "description": "The generated-index page description for category network.anet.vrouter.vrrp in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.network.anet.forwarding": {
+    "message": "forwarding",
+    "description": "The label for category network.anet.forwarding in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.network.anet.forwarding.link.generated-index.description": {
+    "message": "Data plane forwarding core operations",
+    "description": "The generated-index page description for category network.anet.forwarding in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.network.anet.config": {
+    "message": "config",
+    "description": "The label for category network.anet.config in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.network.anet.config.mac": {
+    "message": "mac",
+    "description": "The label for category network.anet.config.mac in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.network.anet.config.mac.link.generated-index.description": {
+    "message": "Operations related to the configuration of MAC tables on the network data plane",
+    "description": "The generated-index page description for category network.anet.config.mac in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.network.anet.config.configchannel": {
+    "message": "configchannel",
+    "description": "The label for category network.anet.config.configchannel in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.network.anet.config.configchannel.link.generated-index.description": {
+    "message": "Operations related to network configuration channel detection module",
+    "description": "The generated-index page description for category network.anet.config.configchannel in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.network.anet.config.configchannel.serviceinfo": {
+    "message": "serviceinfo",
+    "description": "The label for category network.anet.config.configchannel.serviceinfo in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.network.anet.config.configchannel.serviceinfo.link.generated-index.description": {
+    "message": "Network configuration channel service status information",
+    "description": "The generated-index page description for category network.anet.config.configchannel.serviceinfo in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.network.anet.config.nat": {
+    "message": "nat",
+    "description": "The label for category network.anet.config.nat in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.network.anet.config.nat.link.generated-index.description": {
+    "message": "Operations related to NAT table configuration on the network data plane",
+    "description": "The generated-index page description for category network.anet.config.nat in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.network.anet.mirror": {
+    "message": "mirror",
+    "description": "The label for category network.anet.mirror in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.network.anet.mirror.link.generated-index.description": {
+    "message": "Traffic mirroring policy operations",
+    "description": "The generated-index page description for category network.anet.mirror in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.network.bond": {
+    "message": "bond",
+    "description": "The label for category network.bond in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.network.bond.link.generated-index.description": {
+    "message": "Port Aggregation Operations",
+    "description": "The generated-index page description for category network.bond in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.network.bond.arp_interval": {
+    "message": "arp_interval",
+    "description": "The label for category network.bond.arp_interval in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.network.bond.arp_interval.link.generated-index.description": {
+    "message": "ARP Detection Related Functions",
+    "description": "The generated-index page description for category network.bond.arp_interval in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.network.bond.mode": {
+    "message": "mode",
+    "description": "The label for category network.bond.mode in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.network.bond.mode.link.generated-index.description": {
+    "message": "Link Aggregation Port Mode Commands",
+    "description": "The generated-index page description for category network.bond.mode in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.network.port": {
+    "message": "port",
+    "description": "The label for category network.port in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.network.port.link.generated-index.description": {
+    "message": "Port-related Operations",
+    "description": "The generated-index page description for category network.port in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.network.vxlan": {
+    "message": "vxlan",
+    "description": "The label for category network.vxlan in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.network.vxlan.link.generated-index.description": {
+    "message": "Cluster VXLAN Operations",
+    "description": "The generated-index page description for category network.vxlan in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.vm.nic": {
+    "message": "nic",
+    "description": "The label for category vm.nic in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.vm.nic.queuecount": {
+    "message": "queuecount",
+    "description": "The label for category vm.nic.queuecount in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.vm.nic.queuecount.link.generated-index.description": {
+    "message": "Virtual Machine NIC Queue Operations",
+    "description": "The generated-index page description for category vm.nic.queuecount in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.vm.vnc": {
+    "message": "vnc",
+    "description": "The label for category vm.vnc in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.vm.vnc.link.generated-index.description": {
+    "message": "VM console commands",
+    "description": "The generated-index page description for category vm.vnc in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.vm.vnc.clean": {
+    "message": "clean",
+    "description": "The label for category vm.vnc.clean in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.vm.vnc.clean.link.generated-index.description": {
+    "message": "Command for revoking VM console access permissions",
+    "description": "The generated-index page description for category vm.vnc.clean in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.vm.vnc.all": {
+    "message": "all",
+    "description": "The label for category vm.vnc.all in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.vm.vnc.all.link.generated-index.description": {
+    "message": "Commands related to all VM consoles",
+    "description": "The generated-index page description for category vm.vnc.all in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.vm.sagaflow": {
+    "message": "sagaflow",
+    "description": "The label for category vm.sagaflow in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.vm.sagaflow.link.generated-index.description": {
+    "message": "sagaflow Stream Query Operations",
+    "description": "The generated-index page description for category vm.sagaflow in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.vm.lock": {
+    "message": "lock",
+    "description": "The label for category vm.lock in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.vm.lock.link.generated-index.description": {
+    "message": "Operations Related to Lock Files Generated During Virtual Machine Runtime",
+    "description": "The generated-index page description for category vm.lock in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.vm.config": {
+    "message": "config",
+    "description": "The label for category vm.config in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.vm.config.pending": {
+    "message": "pending",
+    "description": "The label for category vm.config.pending in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.vm.config.pending.link.generated-index.description": {
+    "message": "Virtual Machine Suspend Configuration Operations",
+    "description": "The generated-index page description for category vm.config.pending in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.vm.status": {
+    "message": "status",
+    "description": "The label for category vm.status in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.vm.status.link.generated-index.description": {
+    "message": "VM status commands",
+    "description": "The generated-index page description for category vm.status in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.vm.memory": {
+    "message": "memory",
+    "description": "The label for category vm.memory in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.vm.memory.dump": {
+    "message": "dump",
+    "description": "The label for category vm.memory.dump in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.vm.memory.dump.link.generated-index.description": {
+    "message": "Memory Dump Operations",
+    "description": "The generated-index page description for category vm.memory.dump in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.vm.disk": {
+    "message": "disk",
+    "description": "The label for category vm.disk in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.vm.disk.link.generated-index.description": {
+    "message": "Virtual Machine Disk Operations",
+    "description": "The generated-index page description for category vm.disk in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.vm.disk.path": {
+    "message": "path",
+    "description": "The label for category vm.disk.path in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.vm.disk.path.link.generated-index.description": {
+    "message": "Virtual Machine Path Commands",
+    "description": "The generated-index page description for category vm.disk.path in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.vm.disk.io_uring": {
+    "message": "io_uring",
+    "description": "The label for category vm.disk.io_uring in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.vm.disk.io_uring.link.generated-index.description": {
+    "message": "Virtual Machine Disk io_uring Operations",
+    "description": "The generated-index page description for category vm.disk.io_uring in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.vm.disk.aio": {
+    "message": "aio",
+    "description": "The label for category vm.disk.aio in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.vm.disk.aio.link.generated-index.description": {
+    "message": "Virtual Machine Disk Asynchronous I/O Operations",
+    "description": "The generated-index page description for category vm.disk.aio in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.vm.shareddisk": {
+    "message": "shareddisk",
+    "description": "The label for category vm.shareddisk in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.vm.shareddisk.link.generated-index.description": {
+    "message": "Shared Drive Operations",
+    "description": "The generated-index page description for category vm.shareddisk in sidebar tutorialSidebar"
   }
 }
