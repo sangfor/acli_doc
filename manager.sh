@@ -33,7 +33,12 @@ function start() {
         ;;
     esac
 
-    # 1. 构建阶段（同步）
+    # 1. 生成中英文命令列表
+    echo ">>> 生成命令列表"
+    echo "..."
+    node scripts/generate-command-table.mjs >>"$logfile" 2>&1
+
+    # 2. 构建阶段（同步）
     echo ">>> 开始构建"
     echo "..."
     npm run build >>"$logfile" 2>&1
