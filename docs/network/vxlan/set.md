@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ### 操作概述
 
-开启/关闭巨帧
+更新集群VXLAN配置
 
 ### 命令参数
 
