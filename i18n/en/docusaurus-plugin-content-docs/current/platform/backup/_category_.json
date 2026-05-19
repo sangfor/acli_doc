@@ -1,0 +1,8 @@
+{
+  "label": "backup",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "backup related commands"
+  }
+}

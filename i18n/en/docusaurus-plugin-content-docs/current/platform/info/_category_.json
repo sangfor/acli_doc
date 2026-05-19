@@ -1,0 +1,8 @@
+{
+  "label": "info",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Platform information operations"
+  }
+}

@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ### 操作概述
 
-查询datamover配置文件内容
+获取datamover配置文件内容
 
 ### 命令参数
 

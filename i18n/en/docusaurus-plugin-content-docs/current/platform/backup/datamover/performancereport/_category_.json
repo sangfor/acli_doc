@@ -1,0 +1,8 @@
+{
+  "label": "performancereport",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Commands related to datamover performance bottleneck detection report"
+  }
+}

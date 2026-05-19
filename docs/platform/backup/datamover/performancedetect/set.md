@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ### 操作概述
 
-控制datamover性能瓶颈探测的开启或关闭
+开启或关闭datamover性能瓶颈探测
 
 ### 命令参数
 
