@@ -1,0 +1,8 @@
+{
+  "label": "task",
+  "position": 40,
+  "link": {
+    "type": "generated-index",
+    "description": "Task-related Operations"
+  }
+}

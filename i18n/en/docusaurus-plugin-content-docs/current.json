@@ -8,7 +8,7 @@
     "description": "The label for category acli in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.acli.link.generated-index.description": {
-    "message": "acli工具相关命令",
+    "message": "acli Tool Related Commands",
     "description": "The generated-index page description for category acli in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.command": {
@@ -16,7 +16,7 @@
     "description": "The label for category command in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.command.link.generated-index.description": {
-    "message": "获取命令信息的操作",
+    "message": "Operations for obtaining command information",
     "description": "The generated-index page description for category command in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.log": {
@@ -28,7 +28,7 @@
     "description": "The label for category alert in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.alert.link.generated-index.description": {
-    "message": "告警相关操作",
+    "message": "Alert-related Operations",
     "description": "The generated-index page description for category alert in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.task": {
@@ -36,11 +36,11 @@
     "description": "The label for category task in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.task.link.generated-index.description": {
-    "message": "任务相关操作",
+    "message": "Task-related Operations",
     "description": "The generated-index page description for category task in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.log.link.generated-index.description": {
-    "message": "深信服HCI日志相关acli命令",
+    "message": "Sangfor HCI ACLI Log Commands",
     "description": "The generated-index page description for category log in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.cgroup": {
@@ -948,11 +948,11 @@
     "description": "The label for category hardware in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.hardware.link.generated-index.description": {
-    "message": "硬件相关操作",
+    "message": "Hardware-related Operations",
     "description": "The generated-index page description for category hardware in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.cpu.link.generated-index.description": {
-    "message": "硬件CPU相关命令",
+    "message": "Hardware CPU Related Commands",
     "description": "The generated-index page description for category cpu in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.microcode": {
@@ -960,11 +960,11 @@
     "description": "The label for category microcode in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.microcode.link.generated-index.description": {
-    "message": "硬件CPU微码相关命令",
+    "message": "Hardware CPU Microcode Commands",
     "description": "The generated-index page description for category microcode in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.file.link.generated-index.description": {
-    "message": "硬件CPU微码文件相关命令",
+    "message": "CPU Microcode File Commands",
     "description": "The generated-index page description for category file in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.gpu": {
@@ -972,7 +972,7 @@
     "description": "The label for category gpu in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.gpu.link.generated-index.description": {
-    "message": "显卡相关操作",
+    "message": "Graphics Card Operations",
     "description": "The generated-index page description for category gpu in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.hostcli": {
@@ -980,7 +980,7 @@
     "description": "The label for category hostcli in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.hostcli.link.generated-index.description": {
-    "message": "主机硬件管理命令",
+    "message": "Host Hardware Management Commands",
     "description": "The generated-index page description for category hostcli in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.插件列表": {

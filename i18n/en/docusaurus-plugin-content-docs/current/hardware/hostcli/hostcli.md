@@ -4,27 +4,22 @@ sidebar_position: 1
 
 # hostcli
 
-### 操作概述
+### Overview
 
-管理和监控主机硬件相关命令
+Manage and monitor host hardware related commands
 
-### 命令参数
-
+### Command Parameters
 ```bash
-hardware    硬件相关操作
-help        查看帮助
-storage     存储相关操作
-system      系统相关操作
-version     打印版本信息并退出
+No parameters
 ```
 
-### 使用示例
+### Usage Example
 
 ```bash
 acli hardware hostcli --help
 ```
 
-### 结果示例
+### Output Example
 
 ```
 hostcli is a command line tool that allows you to manage and monitor host hardware.
