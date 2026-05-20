@@ -59,34 +59,34 @@ Execute virtual storage detection tool
 
 ```bash
 # Example 1: Check all items
-asan_ops -s check -t all
+acli asan_ops -s check -t all
 
 # Example 2: Check storage network
-asan_ops -s check -t network
+acli asan_ops -s check -t network
 
 # Example 3: Check storage service
-asan_ops -s check -t service
+acli asan_ops -s check -t service
 
 # Example 4: Check known early warning
-asan_ops -s check -t BUG
+acli asan_ops -s check -t BUG
 
 # Example 5: Repair active VG
-asan_ops -s repair -t vg
+acli asan_ops -s repair -t vg
 
 # Example 6: Correction NFS pid/conf not same
-asan_ops -s repair -t nfspid
+acli asan_ops -s repair -t nfspid
 
 # Example 7: Check slow disk issue
-asan_ops -s case -t slowdisk
+acli asan_ops -s case -t slowdisk
 
 # Example 8: Check VM issue
-asan_ops -s case -t vm -i 1649206016202
+acli asan_ops -s case -t vm -i 1649206016202
 
 # Example 9: Check slow disk issue (specify host)
-asan_ops -s case -t slowdisk -n host-b4055d27cb0e
+acli asan_ops -s case -t slowdisk -n host-b4055d27cb0e
 
 # Example 10: Check slow disk issue (specify log lines and zipped log)
-asan_ops -s case -t slowdisk -l 1000 -z true
+acli asan_ops -s case -t slowdisk -l 1000 -z true
 ```
 
 ### Result Example

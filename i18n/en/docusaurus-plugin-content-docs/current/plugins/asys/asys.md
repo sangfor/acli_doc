@@ -36,34 +36,34 @@ Run the system check tool to detect the host
 
 ```bash
 # Example 1: Show command help
-asys -s offline:help
+acli asys -s offline:help
 
 # Example 2: Check system offline status (specify time range)
-asys -s offline -b "2025-10-27 02:30" -e "2025-10-27 12:30"
+acli asys -s offline -b "2025-10-27 02:30" -e "2025-10-27 12:30"
 
 # Example 3: Check system offline status (specify date, automatically covers full day)
-asys -s offline -t "2025-10-27"
+acli asys -s offline -t "2025-10-27"
 
 # Example 4: Check dmesg log (specify time range)
-asys -s offline:dmesg -b "2025-10-27 02" -e "2025-10-27 10"
+acli asys -s offline:dmesg -b "2025-10-27 02" -e "2025-10-27 10"
 
 # Example 5: Check dmesg log (specify date)
-asys -s offline:dmesg -t "2025-10-27"
+acli asys -s offline:dmesg -t "2025-10-27"
 
 # Example 6: Check IPMI log (specify time range)
-asys -s offline:ipmi -b "2025-10-27 06:30" -e "2025-10-27 18:30"
+acli asys -s offline:ipmi -b "2025-10-27 06:30" -e "2025-10-27 18:30"
 
 # Example 7: Check IPMI log (specify date)
-asys -s offline:ipmi -t "2025-10-27"
+acli asys -s offline:ipmi -t "2025-10-27"
 
 # Example 8: Check w3 log (specify time range)
-asys -s offline:w3 -b "2025-10-27 09" -e "2025-10-27 11"
+acli asys -s offline:w3 -b "2025-10-27 09" -e "2025-10-27 11"
 
 # Example 9: Check w3 log (specify date)
-asys -s offline:w3 -t "2025-10-27"
+acli asys -s offline:w3 -t "2025-10-27"
 
 # Example 10: Run all checks
-asys -s all -t "2025-10-27"
+acli asys -s all -t "2025-10-27"
 ```
 
 ### Result Example
