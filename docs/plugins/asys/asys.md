@@ -36,34 +36,34 @@ sidebar_position: 1
 
 ```bash
 # 示例1：显示命令帮助
-asys -s offline:help
+acli asys -s offline:help
 
 # 示例2：检查系统离线状态（指定时间范围）
-asys -s offline -b "2025-10-27 02:30" -e "2025-10-27 12:30"
+acli asys -s offline -b "2025-10-27 02:30" -e "2025-10-27 12:30"
 
 # 示例3：检查系统离线状态（指定日期，自动覆盖全天）
-asys -s offline -t "2025-10-27"
+acli asys -s offline -t "2025-10-27"
 
 # 示例4：检查 dmesg 日志（指定时间范围）
-asys -s offline:dmesg -b "2025-10-27 02" -e "2025-10-27 10"
+acli asys -s offline:dmesg -b "2025-10-27 02" -e "2025-10-27 10"
 
 # 示例5：检查 dmesg 日志（指定日期）
-asys -s offline:dmesg -t "2025-10-27"
+acli asys -s offline:dmesg -t "2025-10-27"
 
 # 示例6：检查 IPMI 日志（指定时间范围）
-asys -s offline:ipmi -b "2025-10-27 06:30" -e "2025-10-27 18:30"
+acli asys -s offline:ipmi -b "2025-10-27 06:30" -e "2025-10-27 18:30"
 
 # 示例7：检查 IPMI 日志（指定日期）
-asys -s offline:ipmi -t "2025-10-27"
+acli asys -s offline:ipmi -t "2025-10-27"
 
 # 示例8：检查 w3 日志（指定时间范围）
-asys -s offline:w3 -b "2025-10-27 09" -e "2025-10-27 11"
+acli asys -s offline:w3 -b "2025-10-27 09" -e "2025-10-27 11"
 
 # 示例9：检查 w3 日志（指定日期）
-asys -s offline:w3 -t "2025-10-27"
+acli asys -s offline:w3 -t "2025-10-27"
 
 # 示例10：运行所有检查
-asys -s all -t "2025-10-27"
+acli asys -s all -t "2025-10-27"
 ```
 
 ### 结果示例

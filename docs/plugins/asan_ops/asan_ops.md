@@ -59,34 +59,34 @@ sidebar_position: 1
 
 ```bash
 # 示例1：检查所有项
-asan_ops -s check -t all
+acli asan_ops -s check -t all
 
 # 示例2：检查存储网络
-asan_ops -s check -t network
+acli asan_ops -s check -t network
 
 # 示例3：检查存储服务
-asan_ops -s check -t service
+acli asan_ops -s check -t service
 
 # 示例4：检查已知预警
-asan_ops -s check -t BUG
+acli asan_ops -s check -t BUG
 
 # 示例5：修复活跃 VG
-asan_ops -s repair -t vg
+acli asan_ops -s repair -t vg
 
 # 示例6：修正 NFS 进程/配置不一致
-asan_ops -s repair -t nfspid
+acli asan_ops -s repair -t nfspid
 
 # 示例7：检查慢盘问题
-asan_ops -s case -t slowdisk
+acli asan_ops -s case -t slowdisk
 
 # 示例8：检查虚拟机问题
-asan_ops -s case -t vm -i 1649206016202
+acli asan_ops -s case -t vm -i 1649206016202
 
 # 示例9：检查慢盘问题（指定主机）
-asan_ops -s case -t slowdisk -n host-b4055d27cb0e
+acli asan_ops -s case -t slowdisk -n host-b4055d27cb0e
 
 # 示例10：检查慢盘问题（指定日志行数和压缩日志）
-asan_ops -s case -t slowdisk -l 1000 -z true
+acli asan_ops -s case -t slowdisk -l 1000 -z true
 ```
 
 ### 结果示例
