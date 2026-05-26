@@ -1,0 +1,8 @@
+{
+  "label": "consistency",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "CPU一致性相关操作"
+  }
+}
