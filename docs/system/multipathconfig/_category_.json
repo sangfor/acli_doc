@@ -1,0 +1,8 @@
+{
+  "label": "multipathconfig",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "multipathconfig相关操作"
+  }
+}
