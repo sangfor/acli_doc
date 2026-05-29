@@ -1031,7 +1031,7 @@
     "message": "Performance tools plugin monitor related commands, log storage path /sf/data/local/performance_tools/performance_data/",
     "description": "The generated-index page description for category monitor in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.branch": {
+"sidebar.tutorialSidebar.category.branch": {
     "message": "branch",
     "description": "The label for category branch in sidebar tutorialSidebar"
   },
@@ -2138,5 +2138,13 @@
   "sidebar.tutorialSidebar.category.vm.shareddisk.link.generated-index.description": {
     "message": "Shared Drive Operations",
     "description": "The generated-index page description for category vm.shareddisk in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.multipathconfig": {
+    "message": "multipathconfig",
+    "description": "The label for category multipathconfig in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.multipathconfig.link.generated-index.description": {
+    "message": "Multipathconfig Operations",
+    "description": "The generated-index page description for category multipathconfig in sidebar tutorialSidebar"
   }
 }
