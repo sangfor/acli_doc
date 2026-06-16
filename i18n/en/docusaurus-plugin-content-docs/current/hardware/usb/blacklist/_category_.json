@@ -1,0 +1,8 @@
+{
+  "label": "blacklist",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "USB Blacklist Operations"
+  }
+}

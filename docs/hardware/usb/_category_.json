@@ -1,0 +1,8 @@
+{
+  "label": "usb",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "USB相关操作"
+  }
+}
