@@ -28,6 +28,8 @@ Execute virtual storage detection tool
                                 - vg (Repair active VG)
                                 - nfspid (Correction NFS pid/conf not same)
                                 - meta_dir_left (Repair directory leftover)
+								- replace_self_disk（repace self disk）
+								- disk_scan （scan disk）
                               case subtypes:
                                 - slowdisk (Slow disk)                  - storage (Storage)
                                 - latency (Latency)                     - data_sync (Data sync)
@@ -87,6 +89,12 @@ acli asan_ops -s case -t slowdisk -n host-b4055d27cb0e
 
 # Example 10: Check slow disk issue (specify log lines and zipped log)
 acli asan_ops -s case -t slowdisk -l 1000 -z true
+
+# Example 11: replace self disk issue (requires -u parameter for disk information: https://support.sangfor.com.cn/cases/list?product_id=33&type=1&category_id=40353)
+acli asan_ops -s repair -t replace_self_disk -u 00505695c3b0_36000c29eaabc424a17cdfede2690f0f6
+
+# Example 12: scan disk issue (Scanning disks on specified hosts. Specify a list of hosts separated by commas. If no parameter is passed, all hosts in the cluster will be scanned. Example: acli asan_ops -s repair -t disk_scan )
+acli asan_ops -s repair -t disk_scan -n host-abc,host-def
 ```
 
 ### Result Example

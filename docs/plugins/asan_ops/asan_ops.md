@@ -28,6 +28,8 @@ sidebar_position: 1
                                 - vg（修复活跃 VG）
                                 - nfspid（修正 NFS 进程/配置不一致）
                                 - meta_dir_left（修复目录遗留）
+								- replace_self_disk（磁盘自替换）
+								- disk_scan （磁盘扫描）
                               case 子类型：
                                 - slowdisk（慢盘）                    - storage（存储）
                                 - latency（时延）                     - data_sync（数据同步）
@@ -87,6 +89,12 @@ acli asan_ops -s case -t slowdisk -n host-b4055d27cb0e
 
 # 示例10：检查慢盘问题（指定日志行数和压缩日志）
 acli asan_ops -s case -t slowdisk -l 1000 -z true
+
+# 示例11：检查磁盘自替换（指定磁盘UUID，参考https://support.sangfor.com.cn/cases/list?product_id=33&type=1&category_id=40353）
+acli asan_ops -s repair -t replace_self_disk -u 00505695c3b0_36000c29eaabc424a17cdfede2690f0f6
+
+# 示例12：扫描虚拟存储磁盘（指定主机列表以','分割，默认不传参集群所有主机扫描，如acli asan_ops -s repair -t disk_scan）
+acli asan_ops -s repair -t disk_scan -n host-abc,host-def
 ```
 
 ### 结果示例
