@@ -1,0 +1,8 @@
+{
+  "label": "devicepolicy",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "device级multipath自定义配置（以vendor/product为索引）"
+  }
+}
