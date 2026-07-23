@@ -1539,6 +1539,14 @@
     "message": "Certificate Operations",
     "description": "The generated-index page description for category platform.node.cert in sidebar tutorialSidebar"
   },
+  "sidebar.tutorialSidebar.category.platform.node.nohz-full": {
+    "message": "nohz-full",
+    "description": "The label for category platform.node.nohz-full in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.node.nohz-full.link.generated-index.description": {
+    "message": "Operations related to the nohz_full kernel boot parameter of the host",
+    "description": "The generated-index page description for category platform.node.nohz-full in sidebar tutorialSidebar"
+  },
   "sidebar.tutorialSidebar.category.hardware.gpu": {
     "message": "gpu",
     "description": "The label for category hardware.gpu in sidebar tutorialSidebar"
