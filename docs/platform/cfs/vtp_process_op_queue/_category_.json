@@ -1,0 +1,8 @@
+{
+  "label": "vtp_process_op_queue",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "VTP进程操作队列配置管理命令"
+  }
+}
