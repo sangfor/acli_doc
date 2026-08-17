@@ -155,6 +155,14 @@
     "message": "config",
     "description": "The label for category config in sidebar tutorialSidebar"
   },
+  "sidebar.tutorialSidebar.category.dr": {
+    "message": "dr",
+    "description": "The label for category dr in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.dr.link.generated-index.description": {
+    "message": "VM DR related operations",
+    "description": "The generated-index page description for category dr in sidebar tutorialSidebar"
+  },
   "sidebar.tutorialSidebar.category.maintenance": {
     "message": "maintenance",
     "description": "The label for category maintenance in sidebar tutorialSidebar"
@@ -786,6 +794,14 @@
   "sidebar.tutorialSidebar.category.other.link.generated-index.description": {
     "message": "Other Storage Operations",
     "description": "The generated-index page description for category other in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.placeholder": {
+    "message": "placeholder",
+    "description": "The label for category placeholder in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.placeholder.link.generated-index.description": {
+    "message": "Placeholder VM related operations",
+    "description": "The generated-index page description for category placeholder in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.platform": {
     "message": "platform",
