@@ -1611,6 +1611,18 @@
     "message": "Other Storage Operations",
     "description": "The generated-index page description for category storage.other in sidebar tutorialSidebar"
   },
+  "sidebar.tutorialSidebar.category.storage.display": {
+    "message": "display",
+    "description": "The label for category storage.display in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.storage.display.link.generated-index.description": {
+    "message": "Storage Display Operations",
+    "description": "The generated-index page description for category storage.display in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.storage.display.config": {
+    "message": "config",
+    "description": "The label for category storage.display.config in sidebar tutorialSidebar"
+  },
   "sidebar.tutorialSidebar.category.storage.asan": {
     "message": "asan",
     "description": "The label for category storage.asan in sidebar tutorialSidebar"
