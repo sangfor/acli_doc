@@ -1,0 +1,8 @@
+{
+    "label": "dr",
+    "position": 1,
+    "link": {
+        "type": "generated-index",
+        "description": "VM DR related operations"
+    }
+}
