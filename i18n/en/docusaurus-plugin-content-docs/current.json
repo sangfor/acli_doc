@@ -1855,6 +1855,14 @@
     "message": "Network Interface Operations",
     "description": "The generated-index page description for category network.nic in sidebar tutorialSidebar"
   },
+  "sidebar.tutorialSidebar.category.network.pfc": {
+    "message": "pfc",
+    "description": "The label for category network.pfc in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.network.pfc.link.generated-index.description": {
+    "message": "Priority Flow Control (PFC) operations",
+    "description": "The generated-index page description for category network.pfc in sidebar tutorialSidebar"
+  },
   "sidebar.tutorialSidebar.category.network.nic.queue": {
     "message": "queue",
     "description": "The label for category network.nic.queue in sidebar tutorialSidebar"

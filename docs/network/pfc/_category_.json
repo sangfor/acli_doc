@@ -1,0 +1,8 @@
+{
+  "label": "pfc",
+  "position": 8,
+  "link": {
+    "type": "generated-index",
+    "description": "优先级流控(PFC)相关操作"
+  }
+}
