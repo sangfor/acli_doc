@@ -1,0 +1,8 @@
+{
+  "label": "advcfg",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "虚拟机高级配置相关命令"
+  }
+}
