@@ -2087,6 +2087,18 @@
     "message": "Commands related to all VM consoles",
     "description": "The generated-index page description for category vm.vnc.all in sidebar tutorialSidebar"
   },
+  "sidebar.tutorialSidebar.category.vm.hotplug": {
+    "message": "hotplug",
+    "description": "The label for category vm.hotplug in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.vm.hotplug.link.generated-index.description": {
+    "message": "VM CPU/memory hot-add whitelist operations",
+    "description": "The generated-index page description for category vm.hotplug in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.vm.hotplug.whitelist": {
+    "message": "whitelist",
+    "description": "The label for category vm.hotplug.whitelist in sidebar tutorialSidebar"
+  },
   "sidebar.tutorialSidebar.category.vm.sagaflow": {
     "message": "sagaflow",
     "description": "The label for category vm.sagaflow in sidebar tutorialSidebar"
