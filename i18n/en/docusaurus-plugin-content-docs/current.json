@@ -2063,6 +2063,22 @@
     "message": "Virtual Machine NIC Queue Operations",
     "description": "The generated-index page description for category vm.nic.queuecount in sidebar tutorialSidebar"
   },
+  "sidebar.tutorialSidebar.category.vm.advcfg": {
+    "message": "advcfg",
+    "description": "The label for category vm.advcfg in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.vm.advcfg.link.generated-index.description": {
+    "message": "Advanced Configuration Related Operations for Virtual Machines",
+    "description": "The generated-index page description for category vm.advcfg in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.vm.advcfg.nictype": {
+    "message": "nictype",
+    "description": "The label for category vm.advcfg.nictype in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.vm.advcfg.nictype.link.generated-index.description": {
+    "message": "Virtual Machine NIC Model Related Operations",
+    "description": "The generated-index page description for category vm.advcfg.nictype in sidebar tutorialSidebar"
+  },
   "sidebar.tutorialSidebar.category.vm.vnc": {
     "message": "vnc",
     "description": "The label for category vm.vnc in sidebar tutorialSidebar"
