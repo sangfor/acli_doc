@@ -1,0 +1,8 @@
+{
+  "label": "hotplug",
+  "position": 5,
+  "link": {
+    "type": "doc",
+    "id": "vm/hotplug/category"
+  }
+}
