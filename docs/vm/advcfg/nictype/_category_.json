@@ -1,0 +1,8 @@
+{
+  "label": "nictype",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "虚拟机网卡型号相关操作"
+  }
+}
