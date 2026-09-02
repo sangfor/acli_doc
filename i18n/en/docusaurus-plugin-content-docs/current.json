@@ -2035,6 +2035,14 @@
     "message": "Link Aggregation Port Mode Commands",
     "description": "The generated-index page description for category network.bond.mode in sidebar tutorialSidebar"
   },
+  "sidebar.tutorialSidebar.category.network.cli": {
+    "message": "cli",
+    "description": "The label for category network.cli in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.network.cli.link.generated-index.description": {
+    "message": "SDN CLI related commands",
+    "description": "The generated-index page description for category network.cli in sidebar tutorialSidebar"
+  },
   "sidebar.tutorialSidebar.category.network.port": {
     "message": "port",
     "description": "The label for category network.port in sidebar tutorialSidebar"

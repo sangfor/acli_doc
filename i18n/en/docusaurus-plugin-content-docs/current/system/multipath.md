@@ -10,11 +10,25 @@ multipath command
 
 ### Command Parameters
 
-No parameters
+```bash
+-l                    Show existing multipath topology
+-ll                   View more details about topology/path status (preferred)
+-h|--help=flag        Display help information
+-v|--verbose=integer  Set output verbosity level (0-3) (-v 2 separates; -v0--v3 merges; --verbose 1 is long form)
+```
+
 ### Usage Example
 
 ```bash
-acli system multipath
+acli system multipath -ll
+```
+
+```bash
+acli system multipath -l
+```
+
+```bash
+acli system multipath -v 2 -ll
 ```
 
 ### Output Example

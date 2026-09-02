@@ -10,12 +10,31 @@ smartctl command
 
 ### Command Parameters
 
-No parameters
+```bash
+-i|--info=flag             Display device ID information
+-H|--health=flag           Display device health status
+-A|--attributes=flag       Display SMART attributes of display device
+-a|--all=flag              Display all SMART information of display device
+-x|--xall=flag             Display all information of display device
+-j|--json=flag             Output as JSON
+-l                         Query logs of specified types. Value can be any value. Example: error, selftest
+-d                         Specify device type. Value can be any value. Example: scsi
+-T|--tolerance=string      Fault tolerance mode, value is fixed as permissive.
+<disk>                     Mandatory parameter for specifying a disk device. The path must be limited to /dev/sd[a-z]+. Example: /dev/sda
+```
 
 ### Usage Example
 
 ```bash
-acli system smartctl
+acli system smartctl -i /dev/sda
+```
+
+```bash
+acli system smartctl -H /dev/sda
+```
+
+```bash
+acli system smartctl -a /dev/sda
 ```
 
 ### Output Example

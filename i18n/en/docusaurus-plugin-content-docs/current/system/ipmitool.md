@@ -10,11 +10,27 @@ ipmitool command
 
 ### Command Parameters
 
-No parameters
+```bash
+-I|--interface=string  Specify an IPMI interface; value is fixed as open.
+sel elist              Read SEL event and perform extended parsing.
+sel info               Query the SEL repository status/capacity
+sel time get           Read BMC SEL clock
+sdr type <type>        Query specified type of SDR/sensor status from BMC.<type> is allowed.
+-S|--sdr-cache=string  Use local SDR cache to parse sensors. The value is fixed as /sf/log/sdr.cache.
+```
+
 ### Usage Example
 
 ```bash
-acli system ipmitool
+acli system ipmitool -I open sel elist
+```
+
+```bash
+acli system ipmitool sdr type Temperature
+```
+
+```bash
+acli system ipmitool sdr type Temperature -S /sf/log/sdr.cache
 ```
 
 ### Output Example
