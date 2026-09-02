@@ -1,0 +1,8 @@
+{
+  "label": "multicast",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "组播相关操作"
+  }
+}
