@@ -242,6 +242,8 @@ acli <完整命令路径> <示例参数>
 英文（i18n/en/.../）：
 1. i18n/en/docusaurus-plugin-content-docs/current/xxx/_category_.json
 2. i18n/en/docusaurus-plugin-content-docs/current/xxx/yyy.md
+注意！英文需要额外的适配下面这个文件。该文件是用于显示英文文档的标题和描述，必须同步更新
+i18n/en/docusaurus-plugin-content-docs/current.json
 ...
 ```
 
