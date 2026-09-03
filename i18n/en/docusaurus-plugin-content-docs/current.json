@@ -2087,6 +2087,14 @@
     "message": "Virtual Machine NIC Model Related Operations",
     "description": "The generated-index page description for category vm.advcfg.nictype in sidebar tutorialSidebar"
   },
+  "sidebar.tutorialSidebar.category.vm.advcfg.disktype": {
+    "message": "disktype",
+    "description": "The label for category vm.advcfg.disktype in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.vm.advcfg.disktype.link.generated-index.description": {
+    "message": "Virtual Machine Disk Driver Type Related Operations",
+    "description": "The generated-index page description for category vm.advcfg.disktype in sidebar tutorialSidebar"
+  },
   "sidebar.tutorialSidebar.category.vm.vnc": {
     "message": "vnc",
     "description": "The label for category vm.vnc in sidebar tutorialSidebar"

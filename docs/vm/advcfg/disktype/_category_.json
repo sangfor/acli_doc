@@ -1,0 +1,8 @@
+{
+  "label": "disktype",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "虚拟机磁盘驱动类型相关操作"
+  }
+}
