@@ -10,12 +10,21 @@ realethtool命令
 
 ### 命令参数
 
-无参数
+```bash
+-S|--statistics=flag  查看网卡的统计信息
+-i|--driver=flag      查看网卡对应的驱动信息
+-a|--all=flag         查看网卡的所有信息
+<iface>               必要参数，指定要查看的网卡名（需在白名单接口内），示例：eth0
+```
 
 ### 使用示例
 
 ```bash
-acli system realethtool
+acli system realethtool eth0
+```
+
+```bash
+acli system realethtool -i eth0
 ```
 
 ### 结果示例

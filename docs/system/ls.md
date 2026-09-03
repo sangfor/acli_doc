@@ -30,6 +30,7 @@ acli system ls
 /sf/log/
 /tmp/
 /dev/
+/sys/class/net/
 
 # acli system ls /var
 30_vs_eth_check_temp.log

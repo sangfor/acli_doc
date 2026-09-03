@@ -10,12 +10,25 @@ multipath命令
 
 ### 命令参数
 
-无参数
+```bash
+-l                   查看现有 multipath topology
+-ll                  更详细地查看 topology/path 状态（首选）
+-h|--help=flag       显示帮助信息
+-v|--verbose=integer 设置输出详细度，值限 0~3（支持 -v 2 分离、-v0~-v3 合并、--verbose 1 长写法）
+```
 
 ### 使用示例
 
 ```bash
-acli system multipath
+acli system multipath -ll
+```
+
+```bash
+acli system multipath -l
+```
+
+```bash
+acli system multipath -v 2 -ll
 ```
 
 ### 结果示例

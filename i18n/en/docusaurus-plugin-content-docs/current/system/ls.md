@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ### Overview
 
-Restrict access to files in the specified directory
+Is command for restricting access to files in the specified directory
 
 ### Command Parameters
 
@@ -29,6 +29,7 @@ Specify the absolute path parameter to view only files in the following director
 /sf/log/
 /tmp/
 /dev/
+/sys/class/net/
 
 # acli system ls /var
 30_vs_eth_check_temp.log

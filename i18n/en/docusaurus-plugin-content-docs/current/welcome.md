@@ -22,6 +22,8 @@ Parameters:
   --force              Force Mode: Bypasses interactive confirmation and executes operations directly (please confirm the risks before use).
   --formatter          Parameters for command formatting. Enumeration values: xml, csv, keyvalue, json
   --container          Specify the global container for commands, applicable only to commands under the system. Enumeration values: asv-con, vn-con, vn-agent, vs-cp-manager
+  --host               Specify node IP address within cluster for executing acli commands.
+  --trace_id           Used for setting log chain trace ID throughout the entire log chain.
 
 Available namespaces:
   acli                 aCLI description. Provide additional information to users.
@@ -182,6 +184,8 @@ Before installation, please check if the available capacity of the /sf/data/loca
       --force              Force Mode: Bypasses interactive confirmation and executes operations directly (please confirm the risks before use).
       --formatter          Parameters for command formatting. Enumeration values: xml, csv, keyvalue, json
       --container          Specify the global container for commands, applicable only to commands under the system. Enumeration values: asv-con, vn-con, vn-agent, vs-cp-manager
+      --host               Specify node IP address within cluster for executing acli commands.
+      --trace_id           Used for setting log chain trace ID throughout the entire log chain.
 
     Available plugins:
       asan_ops             Virtual Storage Anomaly Troubleshooting Tool
@@ -217,12 +221,16 @@ Before installation, please check if the available capacity of the /sf/data/loca
       --force              Force Mode: Bypasses interactive confirmation and executes operations directly (please confirm the risks before use).
       --formatter          Parameters for command formatting. Enumeration values: xml, csv, keyvalue, json
       --container          Specify the global container for commands, applicable only to commands under the system. Enumeration values: asv-con, vn-con, vn-agent, vs-cp-manager
+      --host               Specify node IP address within cluster for executing acli commands.
+      --trace_id           Used for setting log chain trace ID throughout the entire log chain.
     ......
     ```
 
     Through flexible use of global parameters, you can achieve fine-grained control and powerful execution capabilities for commands.
 
     For example: acli commands execute on the master node by default, but cluster execution can be achieved through global parameters.
+
+    > Global parameter anti-affinity rule: `--host` and `--cluster` are mutually exclusive and cannot be used at the same time; `--container` can coexist with both `--host` and `--cluster`; `--trace_id` can be combined with any global parameter.
 
 2. Command Parameters
 
