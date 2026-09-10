@@ -1,0 +1,8 @@
+{
+  "label": "vcpu_type",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "平台vCPU型号相关命令"
+  }
+}
