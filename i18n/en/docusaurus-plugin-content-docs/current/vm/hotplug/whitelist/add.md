@@ -6,17 +6,17 @@ sidebar_position: 2
 
 ### Overview
 
-Allow CPU/memory hot-add for a specified OS or all unknown OSes
+Allow CPU/memory hot-add for specified OSes or all unknown OSes
 
 ### Command Parameters
 
 ```bash
--v|--vm-id=string        Optional parameter, VM ID. Allow CPU/memory hot-add based on the OS distribution information collected from this VM. Example: 3535177259949
--o|--os=string           Optional parameter, OS distribution identifier (single OS), in the form <osname>,<bitness>. Example: Ubuntu 14,64
--f|--csv-file=string     Optional parameter, absolute path of the CSV file (relative paths are not supported), with headers os_distribution,is_supported_cpu_hotplug,is_supported_memory_hotplug; write the file to ~/tmp/ or /sf/data/local/acli/tmp/ on the host side and pass any accessible absolute path. Example: /support/tmp/test.csv
--c|--cpu=boolean         Optional parameter, CPU hot-add capability, true/false; requires --vm-id or --os to be specified first (in --csv-file mode the capability is specified per CSV row; not supported in --all-unknown mode); if neither cpu nor memory is specified, it defaults to allowed (true). Example: true
--m|--memory=boolean      Optional parameter, memory hot-add capability, true/false; requires --vm-id or --os to be specified first (in --csv-file mode the capability is specified per CSV row; not supported in --all-unknown mode); if neither cpu nor memory is specified, it defaults to allowed (true). Example: true
--a|--all-unknown         Optional parameter, enable global fallback: allow CPU/memory hot-add for all unknown OSes; mutually exclusive with --vm-id/--os/--csv-file. Example: --all-unknown
+-v|--vm-id=string        Optional parameter, VM ID, which is used to allow CPU/memory hot-add based on the OS distribution information collected from this VM. Example: 3535177259949
+-o|--os=string           Optional parameter, OS distribution identifier (single OS), format: <osname>,<bit>. osname can contain only letters, digits, spaces, and special characters ( - . _ /). Example: Ubuntu 14,64
+-f|--csv-file=string     Optional parameter, absolute path of CSV file, which can only start with /sf/data/local/acli/tmp/ or /support/tmp/. Example: /support/tmp/test.csv
+-c|--cpu=boolean         Optional parameter, CPU hot-add capability (true/false); must specify --vm-id or --os first (--csv-file mode capability is specified by each row of CSV file; this parameter is not supported by --all-unknown mode). If neither CPU nor memory is specified, the default value is true (allow hot-add). Example: true
+-m|--memory=boolean      Optional parameter, memory hot-add capability (true/false); must specify --vm-id or --os first (--csv-file mode capability is specified by each row of CSV file; this parameter is not supported by --all-unknown mode). If neither CPU nor memory is specified, the default value is true (allow hot-add). Example: true
+-a|--all-unknown         Optional parameter, enable global default policy: CPU/memory hot-add is allowed for all unknown OSes. It is mutually exclusive with --vm-id/--os/--csv-file. Example: --all-unknown
 ```
 
 ### Usage Example
@@ -31,12 +31,12 @@ acli vm hotplug whitelist add -v 3535177259949
 # Batch allow via a CSV file
 acli vm hotplug whitelist add -f /support/tmp/test.csv
 
-# Enable global fallback: allow all unknown OSes
+# Enable global default policy: allow all unknown OSes
 acli vm hotplug whitelist add -a
 ```
 
 ### Output Example
 
 ```bash
-Ubuntu 14,64 has been added
+Added: Ubuntu 14,64
 ```

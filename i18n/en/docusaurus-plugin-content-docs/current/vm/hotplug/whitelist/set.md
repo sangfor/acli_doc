@@ -6,14 +6,14 @@ sidebar_position: 3
 
 ### Overview
 
-Modify the CPU/memory hot-add capability for a specified OS
+Modify the capability of allowing CPU/memory hot-add for the specified OS
 
 ### Command Parameters
 
 ```bash
--o|--os=string        Required parameter, OS distribution identifier (single OS), in the form <osname>,<bitness>. Example: Ubuntu 14,64
--c|--cpu=boolean      Optional parameter, CPU hot-add capability, true/false; requires --os to be specified first (--os is required); if not specified, the current value is kept. Example: true
--m|--memory=boolean   Optional parameter, memory hot-add capability, true/false; requires --os to be specified first (--os is required); if not specified, the current value is kept. Example: false
+-o|--os=string        Required parameter, OS distribution identifier (single OS), format: <osname>,<bit>. osname can contain only letters, digits, spaces, and special characters ( - . _ /). Example: Ubuntu 14,64
+-c|--cpu=boolean      Optional parameter, CPU hot-add capability (true/false); must specify --os first (--os is required), and keep the original value if not passed in. Example: true
+-m|--memory=boolean   Optional parameter, memory hot-add capability (true/false); must specify --os first (--os is required), and keep the original value if not passed in. Example: false
 ```
 
 ### Usage Example
@@ -32,5 +32,5 @@ acli vm hotplug whitelist set -o "Ubuntu 14,64" -c true -m true
 ### Output Example
 
 ```bash
-Ubuntu 14,64 has been modified: CPU hot-add supported
+Modified: Ubuntu 14,64: CPU hot-add: Supported
 ```

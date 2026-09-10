@@ -6,7 +6,7 @@ sidebar_position: 5
 
 ### Overview
 
-Query the OS whitelist allowing CPU/memory hot-add and the global fallback status
+Query the OS whitelist for CPU/memory hot-add and global default policy status
 
 ### Command Parameters
 
@@ -21,8 +21,8 @@ acli vm hotplug whitelist list
 ### Output Example
 
 ```bash
-    OS Distribution | Hot-add CPU | Hot-add Memory
-    ------------|---------|----------
-1   Ubuntu 14,64|√        |√         
-2   All unknown |×        |×         
+    Distribution  |Hot-add CPU|Hot-add Memory
+    --------------|-----------|--------------
+1   Ubuntu 14,64  |true       |true         
+2   All unknown   |false      |false      
 ```

@@ -11,8 +11,8 @@ sidebar_position: 4
 ### 命令参数
 
 ```bash
--o|--os=string      可选参数，操作系统发行版标识(单个OS)，形如 <osname>,<位数>，示例：Ubuntu 14,64
--a|--all-unknown    可选参数，关闭全局兜底：还原为不支持未知OS的CPU/内存热添加，与 --os 互斥，示例：--all-unknown
+-o|--os=string      可选参数，操作系统发行版标识(单个OS)，形如 <osname>,<位数>，osname 仅允许字母/数字/空格及 - . _ /，示例：Ubuntu 14,64
+-a|--all-unknown    可选参数，关闭全局兜底：还原为不支持未知 OS 的 CPU/内存热添加，与 --os 互斥，示例：--all-unknown
 ```
 
 ### 使用示例

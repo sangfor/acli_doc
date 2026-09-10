@@ -23,6 +23,6 @@ acli vm hotplug whitelist list
 ```bash
     Distribution  |Hot-add CPU|Hot-add Memory
     --------------|-----------|--------------
-1   Ubuntu 14,64  |√          |×             
-2   All Unknown OS|√          |√              
+1   Ubuntu 14,64  |true       |true         
+2   All unknown   |false      |false          
 ```

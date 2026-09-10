@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ### Overview
 
-Restore all custom OS whitelist entries (factory defaults and global fallback are preserved)
+Restore all custom OS whitelists (factory settings retained)
 
 ### Command Parameters
 
@@ -21,5 +21,5 @@ acli vm hotplug whitelist reset
 ### Output Example
 
 ```bash
-Custom OS configurations have been restored
+Custom OS configuration has been restored.
 ```
