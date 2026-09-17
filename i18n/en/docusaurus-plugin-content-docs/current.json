@@ -1667,6 +1667,22 @@
     "message": "Disk Residual Operations",
     "description": "The generated-index page description for category storage.asan.disk.residual in sidebar tutorialSidebar"
   },
+  "sidebar.tutorialSidebar.category.storage.asan.io_uring": {
+    "message": "io_uring",
+    "description": "The label for category storage.asan.io_uring in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.storage.asan.io_uring.link.generated-index.description": {
+    "message": "Virtual Datastore io_uring Operations",
+    "description": "The generated-index page description for category storage.asan.io_uring in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.storage.asan.io_uring.sqpoll": {
+    "message": "sqpoll",
+    "description": "The label for category storage.asan.io_uring.sqpoll in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.storage.asan.io_uring.sqpoll.link.generated-index.description": {
+    "message": "io_uring sqpoll Mode Operations",
+    "description": "The generated-index page description for category storage.asan.io_uring.sqpoll in sidebar tutorialSidebar"
+  },
   "sidebar.tutorialSidebar.category.storage.fc": {
     "message": "fc",
     "description": "The label for category storage.fc in sidebar tutorialSidebar"
