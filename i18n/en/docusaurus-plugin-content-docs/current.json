@@ -1599,6 +1599,14 @@
     "message": "Host Hardware Management Commands",
     "description": "The generated-index page description for category hardware.hostcli in sidebar tutorialSidebar"
   },
+  "sidebar.tutorialSidebar.category.hardware.configstorecli": {
+    "message": "configstorecli",
+    "description": "The label for category hardware.configstorecli in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.hardware.configstorecli.link.generated-index.description": {
+    "message": "View and modify host configuration commands",
+    "description": "The generated-index page description for category hardware.configstorecli in sidebar tutorialSidebar"
+  },
   "sidebar.tutorialSidebar.category.log.cgroup": {
     "message": "cgroup",
     "description": "The label for category log.cgroup in sidebar tutorialSidebar"
