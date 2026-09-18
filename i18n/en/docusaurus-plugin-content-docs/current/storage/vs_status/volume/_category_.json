@@ -1,0 +1,8 @@
+{
+  "label": "volume",
+  "position": 1,
+  "link": {
+    "type": "doc",
+    "id": "storage/vs_status/volume/category"
+  }
+}

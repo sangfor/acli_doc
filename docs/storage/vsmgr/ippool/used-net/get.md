@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ### 操作概述
 
-获取平台版本
+查询 IP 池配置的网络段
 
 ### 命令参数
 
@@ -17,12 +17,13 @@ sidebar_position: 1
 ### 使用示例
 
 ```bash
-acli platform version get
+acli storage vsmgr ippool used-net get
 ```
 
 ### 结果示例
 
+IP 池未配置时输出空行。
+
 ```bash
-6.10.0_R2
-build 2024-09-11 03:01:31
+192.168.1.0
 ```

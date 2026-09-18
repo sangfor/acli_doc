@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ### Overview
 
-Obtain platform version
+Get system language
 
 ### Command Parameters
 
@@ -17,12 +17,11 @@ No parameters
 ### Usage Example
 
 ```bash
-acli platform version get
+acli platform info system_language get
 ```
 
 ### Output Example
 
 ```bash
-6.10.0_R2
-build 2024-09-11 03:01:31
+zh_CN
 ```

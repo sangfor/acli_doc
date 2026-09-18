@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ### 操作概述
 
-获取平台版本
+查询系统语言
 
 ### 命令参数
 
@@ -17,12 +17,11 @@ sidebar_position: 1
 ### 使用示例
 
 ```bash
-acli platform version get
+acli platform info system_language get
 ```
 
 ### 结果示例
 
 ```bash
-6.10.0_R2
-build 2024-09-11 03:01:31
+zh_CN
 ```

@@ -1,0 +1,8 @@
+{
+  "label": "ip",
+  "position": 1,
+  "link": {
+    "type": "doc",
+    "id": "storage/vsmgr/ippool/ip/category"
+  }
+}

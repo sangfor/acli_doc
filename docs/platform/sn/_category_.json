@@ -1,0 +1,8 @@
+{
+  "label": "sn",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "平台序列号相关命令"
+  }
+}

@@ -1,0 +1,8 @@
+{
+    "label": "fault-domains",
+    "position": 1,
+    "link": {
+        "type": "generated-index",
+        "description": "fault-domains 相关文档"
+    }
+}

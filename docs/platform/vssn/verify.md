@@ -2,11 +2,11 @@
 sidebar_position: 1
 ---
 
-# get
+# verify
 
 ### 操作概述
 
-获取平台版本
+校验本机所有 VS 序列号的完整性和授权限制
 
 ### 命令参数
 
@@ -17,12 +17,11 @@ sidebar_position: 1
 ### 使用示例
 
 ```bash
-acli platform version get
+acli platform vssn verify
 ```
 
 ### 结果示例
 
 ```bash
-6.10.0_R2
-build 2024-09-11 03:01:31
+ok
 ```

@@ -2,11 +2,11 @@
 sidebar_position: 1
 ---
 
-# get
+# verify
 
 ### Overview
 
-Obtain platform version
+Verify integrity and authorization limits of all VS serial numbers on this host
 
 ### Command Parameters
 
@@ -17,12 +17,11 @@ No parameters
 ### Usage Example
 
 ```bash
-acli platform version get
+acli platform vssn verify
 ```
 
 ### Output Example
 
 ```bash
-6.10.0_R2
-build 2024-09-11 03:01:31
+ok
 ```
