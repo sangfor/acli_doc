@@ -14,14 +14,13 @@ Modify the driver type of the virtual machine disk (cold edit, only supported wh
 -v|--vm-id=string      Required parameter, virtual machine ID, example: 614182240912
 -t|--type=string       Required parameter, target disk driver type, enum values: virtio-blk (virtio block device, high performance, requires virtio driver installed in Guest OS), ide (IDE compatibility mode), virtio-scsi (virtio-scsi on IDE slot, high performance, requires virtio driver), case-insensitive, example: virtio-blk
 -d|--disk-id=string    Optional parameter, disk ID (UUID). If not specified, all ide-family disks (bus in {1,2,5}) will be modified; when a single disk is specified, the master switch will be turned off, example: 01a03ddf-5148-727d-9e9c-e8e581df7088
--o|--operator=string   Optional parameter, operator, used for operation audit logs; when missing, the backend records 'unknown', example: zhangsan
 ```
 
 ### Usage Example
 
 ```bash
 acli vm advcfg disktype set -v 614182240912 -t virtio-blk
-acli vm advcfg disktype set -v 614182240912 -d 01a03ddf-5148-727d-9e9c-e8e581df7088 -t ide -o zhangsan
+acli vm advcfg disktype set -v 614182240912 -d 01a03ddf-5148-727d-9e9c-e8e581df7088 -t ide
 ```
 
 ### Output Example
