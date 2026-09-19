@@ -2119,6 +2119,14 @@
     "message": "Virtual Machine Disk Driver Type Related Operations",
     "description": "The generated-index page description for category vm.advcfg.disktype in sidebar tutorialSidebar"
   },
+  "sidebar.tutorialSidebar.category.vm.advcfg.wwn": {
+    "message": "wwn",
+    "description": "The label for category vm.advcfg.wwn in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.vm.advcfg.wwn.link.generated-index.description": {
+    "message": "Virtual Machine Disk WWN Related Operations",
+    "description": "The generated-index page description for category vm.advcfg.wwn in sidebar tutorialSidebar"
+  },
   "sidebar.tutorialSidebar.category.vm.vnc": {
     "message": "vnc",
     "description": "The label for category vm.vnc in sidebar tutorialSidebar"
