@@ -1047,7 +1047,7 @@
     "message": "Performance tools plugin monitor related commands, log storage path /sf/data/local/performance_tools/performance_data/",
     "description": "The generated-index page description for category monitor in sidebar tutorialSidebar"
   },
-"sidebar.tutorialSidebar.category.branch": {
+  "sidebar.tutorialSidebar.category.branch": {
     "message": "branch",
     "description": "The label for category branch in sidebar tutorialSidebar"
   },
@@ -2250,5 +2250,253 @@
   "sidebar.tutorialSidebar.category.multipathconfig.link.generated-index.description": {
     "message": "Multipathconfig Operations",
     "description": "The generated-index page description for category multipathconfig in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.arbiter": {
+    "message": "arbiter",
+    "description": "The label for category arbiter in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.arbiter.link.generated-index.description": {
+    "message": "Arbiter Related Operations",
+    "description": "The generated-index page description for category arbiter in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.cluster": {
+    "message": "cluster",
+    "description": "The label for category cluster in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.cluster.link.generated-index.description": {
+    "message": "Cluster Related Operations",
+    "description": "The generated-index page description for category cluster in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.cluster.patch": {
+    "message": "patch",
+    "description": "The label for category patch in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.cluster.patch.link.generated-index.description": {
+    "message": "Cluster Patch Operations",
+    "description": "The generated-index page description for category patch in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.cluster.patch.alert": {
+    "message": "alert",
+    "description": "The label for category alert in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.cluster.patch.alert.link.generated-index.description": {
+    "message": "Cluster Patch Alert Operations",
+    "description": "The generated-index page description for category alert in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.cluster.pcie": {
+    "message": "pcie",
+    "description": "The label for category pcie in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.cluster.pcie.link.generated-index.description": {
+    "message": "Cluster PCI Device Operations",
+    "description": "The generated-index page description for category pcie in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.cluster.security_version": {
+    "message": "security_version",
+    "description": "The label for category security_version in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.cluster.security_version.link.generated-index.description": {
+    "message": "Cluster Security Version Operations",
+    "description": "The generated-index page description for category security_version in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.cluster.sn": {
+    "message": "sn",
+    "description": "The label for category sn in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.cluster.sn.link.generated-index.description": {
+    "message": "Cluster Serial Number and License Operations",
+    "description": "The generated-index page description for category sn in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.cluster.system_config": {
+    "message": "system_config",
+    "description": "The label for category system_config in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.cluster.system_config.link.generated-index.description": {
+    "message": "Cluster System Configuration Operations",
+    "description": "The generated-index page description for category system_config in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.cluster.system_language": {
+    "message": "system_language",
+    "description": "The label for category system_language in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.cluster.system_language.link.generated-index.description": {
+    "message": "Cluster System Language Operations",
+    "description": "The generated-index page description for category system_language in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.cluster.vcpu_type": {
+    "message": "vcpu_type",
+    "description": "The label for category vcpu_type in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.cluster.vcpu_type.link.generated-index.description": {
+    "message": "Cluster vCPU Type Operations",
+    "description": "The generated-index page description for category vcpu_type in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.patches": {
+    "message": "patches",
+    "description": "The label for category patches in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.patches.link.generated-index.description": {
+    "message": "Patches Related Operations",
+    "description": "The generated-index page description for category patches in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.port": {
+    "message": "port",
+    "description": "The label for category port in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.port.link.generated-index.description": {
+    "message": "Platform Port Operations",
+    "description": "The generated-index page description for category port in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.syncvmtime": {
+    "message": "syncvmtime",
+    "description": "The label for category syncvmtime in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.syncvmtime.link.generated-index.description": {
+    "message": "Sync VM Time Operations",
+    "description": "The generated-index page description for category syncvmtime in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.syslog": {
+    "message": "syslog",
+    "description": "The label for category syslog in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.syslog.link.generated-index.description": {
+    "message": "Syslog Forwarding Operations",
+    "description": "The generated-index page description for category syslog in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.syslog.config": {
+    "message": "config",
+    "description": "The label for category config in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.syslog.config.link.generated-index.description": {
+    "message": "Syslog Forwarding Configuration Operations",
+    "description": "The generated-index page description for category config in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.vssn": {
+    "message": "vssn",
+    "description": "The label for category vssn in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.vssn.link.generated-index.description": {
+    "message": "VS Serial Number Operations",
+    "description": "The generated-index page description for category vssn in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.vtsn": {
+    "message": "vtsn",
+    "description": "The label for category vtsn in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.vtsn.link.generated-index.description": {
+    "message": "USB Key Related Operations",
+    "description": "The generated-index page description for category vtsn in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.vtsn.keyid": {
+    "message": "keyid",
+    "description": "The label for category keyid in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.vtsn.keyid.link.generated-index.description": {
+    "message": "USB Key ID Operations",
+    "description": "The generated-index page description for category keyid in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.vtsn.owner": {
+    "message": "owner",
+    "description": "The label for category owner in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.vtsn.owner.link.generated-index.description": {
+    "message": "USB Key Owner Operations",
+    "description": "The generated-index page description for category owner in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.storage.backuppool": {
+    "message": "backuppool",
+    "description": "The label for category backuppool in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.storage.backuppool.link.generated-index.description": {
+    "message": "Backup Pool Storage Operations",
+    "description": "The generated-index page description for category backuppool in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.storage.vs_status": {
+    "message": "vs_status",
+    "description": "The label for category vs_status in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.storage.vs_status.link.generated-index.description": {
+    "message": "VS Storage Status Operations",
+    "description": "The generated-index page description for category vs_status in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.storage.vs_status.volume": {
+    "message": "volume",
+    "description": "The label for category volume in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.storage.vs_status.volume.link.generated-index.description": {
+    "message": "VS Storage Volume Operations",
+    "description": "The generated-index page description for category volume in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.storage.vsmgr": {
+    "message": "vsmgr",
+    "description": "The label for category vsmgr in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.storage.vsmgr.link.generated-index.description": {
+    "message": "VS Storage Manager Operations",
+    "description": "The generated-index page description for category vsmgr in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.storage.vsmgr.fault-domains": {
+    "message": "fault-domains",
+    "description": "The label for category fault-domains in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.storage.vsmgr.fault-domains.link.generated-index.description": {
+    "message": "Volume Fault Domain Operations",
+    "description": "The generated-index page description for category fault-domains in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.storage.vsmgr.host-in-volume": {
+    "message": "host-in-volume",
+    "description": "The label for category host-in-volume in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.storage.vsmgr.host-in-volume.link.generated-index.description": {
+    "message": "Host in Volume Operations",
+    "description": "The generated-index page description for category host-in-volume in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.storage.vsmgr.ippool": {
+    "message": "ippool",
+    "description": "The label for category ippool in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.storage.vsmgr.ippool.link.generated-index.description": {
+    "message": "VS IP Pool Operations",
+    "description": "The generated-index page description for category ippool in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.storage.vsmgr.ippool.ip": {
+    "message": "ip",
+    "description": "The label for category ip in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.storage.vsmgr.ippool.ip.link.generated-index.description": {
+    "message": "IP Pool IP Allocation Operations",
+    "description": "The generated-index page description for category ip in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.storage.vsmgr.ippool.used-net": {
+    "message": "used-net",
+    "description": "The label for category used-net in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.storage.vsmgr.ippool.used-net.link.generated-index.description": {
+    "message": "IP Pool Used Network Operations",
+    "description": "The generated-index page description for category used-net in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.storage.vsmgr.volume": {
+    "message": "volume",
+    "description": "The label for category volume in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.storage.vsmgr.volume.link.generated-index.description": {
+    "message": "VS Volume Operations",
+    "description": "The generated-index page description for category volume in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.system.proc.starttime": {
+    "message": "starttime",
+    "description": "The label for category starttime in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.system.proc.starttime.link.generated-index.description": {
+    "message": "Process Start Time Operations",
+    "description": "The generated-index page description for category starttime in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.network.faultdomain": {
+    "message": "faultdomain",
+    "description": "The label for category faultdomain in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.network.faultdomain.link.generated-index.description": {
+    "message": "Fault Domain Related Operations",
+    "description": "The generated-index page description for category faultdomain in sidebar tutorialSidebar"
   }
 }

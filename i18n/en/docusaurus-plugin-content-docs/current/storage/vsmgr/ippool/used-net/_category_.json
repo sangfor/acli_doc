@@ -1,0 +1,8 @@
+{
+  "label": "used-net",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "IP Pool Used Network Operations"
+  }
+}

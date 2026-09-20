@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ### 操作概述
 
-获取平台版本
+获取 USB Key ID
 
 ### 命令参数
 
@@ -17,12 +17,13 @@ sidebar_position: 1
 ### 使用示例
 
 ```bash
-acli platform version get
+acli platform vtsn keyid get
 ```
 
 ### 结果示例
 
+已插入 USB Key 时输出 Key ID；未插 USB Key 时输出空字符串。
+
 ```bash
-6.10.0_R2
-build 2024-09-11 03:01:31
+FFFFFFFFFFFFFFFF
 ```
