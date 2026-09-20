@@ -1,0 +1,8 @@
+{
+  "label": "smbios",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "虚拟机SMBIOS厂商信息相关操作"
+  }
+}

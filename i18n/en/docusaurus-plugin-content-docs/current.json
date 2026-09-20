@@ -2127,6 +2127,14 @@
     "message": "Virtual Machine Disk WWN Related Operations",
     "description": "The generated-index page description for category vm.advcfg.wwn in sidebar tutorialSidebar"
   },
+  "sidebar.tutorialSidebar.category.vm.advcfg.smbios": {
+    "message": "smbios",
+    "description": "The label for category vm.advcfg.smbios in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.vm.advcfg.smbios.link.generated-index.description": {
+    "message": "Virtual Machine SMBIOS Manufacturer Related Operations",
+    "description": "The generated-index page description for category vm.advcfg.smbios in sidebar tutorialSidebar"
+  },
   "sidebar.tutorialSidebar.category.vm.vnc": {
     "message": "vnc",
     "description": "The label for category vm.vnc in sidebar tutorialSidebar"
