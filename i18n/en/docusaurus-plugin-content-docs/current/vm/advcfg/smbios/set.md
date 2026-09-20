@@ -26,7 +26,7 @@ acli vm advcfg smbios set -v 614182240912 -m "VMware, Inc." -e true
 ### Output Example
 
 ```bash
-Are you sure you want to perform this operation? (y[es]/n[o]): y
+Are you sure you want to execute the operation? (y[es]/n[o]): y
 enabledAfter: true
 enabledBefore: false
 manufacturerAfter: HPE

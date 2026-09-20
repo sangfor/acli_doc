@@ -2135,6 +2135,38 @@
     "message": "Virtual Machine SMBIOS Manufacturer Related Operations",
     "description": "The generated-index page description for category vm.advcfg.smbios in sidebar tutorialSidebar"
   },
+  "sidebar.tutorialSidebar.category.vm.advcfg.cpu-args": {
+    "message": "cpu-args",
+    "description": "The label for category vm.advcfg.cpu-args in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.vm.advcfg.cpu-args.link.generated-index.description": {
+    "message": "Virtual Machine CPU Custom QEMU Args Related Operations",
+    "description": "The generated-index page description for category vm.advcfg.cpu-args in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.vm.advcfg.machine-args": {
+    "message": "machine-args",
+    "description": "The label for category vm.advcfg.machine-args in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.vm.advcfg.machine-args.link.generated-index.description": {
+    "message": "Virtual Machine Machine Custom QEMU Args Related Operations",
+    "description": "The generated-index page description for category vm.advcfg.machine-args in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.vm.advcfg.nic-args": {
+    "message": "nic-args",
+    "description": "The label for category vm.advcfg.nic-args in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.vm.advcfg.nic-args.link.generated-index.description": {
+    "message": "Virtual Machine NIC Custom QEMU Args Related Operations",
+    "description": "The generated-index page description for category vm.advcfg.nic-args in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.vm.advcfg.disk-args": {
+    "message": "disk-args",
+    "description": "The label for category vm.advcfg.disk-args in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.vm.advcfg.disk-args.link.generated-index.description": {
+    "message": "Virtual Machine Disk Custom QEMU Args Related Operations",
+    "description": "The generated-index page description for category vm.advcfg.disk-args in sidebar tutorialSidebar"
+  },
   "sidebar.tutorialSidebar.category.vm.vnc": {
     "message": "vnc",
     "description": "The label for category vm.vnc in sidebar tutorialSidebar"

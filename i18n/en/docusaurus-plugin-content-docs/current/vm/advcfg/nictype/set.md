@@ -25,7 +25,7 @@ acli vm advcfg nictype set -v 614182240912 -n f2d33928-059a-4cd6-9902-ab39cde918
 ### Output Example
 
 ```bash
-Are you sure you want to perform this operation? (y[es]/n[o]): y
+Are you sure you want to execute the operation? (y[es]/n[o]): y
 vmID: 614182240912
 nicID: f2d33928-059a-4cd6-9902-ab39cde9189c
 modelBefore: e1000
