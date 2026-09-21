@@ -26,7 +26,7 @@ acli vm advcfg wwn set -v 614182240912 -d 01a03ddf-5148-727d-9e9c-e8e581df7088 -
 ### Output Example
 
 ```bash
-Are you sure you want to perform this operation? (y[es]/n[o]): y
+Are you sure you want to execute the operation? (y[es]/n[o]): y
 vmID: 614182240912
 diskID: 01a03ddf-5148-727d-9e9c-e8e581df7088
 wwnBefore: 6000c29a3b7e4f18a1b2c3d4e5f60718
