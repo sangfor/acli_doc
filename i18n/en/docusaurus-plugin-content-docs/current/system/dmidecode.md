@@ -6,11 +6,21 @@ sidebar_position: 1
 
 ### Overview
 
-dmidecode command
+dmidecode command, reads and displays DMI/SMBIOS hardware information (read-only; dumping DMI data
+to a file is forbidden).
 
 ### Command Parameters
 
-No parameters
+Forbidden parameters (rejected on match, including GNU unique-prefix abbreviations):
+
+```bash
+-u|--dump             Forbidden. Dumps DMI data to a binary file (write operation). Rejected.
+--dump-bin=<file>     Forbidden. Dumps DMI data to a binary file (write operation). Rejected.
+                      Because GNU getopt accepts unique-prefix abbreviations, any form starting with
+                      --du (--du / --dum / --dump) is also rejected. Note that --dev-mem is unaffected
+                      (its shortest unique prefix is --de).
+```
+
 ### Usage Example
 
 ```bash

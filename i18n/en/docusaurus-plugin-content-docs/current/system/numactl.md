@@ -11,8 +11,8 @@ Query NUMA topology and policy
 ### Command Parameters
 
 ```bash
--H|--hardware=flag   Show NUMA hardware topology (default when no parameter is given)
--s|--show=flag       Show current NUMA policy
+-H|--hardware=flag  Show NUMA hardware topology (default when no parameter is given)
+-s|--show=flag      Show current NUMA policy
 ```
 
 ### Usage Example
