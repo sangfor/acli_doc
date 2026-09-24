@@ -11,8 +11,8 @@ sidebar_position: 1
 ### 命令参数
 
 ```bash
--H|--hardware=flag   显示 NUMA 硬件拓扑（无参数时默认）
--s|--show=flag       显示当前 NUMA 策略
+-H|--hardware=flag  显示 NUMA 硬件拓扑（无参数时默认）
+-s|--show=flag      显示当前 NUMA 策略
 ```
 
 ### 使用示例

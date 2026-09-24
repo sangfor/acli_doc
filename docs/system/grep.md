@@ -23,26 +23,46 @@ sidebar_position: 1
 <file>     必要参数，要搜索的文件或目录，仅允许白名单内的路径
 ```
 
-可搜索的路径白名单（文件类）：
+可搜索的路径白名单（cat 命令族共用：cat/grep/tail/diff 文本查看/比较族，去包含后 81 条，节选）：
+
+文件类（精确匹配，节选）：
 
 ```bash
-/cfs/cfgmaster.ini
 /cfs/.members
+/cfs/cfgmaster.ini
+/cfs/cluster.ini
+/cfs/storage.cfg
+/etc/fstab
+/etc/hosts
+/etc/issue
+/etc/machine-id
+/etc/resolv.conf
 /sf/version
+/sf/vs/version
 /sys/class/dmi/id/sys_vendor
-/proc/cpuinfo
-/proc/meminfo
-/proc/interrupts
-/sf/cfg/gpu_info.ini
+/root/.bash_history
+/var/log/sfvt_p2vagt.log
 ```
 
-可搜索的路径白名单（目录前缀类）：
+目录前缀类（前缀匹配，节选）：
 
 ```bash
-/sf/cfg/if.d/    （如 /sf/cfg/if.d/<*>）
-/sys/class/net/  （如 /sys/class/net/<*>）
-/sf/log/         （如 /sf/log/<*>）
-/var/log/        （如 /var/log/<*>）
+/proc/                 （如 /proc/cpuinfo、/proc/meminfo、/proc/interrupts）
+/etc/sysconfig/        （如 /etc/sysconfig/<*>）
+/sys/class/net/        （如 /sys/class/net/<*>）
+/sys/bus/pci/devices/  （如 /sys/bus/pci/devices/<*>）
+/sf/log/               （如 /sf/log/<*>）
+/var/log/              （如 /var/log/<*>）
+/tmp/                  （如 /tmp/<*>）
+```
+
+通配符类（glob 匹配，节选）：
+
+```bash
+/etc/lvm/archive/*.vg
+/sf/cfg/vs/disk/*
+/sys/devices/system/edac/mc/mc*/csrow*/ch*
+/boot/grub2/grub.cfg*
 ```
 
 ### 使用示例
@@ -54,6 +74,7 @@ acli system grep -n "eth0" /proc/interrupts
 ### 结果示例
 
 ```bash
-58: 30:      0      0      0      0    6452280   eth0-0
-89: 63:      0      0      0      0    8388608   eth0.1-0
+# acli system grep -n "eth0" /proc/interrupts
+ 30:      0      0      0      0    6452280   eth0-0
+ 63:      0      0      0      0    8388608   eth0.1-0
 ```

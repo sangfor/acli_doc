@@ -11,10 +11,10 @@ Get hardware clock time
 ### Command Parameters
 
 ```bash
--r|--show=flag      Show RTC time (default behavior)
--v|--verbose=flag   Verbose output
---get=flag          Show RTC time with drift correction
--V|--version=flag   Show version information
+-r|--show=flag     Show RTC time (default behavior)
+-v|--verbose=flag  Verbose output
+--get=flag         Show RTC time with drift correction
+-V|--version=flag  Show version information
 ```
 
 ### Usage Example
