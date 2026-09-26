@@ -1,0 +1,8 @@
+{
+  "label": "nohz-full",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Operations related to the nohz_full kernel boot parameter of the host"
+  }
+}
