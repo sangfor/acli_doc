@@ -4,7 +4,7 @@ sidebar_label: 命令列表
 title: aCLI命令列表
 ---
 
-**`更新时间: 2026-09-21`**
+**`更新时间: 2026-09-27`**
 :::info 以下是最新的命令列表
 :::
 
@@ -110,6 +110,8 @@ title: aCLI命令列表
 | acli platform cfs admin status set |  |
 | acli platform cfs status | 验证/cfs目录写入能力 |
 | acli platform datareport set | 设置报表数据配置 |
+| acli platform drs affinitymode disable | 关闭 DRS 修复虚拟机调度策略冲突的功能 |
+| acli platform drs affinitymode enable | 开启 DRS 修复虚拟机调度策略冲突的功能，使 DRS 为不满足调度策略的虚拟机生成迁移建议 |
 | acli platform info get | 获得系统信息 |
 | acli platform info system_language get | 查询系统语言 |
 | acli platform mysql config get | 获取MySQL配置 |
@@ -426,12 +428,24 @@ title: aCLI命令列表
 | acli system who boot-time get | 查询系统最近一次启动时间 |
 | acli task get | 查询操作任务信息 |
 | acli task list | 展示当天的操作任务 |
+| acli vm advcfg cpu-args get | 查询虚拟机CPU的自定义 qemu 开机参数 |
+| acli vm advcfg cpu-args set | 修改虚拟机CPU的自定义 qemu 开机参数（冷编辑，仅支持关机状态下修改；ARM 平台不支持，会返回错误） |
+| acli vm advcfg disk-args get | 查询虚拟机指定磁盘的自定义 qemu 开机参数 |
+| acli vm advcfg disk-args list | 列出虚拟机全部磁盘及自定义 qemu 开机参数 |
+| acli vm advcfg disk-args set | 修改虚拟机磁盘的自定义 qemu 开机参数（冷编辑，仅支持关机状态下修改） |
 | acli vm advcfg disktype get | 查询虚拟机指定磁盘的驱动类型 |
 | acli vm advcfg disktype list | 列出虚拟机全部磁盘及驱动类型（含总开关状态） |
 | acli vm advcfg disktype set | 修改虚拟机磁盘的驱动类型（冷编辑，仅支持关机状态下修改；不指定 --disk-id 则修改全部 ide 族磁盘） |
+| acli vm advcfg machine-args get | 查询虚拟机整机的自定义 qemu 开机参数 |
+| acli vm advcfg machine-args set | 修改虚拟机整机的自定义 qemu 开机参数（冷编辑，仅支持关机状态下修改） |
+| acli vm advcfg nic-args get | 查询虚拟机指定网卡的自定义 qemu 开机参数 |
+| acli vm advcfg nic-args list | 列出虚拟机全部网卡及自定义 qemu 开机参数 |
+| acli vm advcfg nic-args set | 修改虚拟机网卡的自定义 qemu 开机参数（冷编辑，仅支持关机状态下修改） |
 | acli vm advcfg nictype get | 查询虚拟机指定网卡的型号 |
 | acli vm advcfg nictype list | 列出虚拟机全部网卡及型号 |
 | acli vm advcfg nictype set | 修改虚拟机指定网卡的型号（仅支持关机状态下修改） |
+| acli vm advcfg smbios get | 查询虚拟机自定义 SMBIOS 厂商信息（manufacturer）及其启用开关状态 |
+| acli vm advcfg smbios set | 修改虚拟机自定义 SMBIOS 厂商信息（manufacturer）及启用开关（冷编辑，仅支持关机状态下修改；运行中的虚拟机将被拒绝） |
 | acli vm advcfg wwn get | 查询虚拟机指定磁盘的 WWN（磁盘唯一标识） |
 | acli vm advcfg wwn list | 列出虚拟机全部磁盘及 WWN |
 | acli vm advcfg wwn set | 修改虚拟机磁盘的 WWN（冷编辑，仅支持关机状态下修改；仅支持 virtio-scsi 总线磁盘设置非空 WWN） |

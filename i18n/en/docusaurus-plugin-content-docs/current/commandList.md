@@ -4,7 +4,7 @@ sidebar_label: Command List
 title: aCLI Command List
 ---
 
-**`Updated: 2026-09-21`**
+**`Updated: 2026-09-27`**
 :::info Below is the latest command list
 :::
 
@@ -110,6 +110,8 @@ title: aCLI Command List
 | acli platform cfs admin status set | Set the value of /cfs/disable_admin.conf to control the disabled status of the platform admin user |
 | acli platform cfs status | Check the write permissions for the /cfs directory |
 | acli platform datareport set | Set the config of datareport |
+| acli platform drs affinitymode disable | Disable DRS from generating migration recommendations to repair conflicting virtual machine scheduling policies. |
+| acli platform drs affinitymode enable | Enable DRS to generate migration recommendations for virtual machines that violate scheduling policies. |
 | acli platform info get | Get platform information |
 | acli platform info system_language get | Get system language |
 | acli platform mysql config get | Get MySQL configuration |
@@ -426,12 +428,24 @@ title: aCLI Command List
 | acli system who boot-time get | Query the most recent system boot time |
 | acli task get | Query operation task information |
 | acli task list | Display operation tasks of the current day |
+| acli vm advcfg cpu-args get | Query the custom QEMU args of the VM CPU |
+| acli vm advcfg cpu-args set | Modify the custom QEMU args of the VM CPU (cold edit, only supported when the VM is powered off; not supported on ARM, an error is returned) |
+| acli vm advcfg disk-args get | Query the custom QEMU args of the specified disk of the VM |
+| acli vm advcfg disk-args list | List all disks and their custom QEMU args of the VM |
+| acli vm advcfg disk-args set | Modify the custom QEMU args of the VM disk (cold edit, only supported when the VM is powered off) |
 | acli vm advcfg disktype get | Query the driver type of the specified disk of the virtual machine |
 | acli vm advcfg disktype list | List all disks and their driver types of the virtual machine (including the master switch status) |
 | acli vm advcfg disktype set | Modify the driver type of the virtual machine disk (cold edit, only supported when the VM is powered off; if --disk-id is not specified, all ide-family disks will be modified) |
+| acli vm advcfg machine-args get | Query the custom QEMU args of the VM machine |
+| acli vm advcfg machine-args set | Modify the custom QEMU args of the VM machine (cold edit, only supported when the VM is powered off) |
+| acli vm advcfg nic-args get | Query the custom QEMU args of the specified NIC of the VM |
+| acli vm advcfg nic-args list | List all NICs and their custom QEMU args of the VM |
+| acli vm advcfg nic-args set | Modify the custom QEMU args of the VM NIC (cold edit, only supported when the VM is powered off) |
 | acli vm advcfg nictype get | Query the model of the specified NIC on the virtual machine |
 | acli vm advcfg nictype list | List all NICs and their models of the virtual machine |
 | acli vm advcfg nictype set | Modify the model of the specified NIC on the virtual machine (only supported when the VM is powered off) |
+| acli vm advcfg smbios get | Query the custom SMBIOS manufacturer information (manufacturer) of the virtual machine and its enable switch status |
+| acli vm advcfg smbios set | Modify the custom SMBIOS manufacturer information (manufacturer) of the virtual machine and the enable switch (cold edit, only supported when the VM is powered off; a running virtual machine will be rejected) |
 | acli vm advcfg wwn get | Query the WWN (World Wide Name, a unique disk identifier) of the specified virtual machine disk |
 | acli vm advcfg wwn list | List all disks of the virtual machine and their WWNs |
 | acli vm advcfg wwn set | Modify the WWN of the virtual machine disk (cold edit, only supported when the VM is powered off; only virtio-scsi bus disks support setting a non-empty WWN) |
