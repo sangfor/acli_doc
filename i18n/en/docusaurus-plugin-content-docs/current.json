@@ -1523,6 +1523,14 @@
     "message": "Scheduler Quota Operations",
     "description": "The generated-index page description for category platform.scheduler.quota in sidebar tutorialSidebar"
   },
+  "sidebar.tutorialSidebar.category.platform.drs": {
+    "message": "drs",
+    "description": "The label for category platform.drs in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.drs.affinitymode": {
+    "message": "affinitymode",
+    "description": "The label for category platform.drs.affinitymode in sidebar tutorialSidebar"
+  },
   "sidebar.tutorialSidebar.category.platform.info": {
     "message": "info",
     "description": "The label for category platform.info in sidebar tutorialSidebar"
