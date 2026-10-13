@@ -695,6 +695,14 @@
     "message": "Network Card RDMA-Related Operations",
     "description": "The generated-index page description for category rdma in sidebar tutorialSidebar"
   },
+  "sidebar.tutorialSidebar.category.fcoe": {
+    "message": "fcoe",
+    "description": "The label for category fcoe in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.fcoe.link.generated-index.description": {
+    "message": "Network Card FCoE-Related Operations",
+    "description": "The generated-index page description for category fcoe in sidebar tutorialSidebar"
+  },
   "sidebar.tutorialSidebar.category.ring": {
     "message": "ring",
     "description": "The label for category ring in sidebar tutorialSidebar"
