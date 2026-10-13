@@ -1,0 +1,8 @@
+{
+  "label": "cpu-args",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "虚拟机CPU自定义 qemu 开机参数相关操作"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "label": "display",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "存储显示相关操作"
+  }
+}

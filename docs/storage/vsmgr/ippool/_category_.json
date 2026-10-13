@@ -1,0 +1,8 @@
+{
+    "label": "ippool",
+    "position": 1,
+    "link": {
+        "type": "generated-index",
+        "description": "ippool 相关文档"
+    }
+}

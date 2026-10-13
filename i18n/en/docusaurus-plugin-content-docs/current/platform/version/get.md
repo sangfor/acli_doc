@@ -10,7 +10,9 @@ Obtain platform version
 
 ### Command Parameters
 
+```bash
 No parameters
+```
 
 ### Usage Example
 

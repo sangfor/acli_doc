@@ -1,0 +1,8 @@
+{
+  "label": "system_config",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "平台系统配置相关命令"
+  }
+}

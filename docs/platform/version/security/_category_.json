@@ -1,0 +1,8 @@
+{
+  "label": "security",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "平台涉密版本判断相关命令"
+  }
+}

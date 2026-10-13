@@ -10,11 +10,21 @@ realethtool command
 
 ### Command Parameters
 
-No parameters
+```bash
+-S|--statistics=flag  View NIC statistics
+-i|--driver=flag      View driver information of NIC
+-a|--all=flag         View all NIC information
+<iface>               Required parameter specifying NIC name (must be within the whitelist interface), for example: eth0
+```
+
 ### Usage Example
 
 ```bash
-acli system realethtool
+acli system realethtool eth0
+```
+
+```bash
+acli system realethtool -i eth0
 ```
 
 ### Output Example

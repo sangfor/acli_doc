@@ -6,11 +6,18 @@ sidebar_position: 1
 
 ### 操作概述
 
-dmidecode命令
+dmidecode 命令，读取并展示 DMI/SMBIOS 硬件信息（只读，禁止把 DMI 数据转储为文件）。
 
 ### 命令参数
 
-无参数
+禁止参数清单（命中即拒绝，含 GNU 唯一前缀缩写）：
+
+```bash
+-u|--dump            禁止参数，把 DMI 数据转储为二进制文件（写操作），拒绝执行
+--dump-bin=<file>    禁止参数，把 DMI 数据转储为二进制文件（写操作），拒绝执行；
+                     因 GNU getopt 支持唯一前缀缩写，--du 开头的写法（--du / --dum / --dump）同样命中拒绝；
+                     注意 --dev-mem 不受影响（其最短唯一前缀为 --de）
+```
 
 ### 使用示例
 

@@ -1,0 +1,8 @@
+{
+  "label": "syslog",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Syslog Forwarding Operations"
+  }
+}

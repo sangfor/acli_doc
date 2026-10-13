@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ### Overview
 
-View kernel modules using the lsmod command
+lsmod command for viewing kernel modules
 
 ### Command Parameters
 

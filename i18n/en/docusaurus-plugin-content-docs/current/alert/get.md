@@ -10,13 +10,17 @@ Query alert information
 
 ### Command Parameters
 ```bash
--k|--keyword=string        Search the alert object, event, and description, Example: VM suspended unexpectedly
--e|--event=string          Specify the event, Example: Virtual license key anomaly
--o|--object-name=string    Specify the alert object, Example: 10.134.244.34
--T|--object-type=string    Specify the alert object type, Enumeration values: host (Node), storage_obj (Storage), vm (VM), vnet (Virtual Network), sn (Serial Number), others (Others)., Enum values: host,storage_obj,vm,vnet,sn,others
--t|--time=string           Specify time, Format: YYYY-MM-DD HH:MM:SS, YYYY-MM-DD HH
--L|--level=integer         Specify the level, Enumeration values: 1 (Critical), 0 (Noncritical), Enum values: 0,1
--l|--limit=integer         Specify the number of records to display, such as 1 or 2, Default value: 50, Default: 50
+-k|--keyword=string      Search the alert object, event, and description, Example: VM suspended unexpectedly
+-e|--event=string        Specify the event, Example: Virtual license key anomaly
+-o|--object-name=string  Specify the alert object, Example: 10.134.244.34
+-T|--object-type=string  Specify the alert object type, Enumeration values: host (Node), storage_obj (Storage), vm (VM), vnet (Virtual Network), sn (Serial Number), others (Others)., Enum values: host,storage_obj,vm,vnet,sn,others
+--starttime=string       Specify alert start time, format: \"YYYY-MM-DD HH:MM:SS\", \"YYYY-MM-DD HH\".
+--endtime=string         Specify alert end time, format: \"YYYY-MM-DD HH:MM:SS\", \"YYYY-MM-DD HH\".
+--distinct=integer       Specify whether deduplication is enabled. Enumerated values: 1 (deduplicate), 0 (no deduplication).
+--mark_read=string       Specify alert IDs marked as read, multiple IDs separated by commas, for example: 1,2,3
+--start=integer          Specify from which record to start displaying; default is 0.
+-L|--level=integer       Specify the level, Enumeration values: 1 (Critical), 0 (Noncritical), Enum values: 0,1
+-l|--limit=integer       Specify the number of records to display, such as 1 or 2, Default value: 50, Default: 50
 ```
 
 ### Usage Example

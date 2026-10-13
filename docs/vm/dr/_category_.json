@@ -1,0 +1,8 @@
+{
+    "label": "dr",
+    "position": 1,
+    "link": {
+        "type": "generated-index",
+        "description": "虚拟机灾备相关操作"
+    }
+}

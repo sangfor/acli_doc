@@ -10,12 +10,27 @@ ipmitool命令
 
 ### 命令参数
 
-无参数
+```bash
+-I|--interface=string  指定 IPMI 接口，值固定为 open
+sel elist              读取 SEL 事件并扩展解析
+sel info               查询 SEL repository 状态/容量
+sel time get           读取 BMC SEL 时钟
+sdr type <type>        从 BMC 查询指定类型 SDR/传感器状态，<type> 取值不限
+-S|--sdr-cache=string  使用本地 SDR cache 解析传感器，值固定为 /sf/log/sdr.cache
+```
 
 ### 使用示例
 
 ```bash
-acli system ipmitool
+acli system ipmitool -I open sel elist
+```
+
+```bash
+acli system ipmitool sdr type Temperature
+```
+
+```bash
+acli system ipmitool sdr type Temperature -S /sf/log/sdr.cache
 ```
 
 ### 结果示例

@@ -22,6 +22,8 @@ support/host-005056b237a6(acli) ~ # acli --help
   --force              强制模式：忽略交互确认，直接执行操作（使用前请确认风险）
   --formatter          用于命令的格式化参数。枚举值：xml、csv、keyvalue、json
   --container          用于命令的全局容器指定参数，仅对system下的命令生效。枚举值：asv-con、vn-con、vn-agent、vs-cp-manager
+  --host               用于指定集群内节点IP执行acli命令
+  --trace_id           用于设置日志链路追踪ID，贯穿整个日志链路
 
 可用命名空间：
   acli                 acli说明，允许用户获取附加信息
@@ -216,12 +218,16 @@ support/host-005056b237a6(acli) ~ # acli --help
       --force              强制模式：忽略交互确认，直接执行操作（使用前请确认风险）
       --formatter          用于命令的格式化参数。枚举值：xml、csv、keyvalue、json
       --container          用于命令的全局容器指定参数，仅对system下的命令生效。枚举值：asv-con、vn-con、vn-agent、vs-cp-manager
+      --host               用于指定集群内节点IP执行acli命令
+      --trace_id           用于设置日志链路追踪ID，贯穿整个日志链路
     ......
     ```
 
     通过灵活使用全局参数，实现对命令的精细化控制与强大执行能力。
 
     例如：acli命令默认在主控节点执行，但可以通过全局参数等方式实现集群执行。
+
+    > 全局参数互斥规则：--host 与 --cluster 互斥，不可同时使用。
 
 2. 命令参数
 

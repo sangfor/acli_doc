@@ -1,0 +1,8 @@
+{
+  "label": "system_language",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "平台系统语言相关命令"
+  }
+}

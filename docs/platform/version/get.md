@@ -10,7 +10,9 @@ sidebar_position: 1
 
 ### 命令参数
 
+```bash
 无参数
+```
 
 ### 使用示例
 
