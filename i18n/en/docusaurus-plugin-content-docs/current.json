@@ -2146,5 +2146,13 @@
   "sidebar.tutorialSidebar.category.multipathconfig.link.generated-index.description": {
     "message": "Multipathconfig Operations",
     "description": "The generated-index page description for category multipathconfig in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.grub": {
+    "message": "grub",
+    "description": "The label for category platform.grub in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.platform.grub.link.generated-index.description": {
+    "message": "GRUB Low-Latency Parameter Operations",
+    "description": "The generated-index page description for category platform.grub in sidebar tutorialSidebar"
   }
 }
