@@ -4,7 +4,7 @@ sidebar_label: 命令列表
 title: aCLI命令列表
 ---
 
-**`更新时间: 2026-09-27`**
+**`更新时间: 2026-10-12`**
 :::info 以下是最新的命令列表
 :::
 
@@ -61,6 +61,9 @@ title: aCLI命令列表
 | acli network nettools netstat list | 列出网络连接和端口监听状态，支持按 TCP/UDP、监听、数字形式、进程等过滤 |
 | acli network nettools netstat port check | 检查指定端口是否处于监听状态，支持 TCP/UDP 协议 |
 | acli network nic down | 禁用主机网口 |
+| acli network nic fcoe delete | 为指定网口删除fcoe配置并重启相关服务 |
+| acli network nic fcoe list | 查看已配置fcoe的网口 |
+| acli network nic fcoe set | 为指定网口生成fcoe配置并重启相关服务 |
 | acli network nic get | 查看主机网口信息 |
 | acli network nic irqcpu list | 展示网口中断核信息列表 |
 | acli network nic list | 查看主机网口列表 |
@@ -110,8 +113,8 @@ title: aCLI命令列表
 | acli platform cfs admin status set |  |
 | acli platform cfs status | 验证/cfs目录写入能力 |
 | acli platform datareport set | 设置报表数据配置 |
-| acli platform drs affinitymode disable | 关闭 DRS 修复虚拟机调度策略冲突的功能 |
-| acli platform drs affinitymode enable | 开启 DRS 修复虚拟机调度策略冲突的功能，使 DRS 为不满足调度策略的虚拟机生成迁移建议 |
+| acli platform drs affinitymode disable | 关闭 DRS 修复虚拟机调度策略冲突的功能。 |
+| acli platform drs affinitymode enable | 开启 DRS 修复虚拟机调度策略冲突的功能，使 DRS 为不满足调度策略的虚拟机生成迁移建议。 |
 | acli platform info get | 获得系统信息 |
 | acli platform info system_language get | 查询系统语言 |
 | acli platform mysql config get | 获取MySQL配置 |

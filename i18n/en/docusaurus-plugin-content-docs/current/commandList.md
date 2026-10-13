@@ -4,7 +4,7 @@ sidebar_label: Command List
 title: aCLI Command List
 ---
 
-**`Updated: 2026-09-27`**
+**`Updated: 2026-10-12`**
 :::info Below is the latest command list
 :::
 
@@ -61,6 +61,9 @@ title: aCLI Command List
 | acli network nettools netstat list | List network connections and port listening status, supports filtering by TCP/UDP, listening, numeric format, and process |
 | acli network nettools netstat port check | Check whether a specified port is in listening state, supports TCP/UDP protocols |
 | acli network nic down | Disable physical interface |
+| acli network nic fcoe delete | Delete FCoE configuration for the specified NIC and restart related services |
+| acli network nic fcoe list | View the NICs configured with FCoE |
+| acli network nic fcoe set | Generate FCoE configuration for the specified NIC and restart related services |
 | acli network nic get | View node interface information |
 | acli network nic irqcpu list | Display the information on CPU cores for handling interface interrupts |
 | acli network nic list | View node interface list |

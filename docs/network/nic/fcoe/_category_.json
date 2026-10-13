@@ -1,0 +1,8 @@
+{
+  "label": "fcoe",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "网卡fcoe相关操作"
+  }
+}
