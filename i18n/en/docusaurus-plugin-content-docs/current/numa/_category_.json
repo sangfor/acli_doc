@@ -1,0 +1,8 @@
+{
+  "label": "numa",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "VM NUMA Binding Related Operations"
+  }
+}
