@@ -2255,6 +2255,14 @@
     "message": "VM status commands",
     "description": "The generated-index page description for category vm.status in sidebar tutorialSidebar"
   },
+  "sidebar.tutorialSidebar.category.vm.numa": {
+    "message": "numa",
+    "description": "The label for category vm.numa in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.vm.numa.link.generated-index.description": {
+    "message": "VM NUMA Binding Related Operations",
+    "description": "The generated-index page description for category vm.numa in sidebar tutorialSidebar"
+  },
   "sidebar.tutorialSidebar.category.vm.memory": {
     "message": "memory",
     "description": "The label for category vm.memory in sidebar tutorialSidebar"
@@ -2322,6 +2330,7 @@
   "sidebar.tutorialSidebar.category.platform.grub.link.generated-index.description": {
     "message": "GRUB Low-Latency Parameter Operations",
     "description": "The generated-index page description for category platform.grub in sidebar tutorialSidebar"
+  },
   "sidebar.tutorialSidebar.category.platform.arbiter": {
     "message": "arbiter",
     "description": "The label for category arbiter in sidebar tutorialSidebar"
