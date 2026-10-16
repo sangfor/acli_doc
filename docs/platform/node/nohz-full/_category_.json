@@ -1,0 +1,8 @@
+{
+  "label": "nohz-full",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "主机 nohz_full 启动参数相关操作"
+  }
+}
