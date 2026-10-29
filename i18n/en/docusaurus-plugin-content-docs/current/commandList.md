@@ -4,7 +4,7 @@ sidebar_label: Command List
 title: aCLI Command List
 ---
 
-**`Updated: 2026-10-12`**
+**`Updated: 2026-10-29`**
 :::info Below is the latest command list
 :::
 
@@ -52,6 +52,9 @@ title: aCLI Command List
 | acli network bond mode get | View the networking mode of aggregate interface |
 | acli network bond set | Update aggregate interface |
 | acli network cli get | Execute the read-only show query commands of SDN cli inside the vn-agent container. |
+| acli network dpdebug | Collect read-only SDN dataplane diagnostic information. |
+| acli network dpdoctor | Run dataplane troubleshooting checks and display environment, interface, service status, and session statistics. |
+| acli network dpping | Run ping through the SDN dataplane to check connectivity to a destination. |
 | acli network faultdomain list | List fault domains |
 | acli network ip route get | Get routing information to the specified destination address |
 | acli network mgmt switch | Switch management interface role to the specified interface |
@@ -115,6 +118,9 @@ title: aCLI Command List
 | acli platform datareport set | Set the config of datareport |
 | acli platform drs affinitymode disable | Disable DRS from generating migration recommendations to repair conflicting virtual machine scheduling policies. |
 | acli platform drs affinitymode enable | Enable DRS to generate migration recommendations for virtual machines that violate scheduling policies. |
+| acli platform grub remove | Remove the low-latency parameter from grub.cfg |
+| acli platform grub restore | Restore the low-latency parameter in grub.cfg |
+| acli platform grub status | Show the status of the low-latency parameter in grub.cfg |
 | acli platform info get | Get platform information |
 | acli platform info system_language get | Get system language |
 | acli platform mysql config get | Get MySQL configuration |
@@ -300,10 +306,12 @@ title: aCLI Command List
 | acli storage asan version get | Obtain virtual storage version |
 | acli storage asan volume iostat | Obtain iostat information of virtual datastore |
 | acli storage asan volume list | Obtain the virtual datastore information list |
+| acli storage asan vs_check_vms_poly | Perform read-only checks of virtual machine disk POLY status. |
 | acli storage asan vs_disk_scan | disk_scan.sh command |
 | acli storage asan vs_hotplug | vs_hotplug.sh command |
 | acli storage asan vs_json_rw | vs_json_rw.py command |
 | acli storage asan vs_rpc_tool | vs_rpc_tool command |
+| acli storage asan vs_sn | Query VS serial numbers and machine identifiers, and verify serial number integrity, license limits, and fusion-machine signatures. |
 | acli storage asan vs_tier | vs_tier_cli.py command |
 | acli storage asan vs_update_nfs | vs_update_nfs.sh command |
 | acli storage asan vs_vginfo | vs_vginfo.sh command |
@@ -333,6 +341,7 @@ title: aCLI Command List
 | acli system cgroup memory tree | Display the subgroup structure of the memory cgroup subsystem |
 | acli system chkconfig | View the runlevel configuration of system services (read-only). |
 | acli system chping | chping command |
+| acli system clview | Inspect heartbeat headers, heartbeat blocks, lock blocks on a device, and lock holders of a file. |
 | acli system cpu info | System CPU information |
 | acli system curl | Call the GET APIs of HCI platform services in a controlled manner via the `acli system curl` subcommand (read-only), carrying the 100 GET APIs allowed for KB troubleshooting. |
 | acli system date | date command, used to get the current system time (read-only). |
@@ -356,10 +365,12 @@ title: aCLI Command List
 | acli system find | Search for files in a specified directory by criteria (read-only). |
 | acli system fio | fio command |
 | acli system free | free command |
+| acli system gluster | Query Gluster volume information or list volumes (read-only). |
 | acli system grep | Search for matching lines by keyword in configuration or system files that are whitelisted. |
 | acli system hostname | View node name and domain name (only read-only forms are available; rewriting the node name is not supported). |
 | acli system hosts get | Obtain node information |
 | acli system hwclock | Get hardware clock time |
+| acli system ibv_devices | List available RDMA device names and their node GUIDs. |
 | acli system id | Query user identity information (uid/gid/groups) of the current or a specified user (read-only). |
 | acli system ifconfig | View node NIC configuration information |
 | acli system iostat | iostat command |
@@ -367,6 +378,7 @@ title: aCLI Command List
 | acli system iperf3 | Network bandwidth measurement diagnostic tool for TCP/UDP throughput testing (read-only, does not change system state). The command runs inside the vs-cp-manager container (which shares the network namespace with the vs container). |
 | acli system ipmitool | ipmitool command |
 | acli system iptables | View system firewall rules (iptables, read-only). |
+| acli system iscsiadm | Query iSCSI sessions, discover targets, and display node information using the permitted read-only argument combinations. |
 | acli system kill | Kill command |
 | acli system lldptool | lldptool command |
 | acli system ls | List files in the specified directory within the whitelist. |
@@ -376,6 +388,8 @@ title: aCLI Command List
 | acli system lsof | lsof command |
 | acli system lspci | View node PCIe device information |
 | acli system lsusb | List USB devices |
+| acli system lvs | Display LVM logical volume information. |
+| acli system lvscan | List all logical volumes in all volume groups. |
 | acli system mcelog | Query CPU Machine Check Exception hardware error logs |
 | acli system md5sum | Calculate the MD5 checksum of a specified file (read-only). |
 | acli system memory ce_count get | Obtain memory ce_count data |
@@ -383,6 +397,7 @@ title: aCLI Command List
 | acli system memory ecc_data get | Obtain ECC data from system memory |
 | acli system memory info | View detailed system memory information |
 | acli system memory usage get | sfd_ps_mem.py command |
+| acli system modinfo | Query kernel module file locations, authors, licenses, dependencies, and signatures. |
 | acli system mounts get | View system mounts information |
 | acli system mpstat | mpstat command |
 | acli system multipath | multipath command |
@@ -393,9 +408,11 @@ title: aCLI Command List
 | acli system multipathconfig get | Query the effective multipath policy for the specified storage on the specified node |
 | acli system multipathconfig reload | Rescan disks to apply multipath configuration, default FC |
 | acli system multipathconfig set | Modify multipath policy |
+| acli system nc | Probe connectivity to a host and port and display information returned by the target service. |
 | acli system netstat | netstat command |
 | acli system nslookup | Perform DNS queries and get resolution records of a domain or IP (read-only). |
 | acli system numactl | Query NUMA topology and policy |
+| acli system nvme | Query NVMe devices, identification, status, logs, and features using the permitted read-only subcommands. |
 | acli system perf | perf command |
 | acli system pidstat | pidstat command, used to view system process resources |
 | acli system ping | Ping command |
@@ -404,12 +421,17 @@ title: aCLI Command List
 | acli system proc stack get | Get the stack info of the process |
 | acli system proc starttime get | Get the start time of a specified process |
 | acli system ps | ps command |
+| acli system pstack | Read the call stack of a specified process for troubleshooting. |
+| acli system pvs | Display LVM physical volume information. |
 | acli system qemu-img | Query disk image information and check image consistency (read-only, no repair). |
-| acli system realethtool | realethtool command |
+| acli system realethtool | Query NIC status, statistics, driver details, and related diagnostic information. |
 | acli system rm | rm command, only deletes files inside the specified directories (only files under whitelisted |
 | acli system route | View the system routing table (read-only). |
+| acli system rpcinfo | Query RPC service registrations, including program numbers, versions, transports, addresses, and service names. |
 | acli system sar | Collect and view system activity reports (CPU, memory, IO, etc., read-only). |
+| acli system scsi_id | Query SCSI device identification information using read-only operations with controlled device paths. |
 | acli system sensors | sensors command, used to view information collected by sensors |
+| acli system slabtop | Display kernel slab cache object counts, utilization, and memory usage. |
 | acli system smartctl | smartctl command |
 | acli system smartpqi version get | Obtain smartpqi version information |
 | acli system ss | View network socket statistics (TCP/UDP connections, etc.; read-only). |
@@ -417,12 +439,14 @@ title: aCLI Command List
 | acli system strace | strace command, only supports tracing system calls of acli commands (read-only, does not modify |
 | acli system tail | View the end content of specified files in the whitelist and support realtime tracking. |
 | acli system tcpdump | tcpdump command |
+| acli system telnet | Probe connectivity to a specified host and port. Only the read-only port probing form is permitted. |
 | acli system top | top command, used to view real-time process information |
 | acli system traceroute | Trace the network path of packets to a destination host (read-only). |
 | acli system turbostat | View CPU topology, frequency and power consumption statistics (read-only). The command runs inside the asv-con container, with a maximum execution time of 15 seconds. |
 | acli system uname | uname command |
 | acli system uniq | Filter and output adjacent duplicate lines from a file or input stream; piped input is supported (read-only). |
 | acli system uptime | View system uptime, current time, number of logged-in users and system load (read-only). |
+| acli system vgs | Display LVM volume group information. |
 | acli system vtpclustat local-id get | Get the local host's node ID in the VTP cluster |
 | acli system vtpclustat online list | Get the list of all online nodes in the VTP cluster |
 | acli system vtpclustat status | Query the overall status of the VTP cluster |
@@ -485,6 +509,11 @@ title: aCLI Command List
 | acli vm nic consistency set | Set NIC consistency, modify VN and CFS config based on the specified MAC address (Dangerous operation: will overwrite existing configuration) |
 | acli vm nic queuecount get | Obtain the number of VM NIC queues |
 | acli vm nic queuecount set | Update the number of VM NIC queues |
+| acli vm numa batch-clear | 批量清除虚拟机自定义NUMA绑定，回退智能NUMA调度（逐台处理，部分成功部分失败并列出失败原因，重启生效） |
+| acli vm numa batch-set | 批量设置虚拟机指定NUMA绑定位置（逐台校验，部分成功部分失败并列出失败原因，重启生效） |
+| acli vm numa clear | 清除虚拟机自定义NUMA绑定，回退智能NUMA调度（重启生效） |
+| acli vm numa query | 查询虚拟机NUMA绑定位置（支持单台与主机运行中查询） |
+| acli vm numa set | 设置虚拟机指定NUMA绑定位置（配置已写入，需重启生效） |
 | acli vm sagaflow branch rollback skip | Skip sagaflow branch rollback |
 | acli vm sagaflow get | Query sagaflow information |
 | acli vm sagaflow workflow rollback list | Get sagaflow workflow rollback list |

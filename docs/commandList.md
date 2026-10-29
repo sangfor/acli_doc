@@ -4,7 +4,7 @@ sidebar_label: 命令列表
 title: aCLI命令列表
 ---
 
-**`更新时间: 2026-10-12`**
+**`更新时间: 2026-10-29`**
 :::info 以下是最新的命令列表
 :::
 
@@ -52,6 +52,9 @@ title: aCLI命令列表
 | acli network bond mode get | 查看聚合口组网模式 |
 | acli network bond set | 更新聚合口 |
 | acli network cli get | 在 vn-agent 容器内执行 SDN cli 的只读 show 查询命令 |
+| acli network dpdebug | 采集 SDN 数据面的只读诊断信息。 |
+| acli network dpdoctor | 执行数据面排障检查，查看环境、网卡、服务状态及会话等统计信息。 |
+| acli network dpping | 通过 SDN 数据面执行 ping，检查到目标地址的连通性。 |
 | acli network faultdomain list | 查询故障域列表 |
 | acli network ip route get | 获取到指定目的地址的路由信息 |
 | acli network mgmt switch | 切换管理口角色到指定网口 |
@@ -115,6 +118,9 @@ title: aCLI命令列表
 | acli platform datareport set | 设置报表数据配置 |
 | acli platform drs affinitymode disable | 关闭 DRS 修复虚拟机调度策略冲突的功能。 |
 | acli platform drs affinitymode enable | 开启 DRS 修复虚拟机调度策略冲突的功能，使 DRS 为不满足调度策略的虚拟机生成迁移建议。 |
+| acli platform grub remove | 删除grub.cfg中的低时延参数 |
+| acli platform grub restore | 恢复grub.cfg中的低时延参数 |
+| acli platform grub status | 查询grub.cfg低时延参数状态 |
 | acli platform info get | 获得系统信息 |
 | acli platform info system_language get | 查询系统语言 |
 | acli platform mysql config get | 获取MySQL配置 |
@@ -300,10 +306,12 @@ title: aCLI命令列表
 | acli storage asan version get | 获取VS版本号 |
 | acli storage asan volume iostat | 获取虚拟存储卷iostat信息 |
 | acli storage asan volume list | 获取虚拟存储卷信息列表 |
+| acli storage asan vs_check_vms_poly | 执行虚拟机磁盘 POLY 状态的只读检查。 |
 | acli storage asan vs_disk_scan | disk_scan.sh命令 |
 | acli storage asan vs_hotplug | vs_hotplug.sh命令 |
 | acli storage asan vs_json_rw | vs_json_rw.py命令 |
 | acli storage asan vs_rpc_tool | vs_rpc_tool命令 |
+| acli storage asan vs_sn | 查询 VS 序列号和机器标识信息，校验序列号完整性、授权限制及一体机签名。 |
 | acli storage asan vs_tier | vs_tier_cli.py命令 |
 | acli storage asan vs_update_nfs | vs_update_nfs.sh命令 |
 | acli storage asan vs_vginfo | vs_vginfo.sh命令 |
@@ -333,6 +341,7 @@ title: aCLI命令列表
 | acli system cgroup memory tree | 显示内存cgroup子系统的子组结构 |
 | acli system chkconfig | 查看系统服务的运行级别配置（只读）。 |
 | acli system chping | chping命令 |
+| acli system clview | 查看设备的心跳头、心跳块和锁块数据，以及文件的锁持有者信息。 |
 | acli system cpu info | 系统CPU信息 |
 | acli system curl | 通过 `acli system curl` 子命令受控调用 HCI 平台服务的 GET 接口（只读），承载 KB 排障知识库中的 100 条 GET API 放通。 |
 | acli system date | date 命令，获取当前系统时间（只读）。 |
@@ -356,10 +365,12 @@ title: aCLI命令列表
 | acli system find | 在指定目录中按条件查找文件（只读）。 |
 | acli system fio | fio命令 |
 | acli system free | free命令 |
+| acli system gluster | 查询 Gluster 卷信息或卷列表（只读）。 |
 | acli system grep | 在白名单内的配置或系统文件中按关键字搜索匹配行 |
 | acli system hostname | 查看主机名称及域名信息（仅开放只读形式，不支持改写主机名）。 |
 | acli system hosts get | 获取系统主机信息 |
 | acli system hwclock | 查询硬件时钟时间 |
+| acli system ibv_devices | 列出可用的 RDMA 设备名称及其节点 GUID。 |
 | acli system id | 查询当前用户或指定用户的身份信息（uid/gid/groups，只读）。 |
 | acli system ifconfig | 查看主机网卡的配置信息 |
 | acli system iostat | iostat命令 |
@@ -367,6 +378,7 @@ title: aCLI命令列表
 | acli system iperf3 | 网络带宽测量诊断工具，测量 TCP/UDP 吞吐量（只读，不改系统状态）。命令在 vs-cp-manager 容器内执行（与 vs 容器共享网络命名空间）。 |
 | acli system ipmitool | ipmitool命令 |
 | acli system iptables | 查看系统防火墙规则（iptables，只读）。 |
+| acli system iscsiadm | 查询 iSCSI 会话、发现目标及节点信息，仅放通指定的只读参数组合。 |
 | acli system kill | kill命令 |
 | acli system lldptool | lldptool命令 |
 | acli system ls | 列出白名单内指定目录下的文件 |
@@ -376,6 +388,8 @@ title: aCLI命令列表
 | acli system lsof | lsof命令 |
 | acli system lspci | 查看主机 PCI 设备信息 |
 | acli system lsusb | 查询 USB 设备信息 |
+| acli system lvs | 查询 LVM 逻辑卷信息。 |
+| acli system lvscan | 列出所有卷组中的逻辑卷。 |
 | acli system mcelog | 查询 CPU MCE 硬件错误日志 |
 | acli system md5sum | 计算指定文件的 MD5 校验值（只读）。 |
 | acli system memory ce_count get | 获取内存的ce_count数据 |
@@ -383,6 +397,7 @@ title: aCLI命令列表
 | acli system memory ecc_data get | 获取系统内存ECC数据 |
 | acli system memory info | 查看系统内存详细信息 |
 | acli system memory usage get | sfd_ps_mem.py命令 |
+| acli system modinfo | 查询内核模块的文件位置、作者、许可证、依赖及签名等信息。 |
 | acli system mounts get | 查看系统mounts信息 |
 | acli system mpstat | mpstat命令 |
 | acli system multipath | multipath命令 |
@@ -393,9 +408,11 @@ title: aCLI命令列表
 | acli system multipathconfig get | 查询指定节点上指定存储实际生效的多路径策略。 |
 | acli system multipathconfig reload | 重新扫描磁盘使multipath配置生效，默认FC |
 | acli system multipathconfig set | 修改multipath多路径策略 |
+| acli system nc | 探测指定主机和端口的连通性，可显示目标服务返回的信息。 |
 | acli system netstat | netstat命令 |
 | acli system nslookup | 执行 DNS 查询，获取域名或 IP 的解析记录（只读）。 |
 | acli system numactl | 查询 NUMA 拓扑和策略 |
+| acli system nvme | 查询 NVMe 设备、标识、状态、日志及特性信息，仅放通指定的只读子命令。 |
 | acli system perf | perf命令 |
 | acli system pidstat | pidstat命令，用于查看系统进程资源 |
 | acli system ping | ping命令 |
@@ -404,12 +421,17 @@ title: aCLI命令列表
 | acli system proc stack get | 获取进程的栈信息 |
 | acli system proc starttime get | 查询指定进程的启动时间 |
 | acli system ps | ps命令 |
+| acli system pstack | 读取指定进程的调用栈，用于进程排障。 |
+| acli system pvs | 查询 LVM 物理卷信息。 |
 | acli system qemu-img | 查询磁盘映像信息与一致性检查（只读，不修复）。 |
-| acli system realethtool | realethtool命令 |
+| acli system realethtool | 查询网卡状态、统计、驱动及相关诊断信息。 |
 | acli system rm | rm 命令，限制删除特定目录下的文件（仅允许删除白名单目录内的文件，禁止递归删除）。 |
 | acli system route | 查看系统路由表（只读）。 |
+| acli system rpcinfo | 查询 RPC 服务的注册信息，包括程序号、版本、传输协议、地址和服务名称。 |
 | acli system sar | 收集并查看系统活动报告（CPU、内存、IO 等，只读）。 |
+| acli system scsi_id | 查询 SCSI 设备标识信息，仅执行只读查询，设备路径受控。 |
 | acli system sensors | sensors命令，用于查看传感器收集的信息 |
+| acli system slabtop | 查看内核 slab 缓存的对象数量、使用率及内存占用信息。 |
 | acli system smartctl | smartctl命令 |
 | acli system smartpqi version get | 获得smartpqi的版本信息 |
 | acli system ss | 查看网络套接字统计信息（TCP/UDP 连接等，只读）。 |
@@ -417,12 +439,14 @@ title: aCLI命令列表
 | acli system strace | strace 命令，仅支持追踪 acli 命令的系统调用（只读，不修改系统状态）。 |
 | acli system tail | 查看白名单内指定文件的末尾内容，支持实时跟踪 |
 | acli system tcpdump | tcpdump命令 |
+| acli system telnet | 探测指定主机和端口的连通性，仅放通只读端口探测形式。 |
 | acli system top | top命令，用于查看进程实时信息 |
 | acli system traceroute | 追踪数据包到达目标主机的网络路径（只读）。 |
 | acli system turbostat | 查看 CPU 拓扑、频率与功耗统计信息（只读）。命令在 asv-con 容器内执行，最长执行 15 秒。 |
 | acli system uname | uname命令 |
 | acli system uniq | 过滤并输出文件或输入中相邻的重复行，支持管道输入（只读）。 |
 | acli system uptime | 查看系统运行时间、当前时间、登录用户数与系统负载（只读）。 |
+| acli system vgs | 查询 LVM 卷组信息。 |
 | acli system vtpclustat local-id get | 获取本机在 VTP 集群中的节点 ID |
 | acli system vtpclustat online list | 获取 VTP 集群中所有在线节点的列表 |
 | acli system vtpclustat status | 查询 VTP 集群的整体状态 |
@@ -485,6 +509,11 @@ title: aCLI命令列表
 | acli vm nic consistency set | 设置网卡一致性，根据指定的 MAC 地址修改 VN 和 CFS 配置（危险操作：会覆盖现有配置） |
 | acli vm nic queuecount get | 获取虚拟机网卡队列数 |
 | acli vm nic queuecount set | 更新虚拟机网卡队列数 |
+| acli vm numa batch-clear | 批量清除虚拟机自定义NUMA绑定，回退智能NUMA调度（逐台处理，部分成功部分失败并列出失败原因，重启生效） |
+| acli vm numa batch-set | 批量设置虚拟机指定NUMA绑定位置（逐台校验，部分成功部分失败并列出失败原因，重启生效） |
+| acli vm numa clear | 清除虚拟机自定义NUMA绑定，回退智能NUMA调度（重启生效） |
+| acli vm numa query | 查询虚拟机NUMA绑定位置（支持单台与主机运行中查询） |
+| acli vm numa set | 设置虚拟机指定NUMA绑定位置（配置已写入，需重启生效） |
 | acli vm sagaflow branch rollback skip | 跳过sagaflow分支回滚 |
 | acli vm sagaflow get | 查询sagaflow信息 |
 | acli vm sagaflow workflow rollback list | 获取sagaflow工作流回滚列表 |
